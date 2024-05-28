@@ -748,6 +748,35 @@
           "conditions": [
             {
               "type": {
+                "value": "DepartScene"
+              },
+              "parameters": [
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Firebase::SetRemoteConfigAutoUpdateInterval"
+              },
+              "parameters": [
+                "500"
+              ]
+            },
+            {
+              "type": {
+                "value": "Firebase::EnablePerformance"
+              },
+              "parameters": []
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
                 "value": "PanelSpriteButton::PanelSpriteButton::IsClicked"
               },
               "parameters": [

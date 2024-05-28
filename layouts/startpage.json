@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": true,
-    "zoomFactor": 0.40575189059438327,
+    "zoomFactor": 0.565315805512632,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -515,7 +515,6 @@
       "colorG": 166,
       "colorR": 245,
       "creationTime": 0,
-      "folded": true,
       "name": "Connexion firebase",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -554,7 +553,7 @@
       "colorG": 144,
       "colorR": 74,
       "creationTime": 0,
-      "name": "Bouton",
+      "name": "Boutons",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
       "events": [

@@ -197,6 +197,51 @@
         "name": "assets\\Icon pizza slice.png",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Special.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Special.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Flamme.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Flamme.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/FlammeChanmpi.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\FlammeChanmpi.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/FlammeGratine.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\FlammeGratine.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/FlammeChevre.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\FlammeChevre.png",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
