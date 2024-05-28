@@ -342,13 +342,13 @@
       "effects": [],
       "behaviors": [
         {
+          "name": "Anchor",
+          "type": "AnchorBehavior::AnchorBehavior",
           "bottomEdgeAnchor": 2,
           "leftEdgeAnchor": 3,
-          "name": "Anchor",
           "relativeToOriginalWindowSize": true,
           "rightEdgeAnchor": 3,
           "topEdgeAnchor": 0,
-          "type": "AnchorBehavior::AnchorBehavior",
           "useLegacyBottomAndRightAnchors": false
         }
       ]
@@ -361,13 +361,13 @@
       "effects": [],
       "behaviors": [
         {
+          "name": "Anchor",
+          "type": "AnchorBehavior::AnchorBehavior",
           "bottomEdgeAnchor": 2,
           "leftEdgeAnchor": 0,
-          "name": "Anchor",
           "relativeToOriginalWindowSize": true,
           "rightEdgeAnchor": 2,
           "topEdgeAnchor": 0,
-          "type": "AnchorBehavior::AnchorBehavior",
           "useLegacyBottomAndRightAnchors": false
         }
       ],
@@ -456,13 +456,13 @@
       "effects": [],
       "behaviors": [
         {
+          "name": "Anchor",
+          "type": "AnchorBehavior::AnchorBehavior",
           "bottomEdgeAnchor": 2,
           "leftEdgeAnchor": 1,
-          "name": "Anchor",
           "relativeToOriginalWindowSize": true,
           "rightEdgeAnchor": 0,
           "topEdgeAnchor": 0,
-          "type": "AnchorBehavior::AnchorBehavior",
           "useLegacyBottomAndRightAnchors": false
         }
       ]
@@ -483,13 +483,13 @@
       "effects": [],
       "behaviors": [
         {
+          "name": "Anchor",
+          "type": "AnchorBehavior::AnchorBehavior",
           "bottomEdgeAnchor": 0,
           "leftEdgeAnchor": 1,
-          "name": "Anchor",
           "relativeToOriginalWindowSize": true,
           "rightEdgeAnchor": 0,
           "topEdgeAnchor": 0,
-          "type": "AnchorBehavior::AnchorBehavior",
           "useLegacyBottomAndRightAnchors": false
         }
       ]
@@ -510,13 +510,13 @@
       "effects": [],
       "behaviors": [
         {
+          "name": "Anchor",
+          "type": "AnchorBehavior::AnchorBehavior",
           "bottomEdgeAnchor": 0,
           "leftEdgeAnchor": 3,
-          "name": "Anchor",
           "relativeToOriginalWindowSize": true,
           "rightEdgeAnchor": 3,
           "topEdgeAnchor": 0,
-          "type": "AnchorBehavior::AnchorBehavior",
           "useLegacyBottomAndRightAnchors": false
         }
       ]
@@ -533,13 +533,13 @@
       "effects": [],
       "behaviors": [
         {
+          "name": "Anchor",
+          "type": "AnchorBehavior::AnchorBehavior",
           "bottomEdgeAnchor": 0,
           "leftEdgeAnchor": 3,
-          "name": "Anchor",
           "relativeToOriginalWindowSize": true,
           "rightEdgeAnchor": 3,
           "topEdgeAnchor": 0,
-          "type": "AnchorBehavior::AnchorBehavior",
           "useLegacyBottomAndRightAnchors": false
         }
       ],
@@ -589,10 +589,10 @@
       "effects": [],
       "behaviors": [
         {
-          "leftEdgeAnchor": 3,
           "name": "Anchor",
-          "rightEdgeAnchor": 3,
           "type": "AnchorBehavior::AnchorBehavior",
+          "leftEdgeAnchor": 3,
+          "rightEdgeAnchor": 3,
           "bottomEdgeAnchor": 0,
           "relativeToOriginalWindowSize": true,
           "topEdgeAnchor": 0,
@@ -608,10 +608,10 @@
       "effects": [],
       "behaviors": [
         {
-          "leftEdgeAnchor": 3,
           "name": "Anchor",
-          "rightEdgeAnchor": 3,
           "type": "AnchorBehavior::AnchorBehavior",
+          "leftEdgeAnchor": 3,
+          "rightEdgeAnchor": 3,
           "bottomEdgeAnchor": 0,
           "relativeToOriginalWindowSize": true,
           "topEdgeAnchor": 0,
@@ -706,10 +706,10 @@
       "effects": [],
       "behaviors": [
         {
-          "leftEdgeAnchor": 3,
           "name": "Anchor",
-          "rightEdgeAnchor": 3,
           "type": "AnchorBehavior::AnchorBehavior",
+          "leftEdgeAnchor": 3,
+          "rightEdgeAnchor": 3,
           "bottomEdgeAnchor": 0,
           "relativeToOriginalWindowSize": true,
           "topEdgeAnchor": 0,
@@ -762,10 +762,10 @@
       "effects": [],
       "behaviors": [
         {
-          "leftEdgeAnchor": 3,
           "name": "Anchor",
-          "rightEdgeAnchor": 3,
           "type": "AnchorBehavior::AnchorBehavior",
+          "leftEdgeAnchor": 3,
+          "rightEdgeAnchor": 3,
           "bottomEdgeAnchor": 0,
           "relativeToOriginalWindowSize": true,
           "topEdgeAnchor": 0,
@@ -781,10 +781,10 @@
       "effects": [],
       "behaviors": [
         {
-          "leftEdgeAnchor": 3,
           "name": "Anchor",
-          "rightEdgeAnchor": 3,
           "type": "AnchorBehavior::AnchorBehavior",
+          "leftEdgeAnchor": 3,
+          "rightEdgeAnchor": 3,
           "bottomEdgeAnchor": 0,
           "relativeToOriginalWindowSize": true,
           "topEdgeAnchor": 0,
@@ -1520,6 +1520,16 @@
                 "=",
                 "ToString(countFlammes.Variable(countFlammes))"
               ]
+            },
+            {
+              "type": {
+                "value": "ModVarGlobal"
+              },
+              "parameters": [
+                "FlammeNormal",
+                "=",
+                "countFlammes.Variable(countFlammes)"
+              ]
             }
           ]
         },
@@ -1568,6 +1578,16 @@
                 "Text",
                 "=",
                 "ToString(countFlChampi.Variable(countFlChampi))"
+              ]
+            },
+            {
+              "type": {
+                "value": "ModVarGlobal"
+              },
+              "parameters": [
+                "FlammeChampi",
+                "=",
+                "countFlChampi.Variable(countFlChampi)"
               ]
             }
           ]
@@ -1618,6 +1638,16 @@
                 "=",
                 "ToString(countFlGratine.Variable(countFlGratine))"
               ]
+            },
+            {
+              "type": {
+                "value": "ModVarGlobal"
+              },
+              "parameters": [
+                "FlammeGratine",
+                "=",
+                "countFlGratine.Variable(countFlGratine)"
+              ]
             }
           ]
         },
@@ -1666,6 +1696,16 @@
                 "Text",
                 "=",
                 "ToString(countFlChevre.Variable(countFlChevre))"
+              ]
+            },
+            {
+              "type": {
+                "value": "ModVarGlobal"
+              },
+              "parameters": [
+                "FlammeChevre",
+                "=",
+                "countFlChevre.Variable(countFlChevre)"
               ]
             }
           ]

@@ -25,7 +25,7 @@
     "author": "ISOURA",
     "windowWidth": 720,
     "windowHeight": 1280,
-    "latestCompilationDirectory": "",
+    "latestCompilationDirectory": "C:\\Users\\Ni\\Downloads\\test",
     "maxFPS": 120,
     "minFPS": 20,
     "verticalSync": false,
@@ -260,6 +260,33 @@
         "name": "assets\\Icon arrow left.png",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/panier/FlammeN.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\panier\\FlammeN.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/panier/FlammeChampi.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\panier\\FlammeChampi.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/panier/FlammeGratine.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\panier\\FlammeGratine.png",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -269,7 +296,32 @@
     "folderName": "__ROOT"
   },
   "objectsGroups": [],
-  "variables": [],
+  "variables": [
+    {
+      "folded": true,
+      "name": "FlammeNormal",
+      "type": "number",
+      "value": 0
+    },
+    {
+      "folded": true,
+      "name": "FlammeChampi",
+      "type": "number",
+      "value": 0
+    },
+    {
+      "folded": true,
+      "name": "FlammeGratine",
+      "type": "number",
+      "value": 0
+    },
+    {
+      "folded": true,
+      "name": "FlammeChevre",
+      "type": "number",
+      "value": 0
+    }
+  ],
   "layouts": [
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
@@ -294,6 +346,10 @@
   ],
   "externalEvents": [],
   "eventsFunctionsExtensions": [
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/slotsystem"
+    },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/eventsFunctionsExtensions/popup"
