@@ -242,6 +242,24 @@
         "name": "assets\\FlammeChevre.png",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Icon home gray.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Icon home gray.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Icon arrow left.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Icon arrow left.png",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -289,6 +307,11 @@
       "referenceTo": "/eventsFunctionsExtensions/panelspritebutton"
     }
   ],
-  "externalLayouts": [],
+  "externalLayouts": [
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/externalLayouts/flp-panier"
+    }
+  ],
   "externalSourceFiles": []
 }
