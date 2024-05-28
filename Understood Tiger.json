@@ -1,5 +1,5 @@
 {
-  "firstLayout": "",
+  "firstLayout": "StartPage",
   "gdVersion": {
     "build": 99,
     "major": 4,
@@ -12,7 +12,7 @@
     "antialisingEnabledOnMobile": false,
     "folderProject": true,
     "orientation": "default",
-    "packageName": "com.isoura.pizzapp",
+    "packageName": "com.isoura.pizzapicker",
     "pixelsRounding": false,
     "projectUuid": "113bb77e-751d-4c2f-b7fd-90bb097ae1b5",
     "scaleMode": "linear",
@@ -20,7 +20,7 @@
     "templateSlug": "",
     "useExternalSourceFiles": false,
     "version": "1.0.0",
-    "name": "PizzApp",
+    "name": "PizzaPicker",
     "description": "A app for pizza party management",
     "author": "ISOURA",
     "windowWidth": 720,
@@ -54,7 +54,13 @@
     "authorUsernames": [],
     "categories": [],
     "playableDevices": [],
-    "extensionProperties": [],
+    "extensionProperties": [
+      {
+        "extension": "Firebase",
+        "property": "FirebaseConfig",
+        "value": "{\n    \"apiKey\": \"AIzaSyC6W3jUKG1yjyJBCvcvS06ZPSixrOilWoo\",\n    \"authDomain\": \"pizzapp-9e078.firebaseapp.com\",\n    \"projectId\": \"pizzapp-9e078\",\n    \"storageBucket\": \"pizzapp-9e078.appspot.com\",\n    \"messagingSenderId\": \"254766148779\",\n    \"appId\": \"1:254766148779:web:22aa8a71a69c9a391ddbee\",\n    \"measurementId\": \"G-75JQ022Z60\"\n  }"
+      }
+    ],
     "platforms": [
       {
         "name": "GDevelop JS platform"
@@ -63,7 +69,91 @@
     "currentPlatform": "GDevelop JS platform"
   },
   "resources": {
-    "resources": [],
+    "resources": [
+      {
+        "alwaysLoaded": false,
+        "file": "group.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "group.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/group.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\group.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/btn.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/btn.png\",\"extension\":\".png\",\"pskl\":{}}",
+        "name": "assets\\btn.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "assets/Roboto-Regular.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "e96b43b0ca3fd7775d75a702f44cd1b0dfd325e1db317f7cba84efdf572571fe_Roboto-Regular.ttf",
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Open Font License/e96b43b0ca3fd7775d75a702f44cd1b0dfd325e1db317f7cba84efdf572571fe_Roboto-Regular.ttf",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/background.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\background.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/LoginBack.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\LoginBack.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/textfield.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\textfield.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/btnretour.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\btnretour.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/loginbtn.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\loginbtn.png",
+        "smoothed": true,
+        "userAdded": true
+      }
+    ],
     "resourceFolders": []
   },
   "objects": [],
@@ -79,11 +169,36 @@
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/layouts/adminpage"
+      "referenceTo": "/layouts/adminlogin"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/admincommande"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/userpizza"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/userpanier"
     }
   ],
   "externalEvents": [],
-  "eventsFunctionsExtensions": [],
+  "eventsFunctionsExtensions": [
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/popup"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/dragcamerawithpointer"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/panelspritebutton"
+    }
+  ],
   "externalLayouts": [],
   "externalSourceFiles": []
 }
