@@ -597,7 +597,18 @@
               ]
             }
           ],
-          "actions": []
+          "actions": [
+            {
+              "type": {
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"UserPizza\"",
+                ""
+              ]
+            }
+          ]
         }
       ],
       "parameters": []

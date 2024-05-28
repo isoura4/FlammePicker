@@ -652,7 +652,7 @@
         "placeholder": " Login",
         "fontResourceName": "e96b43b0ca3fd7775d75a702f44cd1b0dfd325e1db317f7cba84efdf572571fe_Roboto-Regular.ttf",
         "fontSize": 40,
-        "inputType": "text",
+        "inputType": "email",
         "textColor": "0;0;0",
         "fillColor": "255;255;255",
         "fillOpacity": 0,
@@ -771,30 +771,23 @@
                     "Password.Text()",
                     "Firebase"
                   ]
-                }
-              ],
-              "events": [
+                },
                 {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "Firebase::IsSignedIn"
-                      },
-                      "parameters": []
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "Scene"
-                      },
-                      "parameters": [
-                        "",
-                        "\"AdminCommande\"",
-                        ""
-                      ]
-                    }
+                  "type": {
+                    "value": "PopUp::Alert"
+                  },
+                  "parameters": [
+                    "",
+                    "VariableString(Firebase)",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Wait"
+                  },
+                  "parameters": [
+                    "1"
                   ]
                 }
               ]
@@ -809,7 +802,6 @@
       "colorG": 144,
       "colorR": 74,
       "creationTime": 0,
-      "folded": true,
       "name": "Bouton",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -836,6 +828,46 @@
                 "",
                 "\"StartPage\"",
                 ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "PanelSpriteButton::PanelSpriteButton::IsClicked"
+              },
+              "parameters": [
+                "loginbtn",
+                ""
+              ]
+            }
+          ],
+          "actions": [],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "Firebase::IsSignedIn"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Scene"
+                  },
+                  "parameters": [
+                    "",
+                    "\"AdminCommande\"",
+                    ""
+                  ]
+                }
               ]
             }
           ]

@@ -152,6 +152,51 @@
         "name": "assets\\loginbtn.png",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/1Footer.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\1Footer.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Icon basket shopping.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Icon basket shopping.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Icon basket shopping black.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Icon basket shopping black.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Icon home.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Icon home.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Icon pizza slice.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Icon pizza slice.png",
+        "smoothed": true,
+        "userAdded": false
       }
     ],
     "resourceFolders": []

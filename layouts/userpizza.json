@@ -1,22 +1,315 @@
 {
-  "b": 209,
+  "b": 255,
   "disableInputWhenNotFocused": true,
   "mangledName": "UserPizza",
   "name": "UserPizza",
-  "r": 209,
+  "r": 255,
   "standardSortMethod": true,
   "stopSoundsOnStartup": true,
   "title": "",
-  "v": 209,
-  "uiSettings": {},
+  "v": 255,
+  "uiSettings": {
+    "grid": true,
+    "gridType": "rectangular",
+    "gridWidth": 32,
+    "gridHeight": 32,
+    "gridOffsetX": 0,
+    "gridOffsetY": 0,
+    "gridColor": 10401023,
+    "gridAlpha": 0.8,
+    "snap": true,
+    "zoomFactor": 0.5117784035210173,
+    "windowMask": false
+  },
   "objectsGroups": [],
   "variables": [],
-  "instances": [],
-  "objects": [],
+  "instances": [
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 96,
+      "keepRatio": true,
+      "layer": "Ui",
+      "name": "footer",
+      "persistentUuid": "33e8f810-7ee2-472b-b238-2b3db53efea1",
+      "width": 736,
+      "x": 0,
+      "y": 1184,
+      "zOrder": 1,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "Ui",
+      "name": "Panier",
+      "persistentUuid": "995c8922-079f-421d-9afa-087c3da744ba",
+      "width": 0,
+      "x": 632,
+      "y": 1208,
+      "zOrder": 2,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "Ui",
+      "name": "HomeIcone",
+      "persistentUuid": "78943a92-384e-4125-8159-8e725a70ffff",
+      "width": 0,
+      "x": 52,
+      "y": 1208,
+      "zOrder": 3,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "icoPizza",
+      "persistentUuid": "7b9a32b7-ac55-40d4-8828-a7dafd2837f7",
+      "width": 0,
+      "x": 32,
+      "y": 32,
+      "zOrder": 4,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    }
+  ],
+  "objects": [
+    {
+      "assetStoreId": "",
+      "bottomMargin": 0,
+      "height": 104,
+      "leftMargin": 0,
+      "name": "footer",
+      "rightMargin": 0,
+      "texture": "assets\\1Footer.png",
+      "tiled": false,
+      "topMargin": 0,
+      "type": "PanelSpriteObject::PanelSprite",
+      "width": 750,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "bottomEdgeAnchor": 2,
+          "leftEdgeAnchor": 3,
+          "name": "Anchor",
+          "relativeToOriginalWindowSize": true,
+          "rightEdgeAnchor": 3,
+          "topEdgeAnchor": 0,
+          "type": "AnchorBehavior::AnchorBehavior",
+          "useLegacyBottomAndRightAnchors": false
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "name": "Panier",
+      "type": "PanelSpriteButton::PanelSpriteButton",
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "bottomEdgeAnchor": 2,
+          "leftEdgeAnchor": 0,
+          "name": "Anchor",
+          "relativeToOriginalWindowSize": true,
+          "rightEdgeAnchor": 2,
+          "topEdgeAnchor": 0,
+          "type": "AnchorBehavior::AnchorBehavior",
+          "useLegacyBottomAndRightAnchors": false
+        }
+      ],
+      "content": {},
+      "childrenContent": {
+        "Hovered": {
+          "bottomMargin": 0,
+          "height": 40,
+          "leftMargin": 0,
+          "rightMargin": 0,
+          "texture": "assets\\Icon basket shopping.png",
+          "tiled": false,
+          "topMargin": 0,
+          "width": 40
+        },
+        "Idle": {
+          "bottomMargin": 0,
+          "height": 40,
+          "leftMargin": 0,
+          "rightMargin": 0,
+          "texture": "assets\\Icon basket shopping.png",
+          "tiled": false,
+          "topMargin": 0,
+          "width": 40
+        },
+        "Label": {
+          "bold": false,
+          "italic": false,
+          "smoothed": true,
+          "underlined": false,
+          "string": "",
+          "font": "",
+          "textAlignment": "",
+          "characterSize": 20,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "",
+            "font": "",
+            "textAlignment": "",
+            "characterSize": 20,
+            "color": "0;0;0"
+          }
+        },
+        "Pressed": {
+          "bottomMargin": 0,
+          "height": 40,
+          "leftMargin": 0,
+          "rightMargin": 0,
+          "texture": "assets\\Icon basket shopping black.png",
+          "tiled": false,
+          "topMargin": 0,
+          "width": 40
+        }
+      }
+    },
+    {
+      "assetStoreId": "",
+      "bottomMargin": 0,
+      "height": 40,
+      "leftMargin": 0,
+      "name": "HomeIcone",
+      "rightMargin": 0,
+      "texture": "assets\\Icon home.png",
+      "tiled": false,
+      "topMargin": 0,
+      "type": "PanelSpriteObject::PanelSprite",
+      "width": 44,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "bottomEdgeAnchor": 2,
+          "leftEdgeAnchor": 1,
+          "name": "Anchor",
+          "relativeToOriginalWindowSize": true,
+          "rightEdgeAnchor": 0,
+          "topEdgeAnchor": 0,
+          "type": "AnchorBehavior::AnchorBehavior",
+          "useLegacyBottomAndRightAnchors": false
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "bottomMargin": 0,
+      "height": 36,
+      "leftMargin": 0,
+      "name": "icoPizza",
+      "rightMargin": 0,
+      "texture": "assets\\Icon pizza slice.png",
+      "tiled": false,
+      "topMargin": 0,
+      "type": "PanelSpriteObject::PanelSprite",
+      "width": 44,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "bottomEdgeAnchor": 0,
+          "leftEdgeAnchor": 1,
+          "name": "Anchor",
+          "relativeToOriginalWindowSize": true,
+          "rightEdgeAnchor": 0,
+          "topEdgeAnchor": 0,
+          "type": "AnchorBehavior::AnchorBehavior",
+          "useLegacyBottomAndRightAnchors": false
+        }
+      ]
+    }
+  ],
   "objectsFolderStructure": {
-    "folderName": "__ROOT"
+    "folderName": "__ROOT",
+    "children": [
+      {
+        "objectName": "footer"
+      },
+      {
+        "objectName": "Panier"
+      },
+      {
+        "objectName": "HomeIcone"
+      },
+      {
+        "objectName": "icoPizza"
+      }
+    ]
   },
-  "events": [],
+  "events": [
+    {
+      "colorB": 33,
+      "colorG": 211,
+      "colorR": 126,
+      "creationTime": 0,
+      "name": "Swipe",
+      "source": "",
+      "type": "BuiltinCommonInstructions::Group",
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "DragCameraWithPointer::DragCameraWithPointer"
+              },
+              "parameters": [
+                "",
+                "CameraCenterY(\"\", 0)",
+                "",
+                "\"vertical\"",
+                "Right",
+                ""
+              ]
+            }
+          ]
+        }
+      ],
+      "parameters": []
+    }
+  ],
   "layers": [
     {
       "ambientLightColorB": 200,
@@ -61,7 +354,65 @@
           "booleanParameters": {}
         }
       ]
+    },
+    {
+      "ambientLightColorB": 200,
+      "ambientLightColorG": 200,
+      "ambientLightColorR": 200,
+      "camera3DFarPlaneDistance": 10000,
+      "camera3DFieldOfView": 45,
+      "camera3DNearPlaneDistance": 3,
+      "cameraType": "",
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "isLocked": false,
+      "name": "Ui",
+      "renderingType": "",
+      "visibility": true,
+      "cameras": [],
+      "effects": [
+        {
+          "effectType": "Scene3D::HemisphereLight",
+          "name": "3D Light",
+          "doubleParameters": {
+            "elevation": 45,
+            "intensity": 1,
+            "rotation": 0
+          },
+          "stringParameters": {
+            "groundColor": "64;64;64",
+            "skyColor": "255;255;255",
+            "top": "Y-"
+          },
+          "booleanParameters": {}
+        }
+      ]
     }
   ],
-  "behaviorsSharedData": []
+  "behaviorsSharedData": [
+    {
+      "name": "Anchor",
+      "type": "AnchorBehavior::AnchorBehavior"
+    },
+    {
+      "name": "Effect",
+      "type": "EffectCapability::EffectBehavior"
+    },
+    {
+      "name": "Flippable",
+      "type": "FlippableCapability::FlippableBehavior"
+    },
+    {
+      "name": "Opacity",
+      "type": "OpacityCapability::OpacityBehavior"
+    },
+    {
+      "name": "Resizable",
+      "type": "ResizableCapability::ResizableBehavior"
+    },
+    {
+      "name": "Scale",
+      "type": "ScalableCapability::ScalableBehavior"
+    }
+  ]
 }
