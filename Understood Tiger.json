@@ -296,32 +296,7 @@
     "folderName": "__ROOT"
   },
   "objectsGroups": [],
-  "variables": [
-    {
-      "folded": true,
-      "name": "FlammeNormal",
-      "type": "number",
-      "value": 0
-    },
-    {
-      "folded": true,
-      "name": "FlammeChampi",
-      "type": "number",
-      "value": 0
-    },
-    {
-      "folded": true,
-      "name": "FlammeGratine",
-      "type": "number",
-      "value": 0
-    },
-    {
-      "folded": true,
-      "name": "FlammeChevre",
-      "type": "number",
-      "value": 0
-    }
-  ],
+  "variables": [],
   "layouts": [
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
@@ -338,18 +313,10 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/layouts/userpizza"
-    },
-    {
-      "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/layouts/userpanier"
     }
   ],
   "externalEvents": [],
   "eventsFunctionsExtensions": [
-    {
-      "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/eventsFunctionsExtensions/slotsystem"
-    },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/eventsFunctionsExtensions/popup"
