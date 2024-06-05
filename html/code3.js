@@ -118,7 +118,7 @@ let isConditionTrue_0 = false;
 
 let isConditionTrue_0 = false;
 {
-{gdjs.evtsExt__DragCameraWithPointer__DragCameraWithPointer.func(runtimeScene, gdjs.evtTools.camera.getCameraY(runtimeScene, "", 0), "", "vertical", "Right", (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
+{gdjs.evtsExt__DragCameraWithPointer__DragCameraWithPointer.func(runtimeScene, gdjs.evtTools.camera.getCameraY(runtimeScene, "", 0), "", "vertical", "Left", (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
 }}
 
 }
