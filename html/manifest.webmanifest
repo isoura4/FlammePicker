@@ -1,0 +1,12 @@
+{
+  "name": "FlammePicker",
+  "short_name": "FlammePicker",
+  "id": "com.isoura.flammepicker",
+  "description": "A app for flamme/pizza party management",
+  "orientation": "portrait",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "black",
+  "categories": ["games", "entertainment"],
+  "icons": []
+}
