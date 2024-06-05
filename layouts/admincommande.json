@@ -28,6 +28,12 @@
       "name": "test",
       "type": "string",
       "value": "0"
+    },
+    {
+      "folded": true,
+      "name": "update",
+      "type": "boolean",
+      "value": false
     }
   ],
   "instances": [
@@ -198,6 +204,23 @@
         }
       ],
       "parameters": []
+    },
+    {
+      "infiniteLoopWarning": true,
+      "type": "BuiltinCommonInstructions::While",
+      "whileConditions": [
+        {
+          "type": {
+            "value": "SceneVariableAsBoolean"
+          },
+          "parameters": [
+            "update",
+            "True"
+          ]
+        }
+      ],
+      "conditions": [],
+      "actions": []
     }
   ],
   "layers": [

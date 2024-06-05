@@ -37,7 +37,7 @@
       "gdevelopLogoStyle": "light",
       "logoAndProgressFadeInDuration": 0.2,
       "logoAndProgressLogoFadeInDelay": 0,
-      "minDuration": 1.5,
+      "minDuration": 2,
       "progressBarColor": 16777215,
       "progressBarHeight": 20,
       "progressBarMaxWidth": 200,
@@ -47,11 +47,15 @@
       "showProgressBar": true
     },
     "watermark": {
-      "placement": "bottom-left",
-      "showWatermark": true
+      "placement": "top-right",
+      "showWatermark": false
     },
-    "authorIds": [],
-    "authorUsernames": [],
+    "authorIds": [
+      "oV4hsTzIr7S72LFULcsUSSYwnDM2"
+    ],
+    "authorUsernames": [
+      "ISOURA"
+    ],
     "categories": [],
     "playableDevices": [],
     "extensionProperties": [
@@ -333,6 +337,10 @@
   ],
   "externalEvents": [],
   "eventsFunctionsExtensions": [
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/snaptogrid"
+    },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/eventsFunctionsExtensions/popup"

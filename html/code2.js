@@ -80,6 +80,8 @@ gdjs.AdminCommandeCode.eventsList2(runtimeScene);} //End of subevents
 
 };gdjs.AdminCommandeCode.eventsList4 = function(runtimeScene) {
 
+};gdjs.AdminCommandeCode.eventsList5 = function(runtimeScene) {
+
 {
 
 
@@ -94,6 +96,27 @@ gdjs.AdminCommandeCode.eventsList3(runtimeScene);
 }
 
 
+{
+
+
+let stopDoWhile_0 = false;
+do {
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+isConditionTrue_0 = gdjs.evtTools.variable.getVariableBoolean(runtimeScene.getScene().getVariables().getFromIndex(1), true);
+if (isConditionTrue_0) {
+let isConditionTrue_0 = false;
+if (true) {
+
+{ //Subevents: 
+gdjs.AdminCommandeCode.eventsList4(runtimeScene);} //Subevents end.
+}
+} else stopDoWhile_0 = true; 
+} while (!stopDoWhile_0);
+
+}
+
+
 };
 
 gdjs.AdminCommandeCode.func = function(runtimeScene) {
@@ -103,7 +126,7 @@ gdjs.AdminCommandeCode.GDheaderObjects1.length = 0;
 gdjs.AdminCommandeCode.GDheaderObjects2.length = 0;
 gdjs.AdminCommandeCode.GDheaderObjects3.length = 0;
 
-gdjs.AdminCommandeCode.eventsList4(runtimeScene);
+gdjs.AdminCommandeCode.eventsList5(runtimeScene);
 
 return;
 
