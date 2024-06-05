@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": true,
-    "zoomFactor": 0.47893418845352564,
+    "zoomFactor": 0.6244537826600003,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -542,13 +542,13 @@
       "effects": [],
       "behaviors": [
         {
+          "name": "Anchor",
+          "type": "AnchorBehavior::AnchorBehavior",
           "bottomEdgeAnchor": 2,
           "leftEdgeAnchor": 1,
-          "name": "Anchor",
           "relativeToOriginalWindowSize": true,
           "rightEdgeAnchor": 2,
           "topEdgeAnchor": 0,
-          "type": "AnchorBehavior::AnchorBehavior",
           "useLegacyBottomAndRightAnchors": false
         }
       ]
@@ -768,18 +768,26 @@
                   "actions": [
                     {
                       "type": {
-                        "value": "Firebase::SetDisplayName"
-                      },
-                      "parameters": [
-                        "identifiant.Text()"
-                      ]
-                    },
-                    {
-                      "type": {
                         "value": "Firebase::AnonymousSignIn"
                       },
                       "parameters": [
                         "Erreur"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Wait"
+                      },
+                      "parameters": [
+                        "0.5"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Firebase::SetDisplayName"
+                      },
+                      "parameters": [
+                        "identifiant.Text()"
                       ]
                     }
                   ],

@@ -803,16 +803,6 @@
                 },
                 {
                   "type": {
-                    "value": "PopUp::Alert"
-                  },
-                  "parameters": [
-                    "",
-                    "VariableString(Firebase)",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
                     "value": "Wait"
                   },
                   "parameters": [
@@ -874,7 +864,16 @@
               ]
             }
           ],
-          "actions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "1"
+              ]
+            }
+          ],
           "events": [
             {
               "type": "BuiltinCommonInstructions::Standard",

@@ -287,6 +287,15 @@
         "name": "assets\\panier\\FlammeGratine.png",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Header.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Header.png",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
