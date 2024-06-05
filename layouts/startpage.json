@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": true,
-    "zoomFactor": 0.565315805512632,
+    "zoomFactor": 0.47893418845352564,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -91,7 +91,7 @@
       "layer": "Ui",
       "name": "Titre",
       "persistentUuid": "54587f1b-29ad-424a-871b-3b522eb37479",
-      "width": 210,
+      "width": 270,
       "x": 90,
       "y": 90,
       "zOrder": 4,
@@ -129,6 +129,40 @@
       "x": 90,
       "y": 750,
       "zOrder": 6,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 90,
+      "keepRatio": true,
+      "layer": "",
+      "name": "textField",
+      "persistentUuid": "28ba654d-2cbb-42f7-8c69-747cfac95fb2",
+      "width": 540,
+      "x": 90,
+      "y": 900,
+      "zOrder": 7,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 90,
+      "keepRatio": true,
+      "layer": "Ui",
+      "name": "identifiant",
+      "persistentUuid": "9a5603a6-e5b8-445e-8462-33c4bcbc4c62",
+      "width": 540,
+      "x": 90,
+      "y": 900,
+      "zOrder": 8,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -358,7 +392,7 @@
           "useLegacyBottomAndRightAnchors": false
         }
       ],
-      "string": "PizzaPicker",
+      "string": "FlammePicker",
       "font": "e96b43b0ca3fd7775d75a702f44cd1b0dfd325e1db317f7cba84efdf572571fe_Roboto-Regular.ttf",
       "textAlignment": "left",
       "characterSize": 40,
@@ -381,7 +415,7 @@
         "shadowOpacity": 127,
         "smoothed": true,
         "underlined": false,
-        "text": "PizzaPicker",
+        "text": "FlammePicker",
         "font": "e96b43b0ca3fd7775d75a702f44cd1b0dfd325e1db317f7cba84efdf572571fe_Roboto-Regular.ttf",
         "textAlignment": "left",
         "characterSize": 40,
@@ -410,7 +444,7 @@
           "useLegacyBottomAndRightAnchors": false
         }
       ],
-      "string": "Choisissez votre pizza !",
+      "string": "Choisissez votre flamme !",
       "font": "e96b43b0ca3fd7775d75a702f44cd1b0dfd325e1db317f7cba84efdf572571fe_Roboto-Regular.ttf",
       "textAlignment": "left",
       "characterSize": 40,
@@ -433,7 +467,7 @@
         "shadowOpacity": 127,
         "smoothed": true,
         "underlined": false,
-        "text": "Choisissez votre pizza !",
+        "text": "Choisissez votre flamme !",
         "font": "e96b43b0ca3fd7775d75a702f44cd1b0dfd325e1db317f7cba84efdf572571fe_Roboto-Regular.ttf",
         "textAlignment": "left",
         "characterSize": 40,
@@ -462,7 +496,7 @@
           "useLegacyBottomAndRightAnchors": false
         }
       ],
-      "string": "Choisissez vos envies parmi une séléction de pizza !",
+      "string": "Choisissez vos envies parmi une séléction de flammes !",
       "font": "e96b43b0ca3fd7775d75a702f44cd1b0dfd325e1db317f7cba84efdf572571fe_Roboto-Regular.ttf",
       "textAlignment": "left",
       "characterSize": 25,
@@ -485,11 +519,72 @@
         "shadowOpacity": 127,
         "smoothed": true,
         "underlined": false,
-        "text": "Choisissez vos envies parmi une séléction de pizza !",
+        "text": "Choisissez vos envies parmi une séléction de flammes !",
         "font": "e96b43b0ca3fd7775d75a702f44cd1b0dfd325e1db317f7cba84efdf572571fe_Roboto-Regular.ttf",
         "textAlignment": "left",
         "characterSize": 25,
         "color": "0;0;0"
+      }
+    },
+    {
+      "assetStoreId": "",
+      "bottomMargin": 0,
+      "height": 96,
+      "leftMargin": 0,
+      "name": "textField",
+      "rightMargin": 0,
+      "texture": "assets\\textfield.png",
+      "tiled": false,
+      "topMargin": 0,
+      "type": "PanelSpriteObject::PanelSprite",
+      "width": 654,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "bottomEdgeAnchor": 2,
+          "leftEdgeAnchor": 1,
+          "name": "Anchor",
+          "relativeToOriginalWindowSize": true,
+          "rightEdgeAnchor": 2,
+          "topEdgeAnchor": 0,
+          "type": "AnchorBehavior::AnchorBehavior",
+          "useLegacyBottomAndRightAnchors": false
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "name": "identifiant",
+      "type": "TextInput::TextInputObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Anchor",
+          "type": "AnchorBehavior::AnchorBehavior",
+          "bottomEdgeAnchor": 2,
+          "leftEdgeAnchor": 1,
+          "relativeToOriginalWindowSize": true,
+          "rightEdgeAnchor": 2,
+          "topEdgeAnchor": 0,
+          "useLegacyBottomAndRightAnchors": false
+        }
+      ],
+      "content": {
+        "initialValue": "",
+        "placeholder": "Nom",
+        "fontResourceName": "e96b43b0ca3fd7775d75a702f44cd1b0dfd325e1db317f7cba84efdf572571fe_Roboto-Regular.ttf",
+        "fontSize": 40,
+        "inputType": "text",
+        "textColor": "0;0;0",
+        "fillColor": "255;255;255",
+        "fillOpacity": 0,
+        "borderColor": "0;0;0",
+        "borderOpacity": 0,
+        "borderWidth": 0,
+        "readOnly": false,
+        "disabled": false
       }
     }
   ],
@@ -513,6 +608,12 @@
       },
       {
         "objectName": "Text2"
+      },
+      {
+        "objectName": "textField"
+      },
+      {
+        "objectName": "identifiant"
       }
     ]
   },
@@ -603,36 +704,109 @@
               ]
             }
           ],
-          "actions": [
-            {
-              "type": {
-                "value": "Firebase::AnonymousSignIn"
-              },
-              "parameters": [
-                "Erreur"
-              ]
-            }
-          ],
+          "actions": [],
           "events": [
             {
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
                   "type": {
-                    "value": "Firebase::IsSignedIn"
+                    "value": "TextContainerCapability::TextContainerBehavior::Value"
                   },
-                  "parameters": []
+                  "parameters": [
+                    "identifiant",
+                    "Text",
+                    "=",
+                    "\"\""
+                  ]
                 }
               ],
               "actions": [
                 {
                   "type": {
-                    "value": "Scene"
+                    "value": "PopUp::Alert"
                   },
                   "parameters": [
                     "",
-                    "\"UserPizza\"",
+                    "\"Veuillez entrer un nom ou prénom\"",
                     ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::Value"
+                  },
+                  "parameters": [
+                    "identifiant",
+                    "Text",
+                    "!=",
+                    "\"\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ModVarGlobalTxt"
+                  },
+                  "parameters": [
+                    "identifiant",
+                    "=",
+                    "identifiant.Text()"
+                  ]
+                }
+              ],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Firebase::SetDisplayName"
+                      },
+                      "parameters": [
+                        "identifiant.Text()"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Firebase::AnonymousSignIn"
+                      },
+                      "parameters": [
+                        "Erreur"
+                      ]
+                    }
+                  ],
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "Firebase::IsSignedIn"
+                          },
+                          "parameters": []
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "Scene"
+                          },
+                          "parameters": [
+                            "",
+                            "\"UserPizza\"",
+                            ""
+                          ]
+                        }
+                      ]
+                    }
                   ]
                 }
               ]

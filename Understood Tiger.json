@@ -11,8 +11,8 @@
     "antialiasingMode": "MSAA",
     "antialisingEnabledOnMobile": false,
     "folderProject": true,
-    "orientation": "default",
-    "packageName": "com.isoura.pizzapicker",
+    "orientation": "portrait",
+    "packageName": "com.isoura.flammepicker",
     "pixelsRounding": false,
     "projectUuid": "113bb77e-751d-4c2f-b7fd-90bb097ae1b5",
     "scaleMode": "linear",
@@ -20,8 +20,8 @@
     "templateSlug": "",
     "useExternalSourceFiles": false,
     "version": "1.0.0",
-    "name": "PizzaPicker",
-    "description": "A app for pizza party management",
+    "name": "FlammePicker",
+    "description": "A app for flamme/pizza party management",
     "author": "ISOURA",
     "windowWidth": 720,
     "windowHeight": 1280,
@@ -296,7 +296,14 @@
     "folderName": "__ROOT"
   },
   "objectsGroups": [],
-  "variables": [],
+  "variables": [
+    {
+      "folded": true,
+      "name": "identifiant",
+      "type": "string",
+      "value": ""
+    }
+  ],
   "layouts": [
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,

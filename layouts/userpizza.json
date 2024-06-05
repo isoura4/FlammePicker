@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": true,
-    "zoomFactor": 0.6244537826599994,
+    "zoomFactor": 0.3925161175488231,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -1602,6 +1602,18 @@
           ],
           "events": [
             {
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 35,
+                "g": 166,
+                "r": 245,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "Envoi Pi/Fl firebase"
+            },
+            {
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -1626,24 +1638,188 @@
                     "textG": 0,
                     "textR": 0
                   },
-                  "comment": "Récup Pi/Fl firebase"
+                  "comment": "Pizza"
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::Not"
+                      },
+                      "parameters": [],
+                      "subInstructions": [
+                        {
+                          "type": {
+                            "value": "Visible"
+                          },
+                          "parameters": [
+                            "Special"
+                          ]
+                        }
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Firebase::FirestoreWriteField"
+                      },
+                      "parameters": [
+                        "\"commandes\"",
+                        "GlobalVariableString(identifiant)",
+                        "\"countFlammes\"",
+                        "ToString(Variable(countFlammes))",
+                        "",
+                        "yes"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Firebase::FirestoreWriteField"
+                      },
+                      "parameters": [
+                        "\"commandes\"",
+                        "GlobalVariableString(identifiant)",
+                        "\"countFlammes\"",
+                        "ToString(Variable(countFlammes))",
+                        "",
+                        "yes"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Firebase::FirestoreWriteField"
+                      },
+                      "parameters": [
+                        "\"commandes\"",
+                        "GlobalVariableString(identifiant)",
+                        "\"countFlammes\"",
+                        "ToString(Variable(countFlammes))",
+                        "",
+                        "yes"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Firebase::FirestoreWriteField"
+                      },
+                      "parameters": [
+                        "\"commandes\"",
+                        "GlobalVariableString(identifiant)",
+                        "\"countFlammes\"",
+                        "ToString(Variable(countFlammes))",
+                        "",
+                        "yes"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Comment",
+                  "color": {
+                    "b": 109,
+                    "g": 230,
+                    "r": 255,
+                    "textB": 0,
+                    "textG": 0,
+                    "textR": 0
+                  },
+                  "comment": "Flammes"
                 },
                 {
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [],
-                  "actions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Firebase::FirestoreWriteField"
+                      },
+                      "parameters": [
+                        "\"commandes\"",
+                        "GlobalVariableString(identifiant)",
+                        "\"countFlammes\"",
+                        "ToString(Variable(countFlammes))",
+                        "",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Wait"
+                      },
+                      "parameters": [
+                        "0.1"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Firebase::FirestoreWriteField"
+                      },
+                      "parameters": [
+                        "\"commandes\"",
+                        "GlobalVariableString(identifiant)",
+                        "\"countFlChampi\"",
+                        "ToString(Variable(countFlChampi))",
+                        "",
+                        "yes"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Wait"
+                      },
+                      "parameters": [
+                        "0.1"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Firebase::FirestoreWriteField"
+                      },
+                      "parameters": [
+                        "\"commandes\"",
+                        "GlobalVariableString(identifiant)",
+                        "\"countFlGratine\"",
+                        "ToString(Variable(countFlGratine))",
+                        "",
+                        "yes"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Wait"
+                      },
+                      "parameters": [
+                        "0.1"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Firebase::FirestoreWriteField"
+                      },
+                      "parameters": [
+                        "\"commandes\"",
+                        "GlobalVariableString(identifiant)",
+                        "\"countFlChevre\"",
+                        "ToString(Variable(countFlChevre))",
+                        "",
+                        "yes"
+                      ]
+                    }
+                  ],
                   "events": [
                     {
                       "type": "BuiltinCommonInstructions::Comment",
                       "color": {
-                        "b": 109,
-                        "g": 230,
-                        "r": 255,
+                        "b": 33,
+                        "g": 211,
+                        "r": 126,
                         "textB": 0,
                         "textG": 0,
                         "textR": 0
                       },
-                      "comment": "Flammes"
+                      "comment": "Envoi commande"
                     },
                     {
                       "type": "BuiltinCommonInstructions::Standard",
@@ -1654,219 +1830,46 @@
                             "value": "Firebase::FirestoreWriteField"
                           },
                           "parameters": [
-                            "\"commandes\"",
-                            "\"flammes\"",
-                            "\"countFlammes\"",
-                            "ToString(Variable(countFlammes))",
+                            "\"update\"",
+                            "\"commande\"",
+                            "\"true\"",
+                            "\"1\"",
                             "",
+                            "no"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Wait"
+                          },
+                          "parameters": [
+                            "0.1"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Firebase::Logout"
+                          },
+                          "parameters": []
+                        },
+                        {
+                          "type": {
+                            "value": "Scene"
+                          },
+                          "parameters": [
+                            "",
+                            "\"StartPage\"",
                             ""
                           ]
                         },
                         {
                           "type": {
-                            "value": "Wait"
-                          },
-                          "parameters": [
-                            "0.1"
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "Firebase::FirestoreWriteField"
-                          },
-                          "parameters": [
-                            "\"commandes\"",
-                            "\"flammes\"",
-                            "\"countFlChampi\"",
-                            "ToString(Variable(countFlChampi))",
-                            "",
-                            "yes"
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "Wait"
-                          },
-                          "parameters": [
-                            "0.1"
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "Firebase::FirestoreWriteField"
-                          },
-                          "parameters": [
-                            "\"commandes\"",
-                            "\"flammes\"",
-                            "\"countFlGratine\"",
-                            "ToString(Variable(countFlGratine))",
-                            "",
-                            "yes"
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "Wait"
-                          },
-                          "parameters": [
-                            "0.1"
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "Firebase::FirestoreWriteField"
-                          },
-                          "parameters": [
-                            "\"commandes\"",
-                            "\"flammes\"",
-                            "\"countFlChevre\"",
-                            "ToString(Variable(countFlChevre))",
-                            "",
-                            "yes"
-                          ]
-                        }
-                      ],
-                      "events": [
-                        {
-                          "type": "BuiltinCommonInstructions::Comment",
-                          "color": {
-                            "b": 109,
-                            "g": 230,
-                            "r": 255,
-                            "textB": 0,
-                            "textG": 0,
-                            "textR": 0
-                          },
-                          "comment": "Fin"
-                        },
-                        {
-                          "type": "BuiltinCommonInstructions::Standard",
-                          "conditions": [],
-                          "actions": [
-                            {
-                              "type": {
-                                "value": "Firebase::FirestoreWriteField"
-                              },
-                              "parameters": [
-                                "\"update\"",
-                                "\"commande\"",
-                                "\"true\"",
-                                "\"1\"",
-                                "",
-                                "no"
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "Wait"
-                              },
-                              "parameters": [
-                                "0.1"
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "Firebase::Logout"
-                              },
-                              "parameters": []
-                            },
-                            {
-                              "type": {
-                                "value": "Scene"
-                              },
-                              "parameters": [
-                                "",
-                                "\"StartPage\"",
-                                ""
-                              ]
-                            }
-                          ]
-                        }
-                      ]
-                    },
-                    {
-                      "type": "BuiltinCommonInstructions::Comment",
-                      "color": {
-                        "b": 109,
-                        "g": 230,
-                        "r": 255,
-                        "textB": 0,
-                        "textG": 0,
-                        "textR": 0
-                      },
-                      "comment": "Pizza"
-                    },
-                    {
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [
-                        {
-                          "type": {
-                            "value": "BuiltinCommonInstructions::Not"
-                          },
-                          "parameters": [],
-                          "subInstructions": [
-                            {
-                              "type": {
-                                "value": "Visible"
-                              },
-                              "parameters": [
-                                "Special"
-                              ]
-                            }
-                          ]
-                        }
-                      ],
-                      "actions": [
-                        {
-                          "type": {
-                            "value": "Firebase::FirestoreWriteField"
+                            "value": "PopUp::Alert"
                           },
                           "parameters": [
                             "",
-                            "\"pizza\"",
-                            "\"countFlammes\"",
-                            "ToString(Variable(countFlammes))",
-                            "",
-                            "yes"
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "Firebase::FirestoreWriteField"
-                          },
-                          "parameters": [
-                            "",
-                            "\"pizza\"",
-                            "\"countFlammes\"",
-                            "ToString(Variable(countFlammes))",
-                            "",
-                            "yes"
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "Firebase::FirestoreWriteField"
-                          },
-                          "parameters": [
-                            "",
-                            "\"pizza\"",
-                            "\"countFlammes\"",
-                            "ToString(Variable(countFlammes))",
-                            "",
-                            "yes"
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "Firebase::FirestoreWriteField"
-                          },
-                          "parameters": [
-                            "",
-                            "\"pizza\"",
-                            "\"countFlammes\"",
-                            "ToString(Variable(countFlammes))",
-                            "",
-                            "yes"
+                            "\"Commande envoyer !\"",
+                            ""
                           ]
                         }
                       ]
@@ -1909,7 +1912,7 @@
                 "countFlammes",
                 "countFlammes",
                 "!=",
-                "4"
+                "2"
               ]
             }
           ],
@@ -1968,7 +1971,7 @@
                 "countFlChampi",
                 "countFlChampi",
                 "!=",
-                "4"
+                "2"
               ]
             }
           ],
@@ -2027,7 +2030,7 @@
                 "countFlGratine",
                 "countFlGratine",
                 "!=",
-                "4"
+                "2"
               ]
             }
           ],
@@ -2086,7 +2089,7 @@
                 "countFlChevre",
                 "countFlChevre",
                 "!=",
-                "4"
+                "2"
               ]
             }
           ],
