@@ -2157,197 +2157,214 @@
           "conditions": [
             {
               "type": {
-                "value": "VarObjet"
+                "inverted": true,
+                "value": "Visible"
               },
               "parameters": [
-                "countFlammes",
-                "countFlammes",
-                "!=",
-                "2"
+                "Special"
               ]
             }
           ],
-          "actions": [
+          "actions": [],
+          "events": [
             {
-              "type": {
-                "value": "ModVarObjet"
-              },
-              "parameters": [
-                "countFlammes",
-                "countFlammes",
-                "+",
-                "1"
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "VarObjet"
+                  },
+                  "parameters": [
+                    "countFlammes",
+                    "countFlammes",
+                    "!=",
+                    "2"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ModVarObjet"
+                  },
+                  "parameters": [
+                    "countFlammes",
+                    "countFlammes",
+                    "+",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "countFlammes",
+                    "Text",
+                    "=",
+                    "ToString(countFlammes.Variable(countFlammes))"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarScene"
+                  },
+                  "parameters": [
+                    "countFlammes",
+                    "=",
+                    "countFlammes.Variable(countFlammes)"
+                  ]
+                }
               ]
             },
             {
-              "type": {
-                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
-              },
-              "parameters": [
-                "countFlammes",
-                "Text",
-                "=",
-                "ToString(countFlammes.Variable(countFlammes))"
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "VarObjet"
+                  },
+                  "parameters": [
+                    "countFlChampi",
+                    "countFlChampi",
+                    "!=",
+                    "2"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ModVarObjet"
+                  },
+                  "parameters": [
+                    "countFlChampi",
+                    "countFlChampi",
+                    "+",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "countFlChampi",
+                    "Text",
+                    "=",
+                    "ToString(countFlChampi.Variable(countFlChampi))"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarScene"
+                  },
+                  "parameters": [
+                    "countFlChampi",
+                    "=",
+                    "countFlChampi.Variable(countFlChampi)"
+                  ]
+                }
               ]
             },
             {
-              "type": {
-                "value": "ModVarScene"
-              },
-              "parameters": [
-                "countFlammes",
-                "=",
-                "countFlammes.Variable(countFlammes)"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "VarObjet"
-              },
-              "parameters": [
-                "countFlChampi",
-                "countFlChampi",
-                "!=",
-                "2"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "ModVarObjet"
-              },
-              "parameters": [
-                "countFlChampi",
-                "countFlChampi",
-                "+",
-                "1"
-              ]
-            },
-            {
-              "type": {
-                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
-              },
-              "parameters": [
-                "countFlChampi",
-                "Text",
-                "=",
-                "ToString(countFlChampi.Variable(countFlChampi))"
-              ]
-            },
-            {
-              "type": {
-                "value": "ModVarScene"
-              },
-              "parameters": [
-                "countFlChampi",
-                "=",
-                "countFlChampi.Variable(countFlChampi)"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "VarObjet"
-              },
-              "parameters": [
-                "countFlGratine",
-                "countFlGratine",
-                "!=",
-                "2"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "ModVarObjet"
-              },
-              "parameters": [
-                "countFlGratine",
-                "countFlGratine",
-                "+",
-                "1"
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "VarObjet"
+                  },
+                  "parameters": [
+                    "countFlGratine",
+                    "countFlGratine",
+                    "!=",
+                    "2"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ModVarObjet"
+                  },
+                  "parameters": [
+                    "countFlGratine",
+                    "countFlGratine",
+                    "+",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "countFlGratine",
+                    "Text",
+                    "=",
+                    "ToString(countFlGratine.Variable(countFlGratine))"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarScene"
+                  },
+                  "parameters": [
+                    "countFlGratine",
+                    "=",
+                    "countFlGratine.Variable(countFlGratine)"
+                  ]
+                }
               ]
             },
             {
-              "type": {
-                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
-              },
-              "parameters": [
-                "countFlGratine",
-                "Text",
-                "=",
-                "ToString(countFlGratine.Variable(countFlGratine))"
-              ]
-            },
-            {
-              "type": {
-                "value": "ModVarScene"
-              },
-              "parameters": [
-                "countFlGratine",
-                "=",
-                "countFlGratine.Variable(countFlGratine)"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "VarObjet"
-              },
-              "parameters": [
-                "countFlChevre",
-                "countFlChevre",
-                "!=",
-                "2"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "ModVarObjet"
-              },
-              "parameters": [
-                "countFlChevre",
-                "countFlChevre",
-                "+",
-                "1"
-              ]
-            },
-            {
-              "type": {
-                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
-              },
-              "parameters": [
-                "countFlChevre",
-                "Text",
-                "=",
-                "ToString(countFlChevre.Variable(countFlChevre))"
-              ]
-            },
-            {
-              "type": {
-                "value": "ModVarScene"
-              },
-              "parameters": [
-                "countFlChevre",
-                "=",
-                "countFlChevre.Variable(countFlChevre)"
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "VarObjet"
+                  },
+                  "parameters": [
+                    "countFlChevre",
+                    "countFlChevre",
+                    "!=",
+                    "2"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ModVarObjet"
+                  },
+                  "parameters": [
+                    "countFlChevre",
+                    "countFlChevre",
+                    "+",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "countFlChevre",
+                    "Text",
+                    "=",
+                    "ToString(countFlChevre.Variable(countFlChevre))"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarScene"
+                  },
+                  "parameters": [
+                    "countFlChevre",
+                    "=",
+                    "countFlChevre.Variable(countFlChevre)"
+                  ]
+                }
               ]
             }
           ]
