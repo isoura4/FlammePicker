@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": true,
-    "zoomFactor": 0.6244537826599987,
+    "zoomFactor": 0.3437520241612316,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -28,12 +28,6 @@
       "name": "test",
       "type": "string",
       "value": "0"
-    },
-    {
-      "folded": true,
-      "name": "update",
-      "type": "boolean",
-      "value": false
     }
   ],
   "instances": [
@@ -123,15 +117,13 @@
             },
             {
               "type": {
-                "value": "Firebase::SetRemoteConfigAutoUpdateInterval"
+                "value": "Firebase::EnablePerformance"
               },
-              "parameters": [
-                "500"
-              ]
+              "parameters": []
             },
             {
               "type": {
-                "value": "Firebase::EnablePerformance"
+                "value": "Firebase::FirestoreEnableNetwork"
               },
               "parameters": []
             }
@@ -162,6 +154,12 @@
             }
           ],
           "actions": [
+            {
+              "type": {
+                "value": "Firebase::FirestoreEnablePersistence"
+              },
+              "parameters": []
+            },
             {
               "type": {
                 "value": "Wait"
@@ -206,21 +204,74 @@
       "parameters": []
     },
     {
-      "infiniteLoopWarning": true,
-      "type": "BuiltinCommonInstructions::While",
-      "whileConditions": [
+      "colorB": 33,
+      "colorG": 211,
+      "colorR": 126,
+      "creationTime": 0,
+      "name": "Update",
+      "source": "",
+      "type": "BuiltinCommonInstructions::Group",
+      "events": [
         {
-          "type": {
-            "value": "SceneVariableAsBoolean"
-          },
-          "parameters": [
-            "update",
-            "True"
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "DepartScene"
+              },
+              "parameters": [
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ResetTimer"
+              },
+              "parameters": [
+                "",
+                "\"testChrono\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CompareTimer"
+              },
+              "parameters": [
+                "",
+                "\"testChrono\"",
+                ">=",
+                "30"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ResetTimer"
+              },
+              "parameters": [
+                "",
+                "\"testChrono\""
+              ]
+            }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": []
+            }
           ]
         }
       ],
-      "conditions": [],
-      "actions": []
+      "parameters": []
     }
   ],
   "layers": [

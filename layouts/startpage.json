@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": true,
-    "zoomFactor": 0.6244537826600003,
+    "zoomFactor": 0.5117784035210186,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -809,7 +809,7 @@
                           },
                           "parameters": [
                             "",
-                            "\"UserPizza\"",
+                            "\"UserFlamme\"",
                             ""
                           ]
                         }

@@ -332,7 +332,7 @@
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/layouts/userpizza"
+      "referenceTo": "/layouts/userflamme"
     }
   ],
   "externalEvents": [],
@@ -354,11 +354,6 @@
       "referenceTo": "/eventsFunctionsExtensions/panelspritebutton"
     }
   ],
-  "externalLayouts": [
-    {
-      "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/externalLayouts/flp-panier"
-    }
-  ],
+  "externalLayouts": [],
   "externalSourceFiles": []
 }
