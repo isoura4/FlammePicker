@@ -261,13 +261,6 @@
                 "\"testChrono\""
               ]
             }
-          ],
-          "events": [
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [],
-              "actions": []
-            }
           ]
         }
       ],

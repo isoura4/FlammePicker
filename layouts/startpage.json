@@ -652,6 +652,29 @@
               "parameters": []
             }
           ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "Firebase::IsSignedIn"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"UserFlamme\"",
+                ""
+              ]
+            }
+          ]
         }
       ],
       "parameters": []
@@ -788,31 +811,6 @@
                       },
                       "parameters": [
                         "identifiant.Text()"
-                      ]
-                    }
-                  ],
-                  "events": [
-                    {
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [
-                        {
-                          "type": {
-                            "value": "Firebase::IsSignedIn"
-                          },
-                          "parameters": []
-                        }
-                      ],
-                      "actions": [
-                        {
-                          "type": {
-                            "value": "Scene"
-                          },
-                          "parameters": [
-                            "",
-                            "\"UserFlamme\"",
-                            ""
-                          ]
-                        }
                       ]
                     }
                   ]

@@ -1866,6 +1866,14 @@
                         },
                         {
                           "type": {
+                            "value": "Wait"
+                          },
+                          "parameters": [
+                            "0.5"
+                          ]
+                        },
+                        {
+                          "type": {
                             "value": "Scene"
                           },
                           "parameters": [

@@ -748,6 +748,29 @@
           "conditions": [
             {
               "type": {
+                "value": "Firebase::IsSignedIn"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"AdminCommande\"",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
                 "value": "DepartScene"
               },
               "parameters": [
@@ -871,31 +894,6 @@
               },
               "parameters": [
                 "1"
-              ]
-            }
-          ],
-          "events": [
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "Firebase::IsSignedIn"
-                  },
-                  "parameters": []
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "Scene"
-                  },
-                  "parameters": [
-                    "",
-                    "\"AdminCommande\"",
-                    ""
-                  ]
-                }
               ]
             }
           ]
