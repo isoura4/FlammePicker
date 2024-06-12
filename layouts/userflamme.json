@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": true,
-    "zoomFactor": 0.6244537826600003,
+    "zoomFactor": 0.604083874998888,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -148,7 +148,7 @@
       "height": 0,
       "keepRatio": true,
       "layer": "",
-      "name": "NewText",
+      "name": "CarteDesFlammes",
       "persistentUuid": "83304d93-c294-4e41-9eba-0bc71d59b5be",
       "width": 0,
       "x": 32,
@@ -370,6 +370,22 @@
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "CarteDesPizza",
+      "persistentUuid": "05f00892-e740-4e28-b85b-f4a7b6d6c676",
+      "width": 0,
+      "x": 32,
+      "y": 1504,
+      "zOrder": 20,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
     }
   ],
   "objects": [
@@ -572,7 +588,7 @@
       "assetStoreId": "",
       "bold": true,
       "italic": false,
-      "name": "NewText",
+      "name": "CarteDesFlammes",
       "smoothed": true,
       "type": "TextObject::Text",
       "underlined": false,
@@ -1398,6 +1414,58 @@
           "width": 686
         }
       }
+    },
+    {
+      "assetStoreId": "",
+      "bold": true,
+      "italic": false,
+      "name": "CarteDesPizza",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Anchor",
+          "type": "AnchorBehavior::AnchorBehavior",
+          "bottomEdgeAnchor": 0,
+          "leftEdgeAnchor": 3,
+          "relativeToOriginalWindowSize": true,
+          "rightEdgeAnchor": 3,
+          "topEdgeAnchor": 0,
+          "useLegacyBottomAndRightAnchors": false
+        }
+      ],
+      "string": "Carte des Pizzas",
+      "font": "e96b43b0ca3fd7775d75a702f44cd1b0dfd325e1db317f7cba84efdf572571fe_Roboto-Regular.ttf",
+      "textAlignment": "left",
+      "characterSize": 30,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      },
+      "content": {
+        "bold": true,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "Carte des Pizzas",
+        "font": "e96b43b0ca3fd7775d75a702f44cd1b0dfd325e1db317f7cba84efdf572571fe_Roboto-Regular.ttf",
+        "textAlignment": "left",
+        "characterSize": 30,
+        "color": "0;0;0"
+      }
     }
   ],
   "objectsFolderStructure": {
@@ -1419,7 +1487,10 @@
         "objectName": "Special"
       },
       {
-        "objectName": "NewText"
+        "objectName": "CarteDesFlammes"
+      },
+      {
+        "objectName": "CarteDesPizza"
       },
       {
         "objectName": "CarteFlamme"
