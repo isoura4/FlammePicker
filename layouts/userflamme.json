@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": true,
-    "zoomFactor": 1.2530387740589861,
+    "zoomFactor": 0.8700232859857308,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -497,7 +497,7 @@
           "height": 64,
           "leftMargin": 0,
           "rightMargin": 0,
-          "texture": "info.png",
+          "texture": "assets\\info.png",
           "tiled": false,
           "topMargin": 0,
           "width": 64
