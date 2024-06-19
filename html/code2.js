@@ -1,4 +1,5 @@
 gdjs.AdminCommandeCode = {};
+gdjs.AdminCommandeCode.localVariables = [];
 gdjs.AdminCommandeCode.GDheaderObjects1= [];
 gdjs.AdminCommandeCode.GDheaderObjects2= [];
 gdjs.AdminCommandeCode.GDheaderObjects3= [];
@@ -21,7 +22,8 @@ if (isConditionTrue_0) {
 }
 
 
-};gdjs.AdminCommandeCode.asyncCallback10029436 = function (runtimeScene, asyncObjectsList) {
+};gdjs.AdminCommandeCode.asyncCallback10663348 = function (runtimeScene, asyncObjectsList) {
+asyncObjectsList.restoreLocalVariablesContainers(gdjs.AdminCommandeCode.localVariables);
 {gdjs.evtsExt__PopUp__Alert.func(runtimeScene, gdjs.evtTools.variable.getVariableString(runtimeScene.getScene().getVariables().getFromIndex(0)), (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
 }}
 gdjs.AdminCommandeCode.eventsList1 = function(runtimeScene, asyncObjectsList) {
@@ -33,14 +35,16 @@ gdjs.AdminCommandeCode.eventsList1 = function(runtimeScene, asyncObjectsList) {
 const parentAsyncObjectsList = asyncObjectsList;
 {
 const asyncObjectsList = gdjs.LongLivedObjectsList.from(parentAsyncObjectsList);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(1), (runtimeScene) => (gdjs.AdminCommandeCode.asyncCallback10029436(runtimeScene, asyncObjectsList)));
+asyncObjectsList.backupLocalVariablesContainers(gdjs.AdminCommandeCode.localVariables);
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(1), (runtimeScene) => (gdjs.AdminCommandeCode.asyncCallback10663348(runtimeScene, asyncObjectsList)));
 }
 }
 
 }
 
 
-};gdjs.AdminCommandeCode.asyncCallback10029012 = function (runtimeScene, asyncObjectsList) {
+};gdjs.AdminCommandeCode.asyncCallback10648964 = function (runtimeScene, asyncObjectsList) {
+asyncObjectsList.restoreLocalVariablesContainers(gdjs.AdminCommandeCode.localVariables);
 {gdjs.evtTools.firebaseTools.firestore.getField("update", "commande", "true", runtimeScene.getScene().getVariables().getFromIndex(0), gdjs.VariablesContainer.badVariable);
 }
 { //Subevents
@@ -54,7 +58,8 @@ gdjs.AdminCommandeCode.eventsList2 = function(runtimeScene) {
 {
 {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(1), (runtimeScene) => (gdjs.AdminCommandeCode.asyncCallback10029012(runtimeScene, asyncObjectsList)));
+asyncObjectsList.backupLocalVariablesContainers(gdjs.AdminCommandeCode.localVariables);
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(1), (runtimeScene) => (gdjs.AdminCommandeCode.asyncCallback10648964(runtimeScene, asyncObjectsList)));
 }
 }
 

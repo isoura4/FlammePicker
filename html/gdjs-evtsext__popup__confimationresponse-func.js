@@ -8,7 +8,7 @@ if (typeof gdjs.evtsExt__PopUp__ConfimationResponse !== "undefined") {
 gdjs.evtsExt__PopUp__ConfimationResponse = {};
 
 
-gdjs.evtsExt__PopUp__ConfimationResponse.userFunc0x72ed90 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__PopUp__ConfimationResponse.userFunc0x837f48 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
 "use strict";
 eventsFunctionContext.returnValue = runtimeScene.getVariables().get("__PopUp").getChild("Confirm").getAsBoolean();
 
@@ -18,7 +18,7 @@ gdjs.evtsExt__PopUp__ConfimationResponse.eventsList0 = function(runtimeScene, ev
 {
 
 
-gdjs.evtsExt__PopUp__ConfimationResponse.userFunc0x72ed90(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
+gdjs.evtsExt__PopUp__ConfimationResponse.userFunc0x837f48(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
 
 }
 
@@ -43,6 +43,9 @@ var eventsFunctionContext = {
 },
   _behaviorNamesMap: {
 },
+  globalVariablesForExtension: runtimeScene.getGame().getVariablesForExtension("PopUp"),
+  sceneVariablesForExtension: runtimeScene.getScene().getVariablesForExtension("PopUp"),
+  localVariables: [],
   getObjects: function(objectName) {
     return eventsFunctionContext._objectArraysMap[objectName] || [];
   },

@@ -1,4 +1,5 @@
 gdjs.AdminLoginCode = {};
+gdjs.AdminLoginCode.localVariables = [];
 gdjs.AdminLoginCode.GDBackgroundLoginObjects1= [];
 gdjs.AdminLoginCode.GDBackgroundLoginObjects2= [];
 gdjs.AdminLoginCode.GDBackgroundLoginObjects3= [];
@@ -31,7 +32,8 @@ gdjs.AdminLoginCode.GDPasswordObjects2= [];
 gdjs.AdminLoginCode.GDPasswordObjects3= [];
 
 
-gdjs.AdminLoginCode.asyncCallback9978172 = function (runtimeScene, asyncObjectsList) {
+gdjs.AdminLoginCode.asyncCallback10663676 = function (runtimeScene, asyncObjectsList) {
+asyncObjectsList.restoreLocalVariablesContainers(gdjs.AdminLoginCode.localVariables);
 }
 gdjs.AdminLoginCode.eventsList0 = function(runtimeScene) {
 
@@ -41,7 +43,8 @@ gdjs.AdminLoginCode.eventsList0 = function(runtimeScene) {
 {
 {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(1), (runtimeScene) => (gdjs.AdminLoginCode.asyncCallback9978172(runtimeScene, asyncObjectsList)));
+asyncObjectsList.backupLocalVariablesContainers(gdjs.AdminLoginCode.localVariables);
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(1), (runtimeScene) => (gdjs.AdminLoginCode.asyncCallback10663676(runtimeScene, asyncObjectsList)));
 }
 }
 
@@ -118,7 +121,8 @@ gdjs.AdminLoginCode.eventsList1(runtimeScene);} //End of subevents
 }
 
 
-};gdjs.AdminLoginCode.asyncCallback9979924 = function (runtimeScene, asyncObjectsList) {
+};gdjs.AdminLoginCode.asyncCallback10665492 = function (runtimeScene, asyncObjectsList) {
+asyncObjectsList.restoreLocalVariablesContainers(gdjs.AdminLoginCode.localVariables);
 }
 gdjs.AdminLoginCode.eventsList3 = function(runtimeScene) {
 
@@ -128,7 +132,8 @@ gdjs.AdminLoginCode.eventsList3 = function(runtimeScene) {
 {
 {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(1), (runtimeScene) => (gdjs.AdminLoginCode.asyncCallback9979924(runtimeScene, asyncObjectsList)));
+asyncObjectsList.backupLocalVariablesContainers(gdjs.AdminLoginCode.localVariables);
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(1), (runtimeScene) => (gdjs.AdminLoginCode.asyncCallback10665492(runtimeScene, asyncObjectsList)));
 }
 }
 

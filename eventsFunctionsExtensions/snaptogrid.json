@@ -30,6 +30,8 @@
   ],
   "authorIds": [],
   "dependencies": [],
+  "globalVariables": [],
+  "sceneVariables": [],
   "eventsFunctions": [
     {
       "description": "Snap object to a virtual grid (i.e: this is not the grid used in the editor).",

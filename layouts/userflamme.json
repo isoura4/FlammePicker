@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": true,
-    "zoomFactor": 0.604083874998888,
+    "zoomFactor": 1.2530387740589861,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -74,22 +74,6 @@
       "x": 0,
       "y": 1184,
       "zOrder": 1,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "Ui",
-      "name": "Panier",
-      "persistentUuid": "995c8922-079f-421d-9afa-087c3da744ba",
-      "width": 0,
-      "x": 632,
-      "y": 1208,
-      "zOrder": 2,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -386,6 +370,23 @@
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 48,
+      "height": 32,
+      "keepRatio": true,
+      "layer": "Ui",
+      "name": "Info",
+      "persistentUuid": "095c3317-365a-4b77-9264-99410d6b290c",
+      "width": 32,
+      "x": 640,
+      "y": 1216,
+      "zOrder": 21,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
     }
   ],
   "objects": [
@@ -418,7 +419,7 @@
     },
     {
       "assetStoreId": "",
-      "name": "Panier",
+      "name": "Info",
       "type": "PanelSpriteButton::PanelSpriteButton",
       "variables": [],
       "effects": [],
@@ -438,23 +439,23 @@
       "childrenContent": {
         "Hovered": {
           "bottomMargin": 0,
-          "height": 40,
+          "height": 64,
           "leftMargin": 0,
           "rightMargin": 0,
-          "texture": "assets\\Icon basket shopping.png",
+          "texture": "info_grey.png",
           "tiled": false,
           "topMargin": 0,
-          "width": 40
+          "width": 64
         },
         "Idle": {
           "bottomMargin": 0,
-          "height": 40,
+          "height": 64,
           "leftMargin": 0,
           "rightMargin": 0,
-          "texture": "assets\\Icon basket shopping.png",
+          "texture": "info_grey.png",
           "tiled": false,
           "topMargin": 0,
-          "width": 40
+          "width": 64
         },
         "Label": {
           "bold": false,
@@ -493,13 +494,13 @@
         },
         "Pressed": {
           "bottomMargin": 0,
-          "height": 40,
+          "height": 64,
           "leftMargin": 0,
           "rightMargin": 0,
-          "texture": "assets\\Icon basket shopping black.png",
+          "texture": "info.png",
           "tiled": false,
           "topMargin": 0,
-          "width": 40
+          "width": 64
         }
       }
     },
@@ -1475,7 +1476,7 @@
         "objectName": "footer"
       },
       {
-        "objectName": "Panier"
+        "objectName": "Info"
       },
       {
         "objectName": "HomeIcone"
@@ -1651,12 +1652,23 @@
                 "value": "PanelSpriteButton::PanelSpriteButton::IsClicked"
               },
               "parameters": [
-                "Panier",
+                "Info",
                 ""
               ]
             }
           ],
-          "actions": []
+          "actions": [
+            {
+              "type": {
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"Credit\"",
+                ""
+              ]
+            }
+          ]
         },
         {
           "type": "BuiltinCommonInstructions::Standard",

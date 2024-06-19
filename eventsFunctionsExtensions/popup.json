@@ -44,6 +44,8 @@
     "ZgrsWuRTAkXgeuPV9bo0zuEcA2w1"
   ],
   "dependencies": [],
+  "globalVariables": [],
+  "sceneVariables": [],
   "eventsFunctions": [
     {
       "description": "The response to a pop-up message is filled.",

@@ -1,16 +1,17 @@
 gdjs.UserFlammeCode = {};
+gdjs.UserFlammeCode.localVariables = [];
 gdjs.UserFlammeCode.GDfooterObjects1= [];
 gdjs.UserFlammeCode.GDfooterObjects2= [];
 gdjs.UserFlammeCode.GDfooterObjects3= [];
 gdjs.UserFlammeCode.GDfooterObjects4= [];
 gdjs.UserFlammeCode.GDfooterObjects5= [];
 gdjs.UserFlammeCode.GDfooterObjects6= [];
-gdjs.UserFlammeCode.GDPanierObjects1= [];
-gdjs.UserFlammeCode.GDPanierObjects2= [];
-gdjs.UserFlammeCode.GDPanierObjects3= [];
-gdjs.UserFlammeCode.GDPanierObjects4= [];
-gdjs.UserFlammeCode.GDPanierObjects5= [];
-gdjs.UserFlammeCode.GDPanierObjects6= [];
+gdjs.UserFlammeCode.GDInfoObjects1= [];
+gdjs.UserFlammeCode.GDInfoObjects2= [];
+gdjs.UserFlammeCode.GDInfoObjects3= [];
+gdjs.UserFlammeCode.GDInfoObjects4= [];
+gdjs.UserFlammeCode.GDInfoObjects5= [];
+gdjs.UserFlammeCode.GDInfoObjects6= [];
 gdjs.UserFlammeCode.GDHomeIconeObjects1= [];
 gdjs.UserFlammeCode.GDHomeIconeObjects2= [];
 gdjs.UserFlammeCode.GDHomeIconeObjects3= [];
@@ -29,12 +30,12 @@ gdjs.UserFlammeCode.GDSpecialObjects3= [];
 gdjs.UserFlammeCode.GDSpecialObjects4= [];
 gdjs.UserFlammeCode.GDSpecialObjects5= [];
 gdjs.UserFlammeCode.GDSpecialObjects6= [];
-gdjs.UserFlammeCode.GDNewTextObjects1= [];
-gdjs.UserFlammeCode.GDNewTextObjects2= [];
-gdjs.UserFlammeCode.GDNewTextObjects3= [];
-gdjs.UserFlammeCode.GDNewTextObjects4= [];
-gdjs.UserFlammeCode.GDNewTextObjects5= [];
-gdjs.UserFlammeCode.GDNewTextObjects6= [];
+gdjs.UserFlammeCode.GDCarteDesFlammesObjects1= [];
+gdjs.UserFlammeCode.GDCarteDesFlammesObjects2= [];
+gdjs.UserFlammeCode.GDCarteDesFlammesObjects3= [];
+gdjs.UserFlammeCode.GDCarteDesFlammesObjects4= [];
+gdjs.UserFlammeCode.GDCarteDesFlammesObjects5= [];
+gdjs.UserFlammeCode.GDCarteDesFlammesObjects6= [];
 gdjs.UserFlammeCode.GDCarteFlammeObjects1= [];
 gdjs.UserFlammeCode.GDCarteFlammeObjects2= [];
 gdjs.UserFlammeCode.GDCarteFlammeObjects3= [];
@@ -113,6 +114,12 @@ gdjs.UserFlammeCode.GDbtnConfirmerObjects3= [];
 gdjs.UserFlammeCode.GDbtnConfirmerObjects4= [];
 gdjs.UserFlammeCode.GDbtnConfirmerObjects5= [];
 gdjs.UserFlammeCode.GDbtnConfirmerObjects6= [];
+gdjs.UserFlammeCode.GDCarteDesPizzaObjects1= [];
+gdjs.UserFlammeCode.GDCarteDesPizzaObjects2= [];
+gdjs.UserFlammeCode.GDCarteDesPizzaObjects3= [];
+gdjs.UserFlammeCode.GDCarteDesPizzaObjects4= [];
+gdjs.UserFlammeCode.GDCarteDesPizzaObjects5= [];
+gdjs.UserFlammeCode.GDCarteDesPizzaObjects6= [];
 
 
 gdjs.UserFlammeCode.eventsList0 = function(runtimeScene) {
@@ -157,7 +164,8 @@ if (isConditionTrue_0) {
 }
 
 
-};gdjs.UserFlammeCode.asyncCallback10043228 = function (runtimeScene, asyncObjectsList) {
+};gdjs.UserFlammeCode.asyncCallback10731924 = function (runtimeScene, asyncObjectsList) {
+asyncObjectsList.restoreLocalVariablesContainers(gdjs.UserFlammeCode.localVariables);
 {gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "StartPage", false);
 }{gdjs.evtsExt__PopUp__Alert.func(runtimeScene, "Commande envoyer !", (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
 }}
@@ -170,14 +178,16 @@ gdjs.UserFlammeCode.eventsList2 = function(runtimeScene, asyncObjectsList) {
 const parentAsyncObjectsList = asyncObjectsList;
 {
 const asyncObjectsList = gdjs.LongLivedObjectsList.from(parentAsyncObjectsList);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.5), (runtimeScene) => (gdjs.UserFlammeCode.asyncCallback10043228(runtimeScene, asyncObjectsList)));
+asyncObjectsList.backupLocalVariablesContainers(gdjs.UserFlammeCode.localVariables);
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.5), (runtimeScene) => (gdjs.UserFlammeCode.asyncCallback10731924(runtimeScene, asyncObjectsList)));
 }
 }
 
 }
 
 
-};gdjs.UserFlammeCode.asyncCallback10042980 = function (runtimeScene, asyncObjectsList) {
+};gdjs.UserFlammeCode.asyncCallback10731220 = function (runtimeScene, asyncObjectsList) {
+asyncObjectsList.restoreLocalVariablesContainers(gdjs.UserFlammeCode.localVariables);
 {firebase.auth().signOut();
 }
 { //Subevents
@@ -192,7 +202,8 @@ gdjs.UserFlammeCode.eventsList3 = function(runtimeScene, asyncObjectsList) {
 const parentAsyncObjectsList = asyncObjectsList;
 {
 const asyncObjectsList = gdjs.LongLivedObjectsList.from(parentAsyncObjectsList);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.1), (runtimeScene) => (gdjs.UserFlammeCode.asyncCallback10042980(runtimeScene, asyncObjectsList)));
+asyncObjectsList.backupLocalVariablesContainers(gdjs.UserFlammeCode.localVariables);
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.1), (runtimeScene) => (gdjs.UserFlammeCode.asyncCallback10731220(runtimeScene, asyncObjectsList)));
 }
 }
 
@@ -222,7 +233,8 @@ gdjs.UserFlammeCode.eventsList3(runtimeScene, asyncObjectsList);} //End of subev
 }
 
 
-};gdjs.UserFlammeCode.asyncCallback10041196 = function (runtimeScene, asyncObjectsList) {
+};gdjs.UserFlammeCode.asyncCallback10730140 = function (runtimeScene, asyncObjectsList) {
+asyncObjectsList.restoreLocalVariablesContainers(gdjs.UserFlammeCode.localVariables);
 {gdjs.evtTools.firebaseTools.firestore.writeField("commandes", gdjs.evtTools.variable.getVariableString(runtimeScene.getGame().getVariables().getFromIndex(0)), "countFlChevre", gdjs.evtTools.common.toString(gdjs.evtTools.variable.getVariableNumber(runtimeScene.getScene().getVariables().getFromIndex(3))), gdjs.VariablesContainer.badVariable, true);
 }
 { //Subevents
@@ -237,14 +249,16 @@ gdjs.UserFlammeCode.eventsList5 = function(runtimeScene, asyncObjectsList) {
 const parentAsyncObjectsList = asyncObjectsList;
 {
 const asyncObjectsList = gdjs.LongLivedObjectsList.from(parentAsyncObjectsList);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.1), (runtimeScene) => (gdjs.UserFlammeCode.asyncCallback10041196(runtimeScene, asyncObjectsList)));
+asyncObjectsList.backupLocalVariablesContainers(gdjs.UserFlammeCode.localVariables);
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.1), (runtimeScene) => (gdjs.UserFlammeCode.asyncCallback10730140(runtimeScene, asyncObjectsList)));
 }
 }
 
 }
 
 
-};gdjs.UserFlammeCode.asyncCallback10040796 = function (runtimeScene, asyncObjectsList) {
+};gdjs.UserFlammeCode.asyncCallback10729164 = function (runtimeScene, asyncObjectsList) {
+asyncObjectsList.restoreLocalVariablesContainers(gdjs.UserFlammeCode.localVariables);
 {gdjs.evtTools.firebaseTools.firestore.writeField("commandes", gdjs.evtTools.variable.getVariableString(runtimeScene.getGame().getVariables().getFromIndex(0)), "countFlGratine", gdjs.evtTools.common.toString(gdjs.evtTools.variable.getVariableNumber(runtimeScene.getScene().getVariables().getFromIndex(2))), gdjs.VariablesContainer.badVariable, true);
 }
 { //Subevents
@@ -259,14 +273,16 @@ gdjs.UserFlammeCode.eventsList6 = function(runtimeScene, asyncObjectsList) {
 const parentAsyncObjectsList = asyncObjectsList;
 {
 const asyncObjectsList = gdjs.LongLivedObjectsList.from(parentAsyncObjectsList);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.1), (runtimeScene) => (gdjs.UserFlammeCode.asyncCallback10040796(runtimeScene, asyncObjectsList)));
+asyncObjectsList.backupLocalVariablesContainers(gdjs.UserFlammeCode.localVariables);
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.1), (runtimeScene) => (gdjs.UserFlammeCode.asyncCallback10729164(runtimeScene, asyncObjectsList)));
 }
 }
 
 }
 
 
-};gdjs.UserFlammeCode.asyncCallback10040452 = function (runtimeScene, asyncObjectsList) {
+};gdjs.UserFlammeCode.asyncCallback10728924 = function (runtimeScene, asyncObjectsList) {
+asyncObjectsList.restoreLocalVariablesContainers(gdjs.UserFlammeCode.localVariables);
 {gdjs.evtTools.firebaseTools.firestore.writeField("commandes", gdjs.evtTools.variable.getVariableString(runtimeScene.getGame().getVariables().getFromIndex(0)), "countFlChampi", gdjs.evtTools.common.toString(gdjs.evtTools.variable.getVariableNumber(runtimeScene.getScene().getVariables().getFromIndex(1))), gdjs.VariablesContainer.badVariable, true);
 }
 { //Subevents
@@ -280,7 +296,8 @@ gdjs.UserFlammeCode.eventsList7 = function(runtimeScene) {
 {
 {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.1), (runtimeScene) => (gdjs.UserFlammeCode.asyncCallback10040452(runtimeScene, asyncObjectsList)));
+asyncObjectsList.backupLocalVariablesContainers(gdjs.UserFlammeCode.localVariables);
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.1), (runtimeScene) => (gdjs.UserFlammeCode.asyncCallback10728924(runtimeScene, asyncObjectsList)));
 }
 }
 
@@ -373,20 +390,21 @@ gdjs.UserFlammeCode.eventsList8(runtimeScene);} //End of subevents
 
 {
 
-gdjs.copyArray(runtimeScene.getObjects("Panier"), gdjs.UserFlammeCode.GDPanierObjects2);
+gdjs.copyArray(runtimeScene.getObjects("Info"), gdjs.UserFlammeCode.GDInfoObjects2);
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-for (var i = 0, k = 0, l = gdjs.UserFlammeCode.GDPanierObjects2.length;i<l;++i) {
-    if ( gdjs.UserFlammeCode.GDPanierObjects2[i].IsClicked((typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined)) ) {
+for (var i = 0, k = 0, l = gdjs.UserFlammeCode.GDInfoObjects2.length;i<l;++i) {
+    if ( gdjs.UserFlammeCode.GDInfoObjects2[i].IsClicked((typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined)) ) {
         isConditionTrue_0 = true;
-        gdjs.UserFlammeCode.GDPanierObjects2[k] = gdjs.UserFlammeCode.GDPanierObjects2[i];
+        gdjs.UserFlammeCode.GDInfoObjects2[k] = gdjs.UserFlammeCode.GDInfoObjects2[i];
         ++k;
     }
 }
-gdjs.UserFlammeCode.GDPanierObjects2.length = k;
+gdjs.UserFlammeCode.GDInfoObjects2.length = k;
 if (isConditionTrue_0) {
-}
+{gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "Credit", false);
+}}
 
 }
 
@@ -764,12 +782,12 @@ gdjs.UserFlammeCode.GDfooterObjects3.length = 0;
 gdjs.UserFlammeCode.GDfooterObjects4.length = 0;
 gdjs.UserFlammeCode.GDfooterObjects5.length = 0;
 gdjs.UserFlammeCode.GDfooterObjects6.length = 0;
-gdjs.UserFlammeCode.GDPanierObjects1.length = 0;
-gdjs.UserFlammeCode.GDPanierObjects2.length = 0;
-gdjs.UserFlammeCode.GDPanierObjects3.length = 0;
-gdjs.UserFlammeCode.GDPanierObjects4.length = 0;
-gdjs.UserFlammeCode.GDPanierObjects5.length = 0;
-gdjs.UserFlammeCode.GDPanierObjects6.length = 0;
+gdjs.UserFlammeCode.GDInfoObjects1.length = 0;
+gdjs.UserFlammeCode.GDInfoObjects2.length = 0;
+gdjs.UserFlammeCode.GDInfoObjects3.length = 0;
+gdjs.UserFlammeCode.GDInfoObjects4.length = 0;
+gdjs.UserFlammeCode.GDInfoObjects5.length = 0;
+gdjs.UserFlammeCode.GDInfoObjects6.length = 0;
 gdjs.UserFlammeCode.GDHomeIconeObjects1.length = 0;
 gdjs.UserFlammeCode.GDHomeIconeObjects2.length = 0;
 gdjs.UserFlammeCode.GDHomeIconeObjects3.length = 0;
@@ -788,12 +806,12 @@ gdjs.UserFlammeCode.GDSpecialObjects3.length = 0;
 gdjs.UserFlammeCode.GDSpecialObjects4.length = 0;
 gdjs.UserFlammeCode.GDSpecialObjects5.length = 0;
 gdjs.UserFlammeCode.GDSpecialObjects6.length = 0;
-gdjs.UserFlammeCode.GDNewTextObjects1.length = 0;
-gdjs.UserFlammeCode.GDNewTextObjects2.length = 0;
-gdjs.UserFlammeCode.GDNewTextObjects3.length = 0;
-gdjs.UserFlammeCode.GDNewTextObjects4.length = 0;
-gdjs.UserFlammeCode.GDNewTextObjects5.length = 0;
-gdjs.UserFlammeCode.GDNewTextObjects6.length = 0;
+gdjs.UserFlammeCode.GDCarteDesFlammesObjects1.length = 0;
+gdjs.UserFlammeCode.GDCarteDesFlammesObjects2.length = 0;
+gdjs.UserFlammeCode.GDCarteDesFlammesObjects3.length = 0;
+gdjs.UserFlammeCode.GDCarteDesFlammesObjects4.length = 0;
+gdjs.UserFlammeCode.GDCarteDesFlammesObjects5.length = 0;
+gdjs.UserFlammeCode.GDCarteDesFlammesObjects6.length = 0;
 gdjs.UserFlammeCode.GDCarteFlammeObjects1.length = 0;
 gdjs.UserFlammeCode.GDCarteFlammeObjects2.length = 0;
 gdjs.UserFlammeCode.GDCarteFlammeObjects3.length = 0;
@@ -872,6 +890,12 @@ gdjs.UserFlammeCode.GDbtnConfirmerObjects3.length = 0;
 gdjs.UserFlammeCode.GDbtnConfirmerObjects4.length = 0;
 gdjs.UserFlammeCode.GDbtnConfirmerObjects5.length = 0;
 gdjs.UserFlammeCode.GDbtnConfirmerObjects6.length = 0;
+gdjs.UserFlammeCode.GDCarteDesPizzaObjects1.length = 0;
+gdjs.UserFlammeCode.GDCarteDesPizzaObjects2.length = 0;
+gdjs.UserFlammeCode.GDCarteDesPizzaObjects3.length = 0;
+gdjs.UserFlammeCode.GDCarteDesPizzaObjects4.length = 0;
+gdjs.UserFlammeCode.GDCarteDesPizzaObjects5.length = 0;
+gdjs.UserFlammeCode.GDCarteDesPizzaObjects6.length = 0;
 
 gdjs.UserFlammeCode.eventsList14(runtimeScene);
 

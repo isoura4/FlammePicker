@@ -206,7 +206,7 @@ if(isConditionTrue_1) {
 }
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = eventsFunctionContext.getOnceTriggers().triggerOnce(9847988);
+{isConditionTrue_0 = eventsFunctionContext.getOnceTriggers().triggerOnce(10528892);
 }
 }
 if (isConditionTrue_0) {
@@ -274,6 +274,9 @@ var eventsFunctionContext = {
 },
   _behaviorNamesMap: {
 },
+  globalVariablesForExtension: runtimeScene.getGame().getVariablesForExtension("DragCameraWithPointer"),
+  sceneVariablesForExtension: runtimeScene.getScene().getVariablesForExtension("DragCameraWithPointer"),
+  localVariables: [],
   getObjects: function(objectName) {
     return eventsFunctionContext._objectArraysMap[objectName] || [];
   },
