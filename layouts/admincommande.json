@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": true,
-    "zoomFactor": 0.3437520241612316,
+    "zoomFactor": 0.6455105703311486,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -44,6 +44,23 @@
       "x": 0,
       "y": 0,
       "zOrder": 1,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 64,
+      "keepRatio": true,
+      "layer": "",
+      "name": "NbCommande",
+      "persistentUuid": "3a311c28-357f-4723-8240-6efff08bbd30",
+      "width": 384,
+      "x": 160,
+      "y": 32,
+      "zOrder": 2,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -76,6 +93,54 @@
           "useLegacyBottomAndRightAnchors": false
         }
       ]
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "NbCommande",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [
+        {
+          "folded": true,
+          "name": "nbr_commande",
+          "type": "number",
+          "value": 0
+        }
+      ],
+      "effects": [],
+      "behaviors": [],
+      "string": "NB commande :",
+      "font": "",
+      "textAlignment": "center",
+      "characterSize": 30,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      },
+      "content": {
+        "bold": false,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "NB commande :",
+        "font": "",
+        "textAlignment": "center",
+        "characterSize": 30,
+        "color": "0;0;0"
+      }
     }
   ],
   "objectsFolderStructure": {
@@ -83,6 +148,9 @@
     "children": [
       {
         "objectName": "header"
+      },
+      {
+        "objectName": "NbCommande"
       }
     ]
   },
@@ -156,49 +224,21 @@
           "actions": [
             {
               "type": {
-                "value": "Firebase::FirestoreEnablePersistence"
-              },
-              "parameters": []
-            },
-            {
-              "type": {
-                "value": "Wait"
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
               },
               "parameters": [
-                "1"
-              ]
-            },
-            {
-              "type": {
-                "value": "Firebase::FirestoreGetField"
-              },
-              "parameters": [
-                "\"update\"",
-                "\"commande\"",
-                "\"true\"",
-                "test",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "Wait"
-              },
-              "parameters": [
-                "1"
-              ]
-            },
-            {
-              "type": {
-                "value": "PopUp::Alert"
-              },
-              "parameters": [
-                "",
-                "VariableString(test)",
-                ""
+                "NbCommande",
+                "Text",
+                "=",
+                "\"Commande total :\" + NbCommande.VariableString(nbr_commande)"
               ]
             }
           ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": []
         }
       ],
       "parameters": []
@@ -329,6 +369,14 @@
     {
       "name": "Resizable",
       "type": "ResizableCapability::ResizableBehavior"
+    },
+    {
+      "name": "Scale",
+      "type": "ScalableCapability::ScalableBehavior"
+    },
+    {
+      "name": "Text",
+      "type": "TextContainerCapability::TextContainerBehavior"
     }
   ]
 }

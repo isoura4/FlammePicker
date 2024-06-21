@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": true,
-    "zoomFactor": 0.8700232859857308,
+    "zoomFactor": 1.3841198046306862,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -379,7 +379,7 @@
       "keepRatio": true,
       "layer": "Ui",
       "name": "Info",
-      "persistentUuid": "095c3317-365a-4b77-9264-99410d6b290c",
+      "persistentUuid": "7f8c31f1-9deb-4ee3-9c35-e570ce7f4ef0",
       "width": 32,
       "x": 640,
       "y": 1216,
@@ -1649,7 +1649,7 @@
           "conditions": [
             {
               "type": {
-                "value": "PanelSpriteButton::PanelSpriteButton::IsClicked"
+                "value": "PanelSpriteButton::PanelSpriteButton::IsPressed"
               },
               "parameters": [
                 "Info",

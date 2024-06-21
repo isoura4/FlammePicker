@@ -22,7 +22,7 @@ if (isConditionTrue_0) {
 }
 
 
-};gdjs.AdminCommandeCode.asyncCallback10175084 = function (runtimeScene, asyncObjectsList) {
+};gdjs.AdminCommandeCode.asyncCallback10175156 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.AdminCommandeCode.localVariables);
 {gdjs.evtsExt__PopUp__Alert.func(runtimeScene, gdjs.evtTools.variable.getVariableString(runtimeScene.getScene().getVariables().getFromIndex(0)), (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
 }}
@@ -36,14 +36,14 @@ const parentAsyncObjectsList = asyncObjectsList;
 {
 const asyncObjectsList = gdjs.LongLivedObjectsList.from(parentAsyncObjectsList);
 asyncObjectsList.backupLocalVariablesContainers(gdjs.AdminCommandeCode.localVariables);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(1), (runtimeScene) => (gdjs.AdminCommandeCode.asyncCallback10175084(runtimeScene, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(1), (runtimeScene) => (gdjs.AdminCommandeCode.asyncCallback10175156(runtimeScene, asyncObjectsList)));
 }
 }
 
 }
 
 
-};gdjs.AdminCommandeCode.asyncCallback10221916 = function (runtimeScene, asyncObjectsList) {
+};gdjs.AdminCommandeCode.asyncCallback10221988 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.AdminCommandeCode.localVariables);
 {gdjs.evtTools.firebaseTools.firestore.getField("update", "commande", "true", runtimeScene.getScene().getVariables().getFromIndex(0), gdjs.VariablesContainer.badVariable);
 }
@@ -59,7 +59,7 @@ gdjs.AdminCommandeCode.eventsList2 = function(runtimeScene) {
 {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
 asyncObjectsList.backupLocalVariablesContainers(gdjs.AdminCommandeCode.localVariables);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(1), (runtimeScene) => (gdjs.AdminCommandeCode.asyncCallback10221916(runtimeScene, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(1), (runtimeScene) => (gdjs.AdminCommandeCode.asyncCallback10221988(runtimeScene, asyncObjectsList)));
 }
 }
 

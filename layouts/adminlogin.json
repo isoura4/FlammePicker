@@ -833,6 +833,34 @@
                   ]
                 }
               ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "P2P::OverrideID"
+                  },
+                  "parameters": [
+                    "\"adminflammepicker\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Wait"
+                  },
+                  "parameters": [
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "P2P::UseDefaultBroker"
+                  },
+                  "parameters": []
+                }
+              ]
             }
           ]
         }
