@@ -258,8 +258,9 @@ gdjs.UserFlammeCode.eventsList3(runtimeScene, asyncObjectsList);} //End of subev
 
 };gdjs.UserFlammeCode.asyncCallback10273996 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.UserFlammeCode.localVariables);
-gdjs.copyArray(runtimeScene.getObjects("icoPizza"), gdjs.UserFlammeCode.GDicoPizzaObjects5);
-{gdjs.evtTools.firebaseTools.firestore.writeField("commandes", gdjs.evtTools.variable.getVariableString(runtimeScene.getGame().getVariables().getFromIndex(0)), "commandeNb", (gdjs.RuntimeObject.getVariableString(((gdjs.UserFlammeCode.GDicoPizzaObjects5.length === 0 ) ? gdjs.VariablesContainer.badVariablesContainer : gdjs.UserFlammeCode.GDicoPizzaObjects5[0].getVariables()).getFromIndex(0))), gdjs.VariablesContainer.badVariable, true);
+gdjs.copyArray(asyncObjectsList.getObjects("icoPizza"), gdjs.UserFlammeCode.GDicoPizzaObjects5);
+
+{gdjs.evtTools.firebaseTools.firestore.writeField("commandes", (gdjs.RuntimeObject.getVariableString(((gdjs.UserFlammeCode.GDicoPizzaObjects5.length === 0 ) ? gdjs.VariablesContainer.badVariablesContainer : gdjs.UserFlammeCode.GDicoPizzaObjects5[0].getVariables()).getFromIndex(0))), "commandeNb", gdjs.evtTools.variable.getVariableString(runtimeScene.getGame().getVariables().getFromIndex(0)), gdjs.VariablesContainer.badVariable, true);
 }
 { //Subevents
 gdjs.UserFlammeCode.eventsList4(runtimeScene, asyncObjectsList);} //End of subevents
@@ -274,6 +275,7 @@ const parentAsyncObjectsList = asyncObjectsList;
 {
 const asyncObjectsList = gdjs.LongLivedObjectsList.from(parentAsyncObjectsList);
 asyncObjectsList.backupLocalVariablesContainers(gdjs.UserFlammeCode.localVariables);
+for (const obj of gdjs.UserFlammeCode.GDicoPizzaObjects4) asyncObjectsList.addObject("icoPizza", obj);
 runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.1), (runtimeScene) => (gdjs.UserFlammeCode.asyncCallback10273996(runtimeScene, asyncObjectsList)));
 }
 }
@@ -283,7 +285,9 @@ runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.1)
 
 };gdjs.UserFlammeCode.asyncCallback10274900 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.UserFlammeCode.localVariables);
-{gdjs.evtTools.firebaseTools.firestore.writeField("commandes", gdjs.evtTools.variable.getVariableString(runtimeScene.getGame().getVariables().getFromIndex(0)), "countFlChevre", gdjs.evtTools.common.toString(gdjs.evtTools.variable.getVariableNumber(runtimeScene.getScene().getVariables().getFromIndex(3))), gdjs.VariablesContainer.badVariable, true);
+gdjs.copyArray(asyncObjectsList.getObjects("icoPizza"), gdjs.UserFlammeCode.GDicoPizzaObjects4);
+
+{gdjs.evtTools.firebaseTools.firestore.writeField("commandes", (gdjs.RuntimeObject.getVariableString(((gdjs.UserFlammeCode.GDicoPizzaObjects4.length === 0 ) ? gdjs.VariablesContainer.badVariablesContainer : gdjs.UserFlammeCode.GDicoPizzaObjects4[0].getVariables()).getFromIndex(0))), "countFlChevre", gdjs.evtTools.common.toString(gdjs.evtTools.variable.getVariableNumber(runtimeScene.getScene().getVariables().getFromIndex(3))), gdjs.VariablesContainer.badVariable, true);
 }
 { //Subevents
 gdjs.UserFlammeCode.eventsList5(runtimeScene, asyncObjectsList);} //End of subevents
@@ -298,6 +302,7 @@ const parentAsyncObjectsList = asyncObjectsList;
 {
 const asyncObjectsList = gdjs.LongLivedObjectsList.from(parentAsyncObjectsList);
 asyncObjectsList.backupLocalVariablesContainers(gdjs.UserFlammeCode.localVariables);
+for (const obj of gdjs.UserFlammeCode.GDicoPizzaObjects3) asyncObjectsList.addObject("icoPizza", obj);
 runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.1), (runtimeScene) => (gdjs.UserFlammeCode.asyncCallback10274900(runtimeScene, asyncObjectsList)));
 }
 }
@@ -307,7 +312,9 @@ runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.1)
 
 };gdjs.UserFlammeCode.asyncCallback10273924 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.UserFlammeCode.localVariables);
-{gdjs.evtTools.firebaseTools.firestore.writeField("commandes", gdjs.evtTools.variable.getVariableString(runtimeScene.getGame().getVariables().getFromIndex(0)), "countFlGratine", gdjs.evtTools.common.toString(gdjs.evtTools.variable.getVariableNumber(runtimeScene.getScene().getVariables().getFromIndex(2))), gdjs.VariablesContainer.badVariable, true);
+gdjs.copyArray(asyncObjectsList.getObjects("icoPizza"), gdjs.UserFlammeCode.GDicoPizzaObjects3);
+
+{gdjs.evtTools.firebaseTools.firestore.writeField("commandes", (gdjs.RuntimeObject.getVariableString(((gdjs.UserFlammeCode.GDicoPizzaObjects3.length === 0 ) ? gdjs.VariablesContainer.badVariablesContainer : gdjs.UserFlammeCode.GDicoPizzaObjects3[0].getVariables()).getFromIndex(0))), "countFlGratine", gdjs.evtTools.common.toString(gdjs.evtTools.variable.getVariableNumber(runtimeScene.getScene().getVariables().getFromIndex(2))), gdjs.VariablesContainer.badVariable, true);
 }
 { //Subevents
 gdjs.UserFlammeCode.eventsList6(runtimeScene, asyncObjectsList);} //End of subevents
@@ -322,6 +329,7 @@ const parentAsyncObjectsList = asyncObjectsList;
 {
 const asyncObjectsList = gdjs.LongLivedObjectsList.from(parentAsyncObjectsList);
 asyncObjectsList.backupLocalVariablesContainers(gdjs.UserFlammeCode.localVariables);
+for (const obj of gdjs.UserFlammeCode.GDicoPizzaObjects2) asyncObjectsList.addObject("icoPizza", obj);
 runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.1), (runtimeScene) => (gdjs.UserFlammeCode.asyncCallback10273924(runtimeScene, asyncObjectsList)));
 }
 }
@@ -331,7 +339,9 @@ runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.1)
 
 };gdjs.UserFlammeCode.asyncCallback10273684 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.UserFlammeCode.localVariables);
-{gdjs.evtTools.firebaseTools.firestore.writeField("commandes", gdjs.evtTools.variable.getVariableString(runtimeScene.getGame().getVariables().getFromIndex(0)), "countFlChampi", gdjs.evtTools.common.toString(gdjs.evtTools.variable.getVariableNumber(runtimeScene.getScene().getVariables().getFromIndex(1))), gdjs.VariablesContainer.badVariable, true);
+gdjs.copyArray(asyncObjectsList.getObjects("icoPizza"), gdjs.UserFlammeCode.GDicoPizzaObjects2);
+
+{gdjs.evtTools.firebaseTools.firestore.writeField("commandes", (gdjs.RuntimeObject.getVariableString(((gdjs.UserFlammeCode.GDicoPizzaObjects2.length === 0 ) ? gdjs.VariablesContainer.badVariablesContainer : gdjs.UserFlammeCode.GDicoPizzaObjects2[0].getVariables()).getFromIndex(0))), "countFlChampi", gdjs.evtTools.common.toString(gdjs.evtTools.variable.getVariableNumber(runtimeScene.getScene().getVariables().getFromIndex(1))), gdjs.VariablesContainer.badVariable, true);
 }
 { //Subevents
 gdjs.UserFlammeCode.eventsList7(runtimeScene, asyncObjectsList);} //End of subevents
@@ -345,6 +355,7 @@ gdjs.UserFlammeCode.eventsList8 = function(runtimeScene) {
 {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
 asyncObjectsList.backupLocalVariablesContainers(gdjs.UserFlammeCode.localVariables);
+for (const obj of gdjs.UserFlammeCode.GDicoPizzaObjects1) asyncObjectsList.addObject("icoPizza", obj);
 runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.1), (runtimeScene) => (gdjs.UserFlammeCode.asyncCallback10273684(runtimeScene, asyncObjectsList)));
 }
 }
@@ -380,10 +391,11 @@ gdjs.UserFlammeCode.GDSpecialObjects2.length = k;
 isConditionTrue_0 = !isConditionTrue_1;
 }
 if (isConditionTrue_0) {
-{gdjs.evtTools.firebaseTools.firestore.writeField("commandes", gdjs.evtTools.variable.getVariableString(runtimeScene.getGame().getVariables().getFromIndex(0)), "countFlammes", gdjs.evtTools.common.toString(gdjs.evtTools.variable.getVariableNumber(runtimeScene.getScene().getVariables().getFromIndex(0))), gdjs.VariablesContainer.badVariable, true);
-}{gdjs.evtTools.firebaseTools.firestore.writeField("commandes", gdjs.evtTools.variable.getVariableString(runtimeScene.getGame().getVariables().getFromIndex(0)), "countFlammes", gdjs.evtTools.common.toString(gdjs.evtTools.variable.getVariableNumber(runtimeScene.getScene().getVariables().getFromIndex(0))), gdjs.VariablesContainer.badVariable, true);
-}{gdjs.evtTools.firebaseTools.firestore.writeField("commandes", gdjs.evtTools.variable.getVariableString(runtimeScene.getGame().getVariables().getFromIndex(0)), "countFlammes", gdjs.evtTools.common.toString(gdjs.evtTools.variable.getVariableNumber(runtimeScene.getScene().getVariables().getFromIndex(0))), gdjs.VariablesContainer.badVariable, true);
-}{gdjs.evtTools.firebaseTools.firestore.writeField("commandes", gdjs.evtTools.variable.getVariableString(runtimeScene.getGame().getVariables().getFromIndex(0)), "countFlammes", gdjs.evtTools.common.toString(gdjs.evtTools.variable.getVariableNumber(runtimeScene.getScene().getVariables().getFromIndex(0))), gdjs.VariablesContainer.badVariable, true);
+gdjs.copyArray(runtimeScene.getObjects("icoPizza"), gdjs.UserFlammeCode.GDicoPizzaObjects2);
+{gdjs.evtTools.firebaseTools.firestore.writeField("commandes", (gdjs.RuntimeObject.getVariableString(((gdjs.UserFlammeCode.GDicoPizzaObjects2.length === 0 ) ? gdjs.VariablesContainer.badVariablesContainer : gdjs.UserFlammeCode.GDicoPizzaObjects2[0].getVariables()).getFromIndex(0))), "countFlammes", gdjs.evtTools.common.toString(gdjs.evtTools.variable.getVariableNumber(runtimeScene.getScene().getVariables().getFromIndex(0))), gdjs.VariablesContainer.badVariable, false);
+}{gdjs.evtTools.firebaseTools.firestore.writeField("commandes", (gdjs.RuntimeObject.getVariableString(((gdjs.UserFlammeCode.GDicoPizzaObjects2.length === 0 ) ? gdjs.VariablesContainer.badVariablesContainer : gdjs.UserFlammeCode.GDicoPizzaObjects2[0].getVariables()).getFromIndex(0))), "countFlammes", gdjs.evtTools.common.toString(gdjs.evtTools.variable.getVariableNumber(runtimeScene.getScene().getVariables().getFromIndex(0))), gdjs.VariablesContainer.badVariable, true);
+}{gdjs.evtTools.firebaseTools.firestore.writeField("commandes", (gdjs.RuntimeObject.getVariableString(((gdjs.UserFlammeCode.GDicoPizzaObjects2.length === 0 ) ? gdjs.VariablesContainer.badVariablesContainer : gdjs.UserFlammeCode.GDicoPizzaObjects2[0].getVariables()).getFromIndex(0))), "countFlammes", gdjs.evtTools.common.toString(gdjs.evtTools.variable.getVariableNumber(runtimeScene.getScene().getVariables().getFromIndex(0))), gdjs.VariablesContainer.badVariable, true);
+}{gdjs.evtTools.firebaseTools.firestore.writeField("commandes", (gdjs.RuntimeObject.getVariableString(((gdjs.UserFlammeCode.GDicoPizzaObjects2.length === 0 ) ? gdjs.VariablesContainer.badVariablesContainer : gdjs.UserFlammeCode.GDicoPizzaObjects2[0].getVariables()).getFromIndex(0))), "countFlammes", gdjs.evtTools.common.toString(gdjs.evtTools.variable.getVariableNumber(runtimeScene.getScene().getVariables().getFromIndex(0))), gdjs.VariablesContainer.badVariable, true);
 }}
 
 }
@@ -401,7 +413,8 @@ if (isConditionTrue_0) {
 
 let isConditionTrue_0 = false;
 {
-{gdjs.evtTools.firebaseTools.firestore.writeField("commandes", gdjs.evtTools.variable.getVariableString(runtimeScene.getGame().getVariables().getFromIndex(0)), "countFlammes", gdjs.evtTools.common.toString(gdjs.evtTools.variable.getVariableNumber(runtimeScene.getScene().getVariables().getFromIndex(0))), gdjs.VariablesContainer.badVariable, false);
+gdjs.copyArray(runtimeScene.getObjects("icoPizza"), gdjs.UserFlammeCode.GDicoPizzaObjects1);
+{gdjs.evtTools.firebaseTools.firestore.writeField("commandes", (gdjs.RuntimeObject.getVariableString(((gdjs.UserFlammeCode.GDicoPizzaObjects1.length === 0 ) ? gdjs.VariablesContainer.badVariablesContainer : gdjs.UserFlammeCode.GDicoPizzaObjects1[0].getVariables()).getFromIndex(0))), "countFlammes", gdjs.evtTools.common.toString(gdjs.evtTools.variable.getVariableNumber(runtimeScene.getScene().getVariables().getFromIndex(0))), gdjs.VariablesContainer.badVariable, false);
 }
 { //Subevents
 gdjs.UserFlammeCode.eventsList8(runtimeScene);} //End of subevents
