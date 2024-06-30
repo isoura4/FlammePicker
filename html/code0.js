@@ -54,7 +54,7 @@ if (isConditionTrue_0) {
 }
 
 
-};gdjs.StartPageCode.asyncCallback10131580 = function (runtimeScene, asyncObjectsList) {
+};gdjs.StartPageCode.asyncCallback10166628 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.StartPageCode.localVariables);
 gdjs.copyArray(asyncObjectsList.getObjects("identifiant"), gdjs.StartPageCode.GDidentifiantObjects2);
 
@@ -70,7 +70,7 @@ gdjs.StartPageCode.eventsList1 = function(runtimeScene) {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
 asyncObjectsList.backupLocalVariablesContainers(gdjs.StartPageCode.localVariables);
 for (const obj of gdjs.StartPageCode.GDidentifiantObjects1) asyncObjectsList.addObject("identifiant", obj);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.5), (runtimeScene) => (gdjs.StartPageCode.asyncCallback10131580(runtimeScene, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.5), (runtimeScene) => (gdjs.StartPageCode.asyncCallback10166628(runtimeScene, asyncObjectsList)));
 }
 }
 
@@ -191,6 +191,47 @@ gdjs.StartPageCode.eventsList3(runtimeScene);} //End of subevents
 
 {
 
+gdjs.copyArray(runtimeScene.getObjects("BtnAdmin"), gdjs.StartPageCode.GDBtnAdminObjects1);
+
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+for (var i = 0, k = 0, l = gdjs.StartPageCode.GDBtnAdminObjects1.length;i<l;++i) {
+    if ( gdjs.StartPageCode.GDBtnAdminObjects1[i].isVisible() ) {
+        isConditionTrue_0 = true;
+        gdjs.StartPageCode.GDBtnAdminObjects1[k] = gdjs.StartPageCode.GDBtnAdminObjects1[i];
+        ++k;
+    }
+}
+gdjs.StartPageCode.GDBtnAdminObjects1.length = k;
+if (isConditionTrue_0) {
+/* Reuse gdjs.StartPageCode.GDBtnAdminObjects1 */
+{for(var i = 0, len = gdjs.StartPageCode.GDBtnAdminObjects1.length ;i < len;++i) {
+    gdjs.StartPageCode.GDBtnAdminObjects1[i].hide();
+}
+}}
+
+}
+
+
+};gdjs.StartPageCode.eventsList6 = function(runtimeScene) {
+
+{
+
+
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+isConditionTrue_0 = gdjs.evtTools.runtimeScene.sceneJustBegins(runtimeScene);
+if (isConditionTrue_0) {
+{firebase.auth().signOut();
+}}
+
+}
+
+
+};gdjs.StartPageCode.eventsList7 = function(runtimeScene) {
+
+{
+
 
 gdjs.StartPageCode.eventsList0(runtimeScene);
 }
@@ -200,6 +241,20 @@ gdjs.StartPageCode.eventsList0(runtimeScene);
 
 
 gdjs.StartPageCode.eventsList4(runtimeScene);
+}
+
+
+{
+
+
+gdjs.StartPageCode.eventsList5(runtimeScene);
+}
+
+
+{
+
+
+gdjs.StartPageCode.eventsList6(runtimeScene);
 }
 
 
@@ -233,7 +288,7 @@ gdjs.StartPageCode.GDidentifiantObjects1.length = 0;
 gdjs.StartPageCode.GDidentifiantObjects2.length = 0;
 gdjs.StartPageCode.GDidentifiantObjects3.length = 0;
 
-gdjs.StartPageCode.eventsList5(runtimeScene);
+gdjs.StartPageCode.eventsList7(runtimeScene);
 
 return;
 

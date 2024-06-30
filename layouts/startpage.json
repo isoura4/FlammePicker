@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": true,
-    "zoomFactor": 0.5117784035210186,
+    "zoomFactor": 0.5468750000000014,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -816,6 +816,74 @@
                   ]
                 }
               ]
+            }
+          ]
+        }
+      ],
+      "parameters": []
+    },
+    {
+      "colorB": 27,
+      "colorG": 2,
+      "colorR": 208,
+      "creationTime": 0,
+      "name": "Admin",
+      "source": "",
+      "type": "BuiltinCommonInstructions::Group",
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "Visible"
+              },
+              "parameters": [
+                "BtnAdmin"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "BtnAdmin"
+              ]
+            }
+          ]
+        }
+      ],
+      "parameters": []
+    },
+    {
+      "colorB": 33,
+      "colorG": 211,
+      "colorR": 126,
+      "creationTime": 0,
+      "name": "Start",
+      "source": "",
+      "type": "BuiltinCommonInstructions::Group",
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "DepartScene"
+              },
+              "parameters": [
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Firebase::Logout"
+              },
+              "parameters": []
             }
           ]
         }

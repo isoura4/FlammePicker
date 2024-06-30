@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": true,
-    "zoomFactor": 1.3841198046306862,
+    "zoomFactor": 0.5468750000000014,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -44,18 +44,6 @@
     {
       "folded": true,
       "name": "countFlChevre",
-      "type": "number",
-      "value": 0
-    },
-    {
-      "folded": true,
-      "name": "nbrCommandeString",
-      "type": "array",
-      "children": []
-    },
-    {
-      "folded": true,
-      "name": "nbrCommandeNbr",
       "type": "number",
       "value": 0
     }
@@ -543,7 +531,14 @@
       "topMargin": 0,
       "type": "PanelSpriteObject::PanelSprite",
       "width": 44,
-      "variables": [],
+      "variables": [
+        {
+          "folded": true,
+          "name": "nombreCommande",
+          "type": "number",
+          "value": 0
+        }
+      ],
       "effects": [],
       "behaviors": [
         {
@@ -1901,6 +1896,27 @@
                         "",
                         "yes"
                       ]
+                    },
+                    {
+                      "type": {
+                        "value": "Wait"
+                      },
+                      "parameters": [
+                        "0.1"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Firebase::FirestoreWriteField"
+                      },
+                      "parameters": [
+                        "\"commandes\"",
+                        "GlobalVariableString(identifiant)",
+                        "\"commandeNb\"",
+                        "icoPizza.VariableString(nombreCommande)",
+                        "",
+                        "yes"
+                      ]
                     }
                   ],
                   "events": [
@@ -1920,19 +1936,6 @@
                       "type": "BuiltinCommonInstructions::Standard",
                       "conditions": [],
                       "actions": [
-                        {
-                          "type": {
-                            "value": "Firebase::FirestoreWriteField"
-                          },
-                          "parameters": [
-                            "\"update\"",
-                            "\"commande\"",
-                            "\"true\"",
-                            "ToString(Variable(nbrCommandeNbr))",
-                            "",
-                            "no"
-                          ]
-                        },
                         {
                           "type": {
                             "value": "Wait"
@@ -1971,7 +1974,7 @@
                           },
                           "parameters": [
                             "",
-                            "\"Commande envoyer !\"",
+                            "\"Commande envoyer !\nVotre commande est la : #\" + icoPizza.VariableString(nombreCommande)",
                             ""
                           ]
                         }
@@ -2456,6 +2459,44 @@
                     "countFlChevre.Variable(countFlChevre)"
                   ]
                 }
+              ]
+            }
+          ]
+        }
+      ],
+      "parameters": []
+    },
+    {
+      "colorB": 211,
+      "colorG": 55,
+      "colorR": 181,
+      "creationTime": 0,
+      "name": "nbCommande",
+      "source": "",
+      "type": "BuiltinCommonInstructions::Group",
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "DepartScene"
+              },
+              "parameters": [
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetNumberObjectVariable"
+              },
+              "parameters": [
+                "icoPizza",
+                "nombreCommande",
+                "=",
+                "RandomInRange(1000, 99999)"
               ]
             }
           ]

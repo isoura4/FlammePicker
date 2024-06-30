@@ -18,16 +18,26 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": true,
-    "zoomFactor": 0.6455105703311486,
+    "zoomFactor": 0.44819780454103625,
     "windowMask": false
   },
   "objectsGroups": [],
   "variables": [
     {
-      "folded": true,
       "name": "test",
-      "type": "string",
-      "value": "0"
+      "type": "array",
+      "children": [
+        {
+          "folded": true,
+          "type": "string",
+          "value": "0"
+        },
+        {
+          "folded": true,
+          "type": "string",
+          "value": "0"
+        }
+      ]
     }
   ],
   "instances": [
@@ -233,12 +243,27 @@
                 "\"Commande total :\" + NbCommande.VariableString(nbr_commande)"
               ]
             }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Firebase::FirestoreUpdateField"
+                  },
+                  "parameters": [
+                    "\"update\"",
+                    "\"commande\"",
+                    "\"nbr\"",
+                    "\"1\"",
+                    ""
+                  ]
+                }
+              ]
+            }
           ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": []
         }
       ],
       "parameters": []
@@ -287,7 +312,7 @@
                 "",
                 "\"testChrono\"",
                 ">=",
-                "30"
+                "15"
               ]
             }
           ],
@@ -299,6 +324,35 @@
               "parameters": [
                 "",
                 "\"testChrono\""
+              ]
+            }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Firebase::FirestoreGetDocument"
+                  },
+                  "parameters": [
+                    "\"update\"",
+                    "\"commande\"",
+                    "test",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PopUp::Alert"
+                  },
+                  "parameters": [
+                    "",
+                    "ToString(VariableChildCount(test.0)) + ToString(VariableChildCount(test.1))",
+                    ""
+                  ]
+                }
               ]
             }
           ]
