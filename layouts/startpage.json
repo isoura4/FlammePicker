@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": true,
-    "zoomFactor": 0.5468750000000014,
+    "zoomFactor": 0.4481978045410365,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -44,23 +44,6 @@
       "x": 60,
       "y": 60,
       "zOrder": 1,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 48,
-      "height": 60,
-      "keepRatio": true,
-      "layer": "Ui",
-      "name": "BtnAdmin",
-      "persistentUuid": "1e405a20-280d-4b18-9111-197debec1e55",
-      "width": 540,
-      "x": 90,
-      "y": 1200,
-      "zOrder": 2,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
