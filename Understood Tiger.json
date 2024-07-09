@@ -374,6 +374,24 @@
         "name": "pizza-transparent-background-png-3885306953.png",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/FlammeBeurreEscargot.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\FlammeBeurreEscargot.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/FlammeChèvreMiel.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\FlammeChèvreMiel.png",
+        "smoothed": true,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
