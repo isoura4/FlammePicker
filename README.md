@@ -1,2 +1,2 @@
-# PizzApp
- A app for pizza party management
+# FlammeParty
+ A app for flamme party management
