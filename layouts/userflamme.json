@@ -2069,7 +2069,6 @@
       "colorG": 144,
       "colorR": 74,
       "creationTime": 0,
-      "folded": true,
       "name": "Boutons",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -2197,7 +2196,7 @@
                       "parameters": [
                         "\"commandes\"",
                         "icoPizza.VariableString(nombreCommande)",
-                        "\"champignions\"",
+                        "\"champignons\"",
                         "ToString(Variable(countFlChampi))",
                         "",
                         "yes"
@@ -2302,7 +2301,7 @@
                       "parameters": [
                         "\"commandes\"",
                         "icoPizza.VariableString(nombreCommande)",
-                        "\"1_nom\"",
+                        "\"nom\"",
                         "GlobalVariableString(identifiant)",
                         "",
                         "yes"
@@ -2384,7 +2383,6 @@
       "colorG": 255,
       "colorR": 255,
       "creationTime": 0,
-      "folded": true,
       "name": "Text Flammes",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -2409,7 +2407,7 @@
                 "countFlammes",
                 "countFlammes",
                 "!=",
-                "2"
+                "3"
               ]
             }
           ],
@@ -2468,7 +2466,7 @@
                 "countFlChampi",
                 "countFlChampi",
                 "!=",
-                "2"
+                "3"
               ]
             }
           ],
@@ -2527,7 +2525,7 @@
                 "countFlGratine",
                 "countFlGratine",
                 "!=",
-                "2"
+                "3"
               ]
             }
           ],
@@ -2586,7 +2584,7 @@
                 "countFlChevre",
                 "countFlChevre",
                 "!=",
-                "2"
+                "3"
               ]
             }
           ],
@@ -2645,7 +2643,7 @@
                 "countFlChMiel",
                 "countFlChMiel",
                 "!=",
-                "2"
+                "3"
               ]
             }
           ],
@@ -2704,7 +2702,7 @@
                 "countFlBE",
                 "countFlBE",
                 "!=",
-                "2"
+                "3"
               ]
             }
           ],
