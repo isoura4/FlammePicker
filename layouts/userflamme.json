@@ -11,14 +11,14 @@
   "uiSettings": {
     "grid": true,
     "gridType": "rectangular",
-    "gridWidth": 32,
-    "gridHeight": 32,
+    "gridWidth": 30,
+    "gridHeight": 30,
     "gridOffsetX": 0,
     "gridOffsetY": 0,
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": true,
-    "zoomFactor": 0.5468750000000018,
+    "zoomFactor": 0.7130377630690423,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -184,8 +184,8 @@
       "name": "countFlammes",
       "persistentUuid": "de6ea74b-6943-49a4-994f-c687574e3fc7",
       "width": 0,
-      "x": 128,
-      "y": 800,
+      "x": 150,
+      "y": 810,
       "zOrder": 9,
       "numberProperties": [],
       "stringProperties": [],
@@ -233,8 +233,8 @@
       "name": "countFlChampi",
       "persistentUuid": "2fe063cd-59aa-4637-ae8d-64c648323fc2",
       "width": 0,
-      "x": 480,
-      "y": 800,
+      "x": 510,
+      "y": 810,
       "zOrder": 12,
       "numberProperties": [],
       "stringProperties": [],
@@ -315,8 +315,8 @@
       "name": "countFlGratine",
       "persistentUuid": "a0079e5a-865b-48c4-9b5a-ead5a2ef9db6",
       "width": 0,
-      "x": 128,
-      "y": 1280,
+      "x": 150,
+      "y": 1290,
       "zOrder": 17,
       "numberProperties": [],
       "stringProperties": [],
@@ -331,8 +331,8 @@
       "name": "countFlChevre",
       "persistentUuid": "9aa350e6-5a84-4b67-b07d-d84921ceb811",
       "width": 0,
-      "x": 480,
-      "y": 1280,
+      "x": 510,
+      "y": 1290,
       "zOrder": 18,
       "numberProperties": [],
       "stringProperties": [],
@@ -413,8 +413,8 @@
       "name": "countFlChMiel",
       "persistentUuid": "47c9be0d-4373-4551-a71f-86513dec5bfd",
       "width": 0,
-      "x": 480,
-      "y": 1760,
+      "x": 510,
+      "y": 1770,
       "zOrder": 24,
       "numberProperties": [],
       "stringProperties": [],
@@ -429,8 +429,8 @@
       "name": "countFlBE",
       "persistentUuid": "4ada7cf7-43d8-4d86-b470-e1cfcf0f80b8",
       "width": 0,
-      "x": 128,
-      "y": 1760,
+      "x": 150,
+      "y": 1770,
       "zOrder": 25,
       "numberProperties": [],
       "stringProperties": [],
@@ -466,6 +466,104 @@
       "x": 416,
       "y": 1824,
       "zOrder": 27,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "CarteMunster",
+      "persistentUuid": "7e2f8abd-32a7-44d7-bf93-cb68ebf519a4",
+      "width": 0,
+      "x": 30,
+      "y": 1950,
+      "zOrder": 28,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "CarteSaumon",
+      "persistentUuid": "6bb4cfb6-cf77-45e1-badf-8fc2c170d111",
+      "width": 0,
+      "x": 390,
+      "y": 1950,
+      "zOrder": 29,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 48,
+      "height": 64,
+      "keepRatio": true,
+      "layer": "",
+      "name": "addMunster",
+      "persistentUuid": "b4ac182a-0916-445f-a6d2-3452cd79cc58",
+      "width": 256,
+      "x": 64,
+      "y": 2304,
+      "zOrder": 30,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 48,
+      "height": 64,
+      "keepRatio": true,
+      "layer": "",
+      "name": "addSaumon",
+      "persistentUuid": "3025dd1e-bd11-4b33-911c-e84da7491d2a",
+      "width": 256,
+      "x": 416,
+      "y": 2304,
+      "zOrder": 31,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "countMunster",
+      "persistentUuid": "0c9d69cc-0e51-41b1-b3c6-497a8f93c7b2",
+      "width": 0,
+      "x": 150,
+      "y": 2250,
+      "zOrder": 32,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "countSaumon",
+      "persistentUuid": "29923e42-e3be-4c33-92cb-bd8b7e7a1b5b",
+      "width": 0,
+      "x": 510,
+      "y": 2250,
+      "zOrder": 33,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1850,6 +1948,352 @@
           "width": 686
         }
       }
+    },
+    {
+      "assetStoreId": "",
+      "bottomMargin": 0,
+      "height": 448,
+      "leftMargin": 0,
+      "name": "CarteMunster",
+      "rightMargin": 0,
+      "texture": "assets\\FlammeMunster.png",
+      "tiled": false,
+      "topMargin": 0,
+      "type": "PanelSpriteObject::PanelSprite",
+      "width": 312,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Anchor",
+          "type": "AnchorBehavior::AnchorBehavior",
+          "leftEdgeAnchor": 3,
+          "rightEdgeAnchor": 3,
+          "bottomEdgeAnchor": 0,
+          "relativeToOriginalWindowSize": true,
+          "topEdgeAnchor": 0,
+          "useLegacyBottomAndRightAnchors": false
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "bottomMargin": 0,
+      "height": 448,
+      "leftMargin": 0,
+      "name": "CarteSaumon",
+      "rightMargin": 0,
+      "texture": "assets\\FlammeSaumon.png",
+      "tiled": false,
+      "topMargin": 0,
+      "type": "PanelSpriteObject::PanelSprite",
+      "width": 312,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Anchor",
+          "type": "AnchorBehavior::AnchorBehavior",
+          "leftEdgeAnchor": 3,
+          "rightEdgeAnchor": 3,
+          "bottomEdgeAnchor": 0,
+          "relativeToOriginalWindowSize": true,
+          "topEdgeAnchor": 0,
+          "useLegacyBottomAndRightAnchors": false
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "name": "addMunster",
+      "type": "PanelSpriteButton::PanelSpriteButton",
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Anchor",
+          "type": "AnchorBehavior::AnchorBehavior",
+          "leftEdgeAnchor": 3,
+          "rightEdgeAnchor": 3,
+          "bottomEdgeAnchor": 0,
+          "relativeToOriginalWindowSize": true,
+          "topEdgeAnchor": 0,
+          "useLegacyBottomAndRightAnchors": false
+        }
+      ],
+      "content": {},
+      "childrenContent": {
+        "Hovered": {
+          "bottomMargin": 0,
+          "height": 96,
+          "leftMargin": 0,
+          "rightMargin": 0,
+          "texture": "assets\\btn.png",
+          "tiled": false,
+          "topMargin": 0,
+          "width": 688
+        },
+        "Idle": {
+          "bottomMargin": 0,
+          "height": 96,
+          "leftMargin": 0,
+          "rightMargin": 0,
+          "texture": "assets\\btn.png",
+          "tiled": false,
+          "topMargin": 0,
+          "width": 686
+        },
+        "Label": {
+          "bold": true,
+          "italic": false,
+          "smoothed": true,
+          "underlined": false,
+          "string": "Add",
+          "font": "",
+          "textAlignment": "center",
+          "characterSize": 20,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          },
+          "content": {
+            "bold": true,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "Add",
+            "font": "",
+            "textAlignment": "center",
+            "characterSize": 20,
+            "color": "0;0;0"
+          }
+        },
+        "Pressed": {
+          "bottomMargin": 0,
+          "height": 96,
+          "leftMargin": 0,
+          "rightMargin": 0,
+          "texture": "assets\\btn.png",
+          "tiled": false,
+          "topMargin": 0,
+          "width": 686
+        }
+      }
+    },
+    {
+      "assetStoreId": "",
+      "name": "addSaumon",
+      "type": "PanelSpriteButton::PanelSpriteButton",
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Anchor",
+          "type": "AnchorBehavior::AnchorBehavior",
+          "leftEdgeAnchor": 3,
+          "rightEdgeAnchor": 3,
+          "bottomEdgeAnchor": 0,
+          "relativeToOriginalWindowSize": true,
+          "topEdgeAnchor": 0,
+          "useLegacyBottomAndRightAnchors": false
+        }
+      ],
+      "content": {},
+      "childrenContent": {
+        "Hovered": {
+          "bottomMargin": 0,
+          "height": 96,
+          "leftMargin": 0,
+          "rightMargin": 0,
+          "texture": "assets\\btn.png",
+          "tiled": false,
+          "topMargin": 0,
+          "width": 688
+        },
+        "Idle": {
+          "bottomMargin": 0,
+          "height": 96,
+          "leftMargin": 0,
+          "rightMargin": 0,
+          "texture": "assets\\btn.png",
+          "tiled": false,
+          "topMargin": 0,
+          "width": 686
+        },
+        "Label": {
+          "bold": true,
+          "italic": false,
+          "smoothed": true,
+          "underlined": false,
+          "string": "Add",
+          "font": "",
+          "textAlignment": "center",
+          "characterSize": 20,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          },
+          "content": {
+            "bold": true,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "Add",
+            "font": "",
+            "textAlignment": "center",
+            "characterSize": 20,
+            "color": "0;0;0"
+          }
+        },
+        "Pressed": {
+          "bottomMargin": 0,
+          "height": 96,
+          "leftMargin": 0,
+          "rightMargin": 0,
+          "texture": "assets\\btn.png",
+          "tiled": false,
+          "topMargin": 0,
+          "width": 686
+        }
+      }
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "countMunster",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [
+        {
+          "folded": true,
+          "name": "countMunster",
+          "type": "number",
+          "value": 0
+        }
+      ],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Anchor",
+          "type": "AnchorBehavior::AnchorBehavior",
+          "leftEdgeAnchor": 3,
+          "rightEdgeAnchor": 3,
+          "bottomEdgeAnchor": 0,
+          "relativeToOriginalWindowSize": true,
+          "topEdgeAnchor": 0,
+          "useLegacyBottomAndRightAnchors": false
+        }
+      ],
+      "string": "0",
+      "font": "",
+      "textAlignment": "center",
+      "characterSize": 40,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      },
+      "content": {
+        "bold": false,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "0",
+        "font": "",
+        "textAlignment": "center",
+        "characterSize": 40,
+        "color": "0;0;0"
+      }
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "countSaumon",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [
+        {
+          "folded": true,
+          "name": "countSaumon",
+          "type": "number",
+          "value": 0
+        }
+      ],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Anchor",
+          "type": "AnchorBehavior::AnchorBehavior",
+          "leftEdgeAnchor": 3,
+          "rightEdgeAnchor": 3,
+          "bottomEdgeAnchor": 0,
+          "relativeToOriginalWindowSize": true,
+          "topEdgeAnchor": 0,
+          "useLegacyBottomAndRightAnchors": false
+        }
+      ],
+      "string": "0",
+      "font": "",
+      "textAlignment": "center",
+      "characterSize": 40,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      },
+      "content": {
+        "bold": false,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "0",
+        "font": "",
+        "textAlignment": "center",
+        "characterSize": 40,
+        "color": "0;0;0"
+      }
     }
   ],
   "objectsFolderStructure": {
@@ -1892,6 +2336,12 @@
         "objectName": "CarteFlChMiel"
       },
       {
+        "objectName": "CarteMunster"
+      },
+      {
+        "objectName": "CarteSaumon"
+      },
+      {
         "objectName": "addFlamme"
       },
       {
@@ -1910,6 +2360,12 @@
         "objectName": "addFlChMiel"
       },
       {
+        "objectName": "addMunster"
+      },
+      {
+        "objectName": "addSaumon"
+      },
+      {
         "objectName": "countFlammes"
       },
       {
@@ -1926,6 +2382,12 @@
       },
       {
         "objectName": "countFlChMiel"
+      },
+      {
+        "objectName": "countMunster"
+      },
+      {
+        "objectName": "countSaumon"
       },
       {
         "objectName": "btnConfirmer"
@@ -2042,7 +2504,7 @@
                 "",
                 "0",
                 ">",
-                "CarteFlBE.Y() + 600"
+                "CarteMunster.Y() + 600"
               ]
             }
           ],
@@ -2054,7 +2516,7 @@
               "parameters": [
                 "",
                 "=",
-                "1400",
+                "1900",
                 "",
                 ""
               ]
@@ -2306,6 +2768,48 @@
                         "",
                         "yes"
                       ]
+                    },
+                    {
+                      "type": {
+                        "value": "Wait"
+                      },
+                      "parameters": [
+                        "0.1"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Firebase::FirestoreWriteField"
+                      },
+                      "parameters": [
+                        "\"commandes\"",
+                        "icoPizza.VariableString(nombreCommande)",
+                        "\"munster\"",
+                        "ToString(Variable(countMunster))",
+                        "",
+                        "yes"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Wait"
+                      },
+                      "parameters": [
+                        "0.1"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Firebase::FirestoreWriteField"
+                      },
+                      "parameters": [
+                        "\"commandes\"",
+                        "icoPizza.VariableString(nombreCommande)",
+                        "\"saumon\"",
+                        "ToString(Variable(countSaumon))",
+                        "",
+                        "yes"
+                      ]
                     }
                   ],
                   "events": [
@@ -2383,7 +2887,6 @@
       "colorG": 255,
       "colorR": 255,
       "creationTime": 0,
-      "folded": true,
       "name": "Text Flammes",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -2741,6 +3244,124 @@
               ]
             }
           ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "PanelSpriteButton::PanelSpriteButton::IsClicked"
+              },
+              "parameters": [
+                "addMunster",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "VarObjet"
+              },
+              "parameters": [
+                "countMunster",
+                "countMunster",
+                "!=",
+                "3"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ModVarObjet"
+              },
+              "parameters": [
+                "countMunster",
+                "countMunster",
+                "+",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "countMunster",
+                "Text",
+                "=",
+                "ToString(countMunster.Variable(countMunster))"
+              ]
+            },
+            {
+              "type": {
+                "value": "ModVarScene"
+              },
+              "parameters": [
+                "countMunster",
+                "=",
+                "countMunster.Variable(countMunster)"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "PanelSpriteButton::PanelSpriteButton::IsClicked"
+              },
+              "parameters": [
+                "addSaumon",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "VarObjet"
+              },
+              "parameters": [
+                "countSaumon",
+                "countSaumon",
+                "!=",
+                "3"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ModVarObjet"
+              },
+              "parameters": [
+                "countSaumon",
+                "countSaumon",
+                "+",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "countSaumon",
+                "Text",
+                "=",
+                "ToString(countSaumon.Variable(countSaumon))"
+              ]
+            },
+            {
+              "type": {
+                "value": "ModVarScene"
+              },
+              "parameters": [
+                "countSaumon",
+                "=",
+                "countSaumon.Variable(countSaumon)"
+              ]
+            }
+          ]
         }
       ],
       "parameters": []
@@ -2776,7 +3397,7 @@
                 "icoPizza",
                 "nombreCommande",
                 "=",
-                "RandomInRange(1000, 99999)"
+                "RandomInRange(1, 99999)"
               ]
             }
           ]

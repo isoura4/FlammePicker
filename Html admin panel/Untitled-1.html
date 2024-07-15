@@ -109,18 +109,20 @@
             <p><strong>Nom:</strong> ${data.nom_user}</p>
           `;
 
-          const champs = ['beurre_escargo', 'champignons', 'chevre', 'chevre_Miel', 'gratine', 'normal'];
+          const champs = ['beurre_escargo', 'champignons', 'chevre', 'chevre_Miel', 'gratine', 'normal','munster','saumon'];
           const labels = {
             beurre_escargo: 'Beurre escargot',
             champignons: 'Champignons',
             chevre: 'Chèvre',
             chevre_Miel: 'Chèvre Miel',
             gratine: 'Gratiné',
-            normal: 'Normal'
+            normal: 'Normal',
+            munster: 'Münster',
+            saumon:'Saumon'
           };
 
           champs.forEach(champ => {
-            if (data[champ] > 0) {
+            if (parseInt(data[champ]) > 0) {
               commandeHTML += `<p><strong>${labels[champ]}:</strong> ${data[champ]}</p>`;
             }
           });
@@ -153,9 +155,9 @@
         compteurDiv.textContent = `Nombre total de commandes validées : ${compteur}`;
       } else {
         // Si le document n'existe pas, le créer avec une valeur initiale de 0
-        await setDoc(compteurDocRef, { valeur: 0 });
-        compteur = 0;
-        compteurDiv.textContent = `Nombre total de commandes validées : 0`;
+        await setDoc(compteurDocRef, { valeur: 1 });
+        compteur = 1;
+        compteurDiv.textContent = `Nombre total de commandes validées : 1`;
       }
     }
 
