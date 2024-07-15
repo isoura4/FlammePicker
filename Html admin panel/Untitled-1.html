@@ -57,7 +57,7 @@
   <script type="module">
     // Importation des modules Firebase
     import { initializeApp } from 'https://www.gstatic.com/firebasejs/9.0.0/firebase-app.js';
-    import { getFirestore, collection, onSnapshot, doc, deleteDoc } from 'https://www.gstatic.com/firebasejs/9.0.0/firebase-firestore.js';
+    import { getFirestore, collection, onSnapshot, doc, deleteDoc, getDoc, setDoc, updateDoc } from 'https://www.gstatic.com/firebasejs/9.0.0/firebase-firestore.js';
     import { getAuth, signInWithEmailAndPassword, onAuthStateChanged } from 'https://www.gstatic.com/firebasejs/9.0.0/firebase-auth.js';
 
     // Configuration Firebase
@@ -80,6 +80,7 @@
     const compteurDiv = document.getElementById('compteur');
 
     let compteur = 0;
+    const compteurDocRef = doc(db, "compteurs", "commandesValidees");
 
     // Fonction d'authentification de l'utilisateur
     window.login = function(email, password) {
@@ -87,6 +88,7 @@
         .then((userCredential) => {
           console.log('Utilisateur connecté:', userCredential.user);
           afficherCommandes();
+          recupererCompteur();
         })
         .catch((error) => {
           console.error('Erreur de connexion:', error);
@@ -102,16 +104,29 @@
           const commandeDiv = document.createElement('div');
           commandeDiv.className = 'commande';
           commandeDiv.id = doc.id;
-          commandeDiv.innerHTML = `
-            <p><strong>Nom:</strong> ${data.nom}</p>
-            <p><strong>Beurre escargot:</strong> ${data.beurre_escargo}</p>
-            <p><strong>Champignons:</strong> ${data.champignons}</p>
-            <p><strong>Chèvre:</strong> ${data.chevre}</p>
-            <p><strong>Chèvre Miel:</strong> ${data.chevre_Miel}</p>
-            <p><strong>Gratiné:</strong> ${data.gratine}</p>
-            <p><strong>Normal:</strong> ${data.normal}</p>
-            <button onclick="validerCommande('${doc.id}')">Valider</button>
+
+          let commandeHTML = `
+            <p><strong>Nom:</strong> ${data._nom}</p>
           `;
+
+          const champs = ['beurre_escargo', 'champignons', 'chevre', 'chevre_Miel', 'gratine', 'normal'];
+          const labels = {
+            beurre_escargo: 'Beurre escargot',
+            champignons: 'Champignons',
+            chevre: 'Chèvre',
+            chevre_Miel: 'Chèvre Miel',
+            gratine: 'Gratiné',
+            normal: 'Normal'
+          };
+
+          champs.forEach(champ => {
+            if (data[champ] > 0) {
+              commandeHTML += `<p><strong>${labels[champ]}:</strong> ${data[champ]}</p>`;
+            }
+          });
+
+          commandeHTML += `<button onclick="validerCommande('${doc.id}')">Valider</button>`;
+          commandeDiv.innerHTML = commandeHTML;
           commandesDiv.appendChild(commandeDiv);
         });
       });
@@ -124,10 +139,30 @@
       if (commandeDiv) {
         commandeDiv.remove();
         compteur++;
-        compteurDiv.innerHTML = `Nombre total de commandes validées : ${compteur}`;
+        compteurDiv.textContent = `Nombre total de commandes validées : ${compteur}`;
         console.log("Commande validée et supprimée!");
+        await updateCompteurInFirestore();
       }
     };
+
+    // Fonction pour récupérer le compteur depuis Firestore
+    async function recupererCompteur() {
+      const compteurDoc = await getDoc(compteurDocRef);
+      if (compteurDoc.exists()) {
+        compteur = compteurDoc.data().valeur;
+        compteurDiv.textContent = `Nombre total de commandes validées : ${compteur}`;
+      } else {
+        // Si le document n'existe pas, le créer avec une valeur initiale de 0
+        await setDoc(compteurDocRef, { valeur: 0 });
+        compteur = 0;
+        compteurDiv.textContent = `Nombre total de commandes validées : 0`;
+      }
+    }
+
+    // Fonction pour mettre à jour le compteur dans Firestore
+    async function updateCompteurInFirestore() {
+      await updateDoc(compteurDocRef, { valeur: compteur });
+    }
 
     // Authentification de l'utilisateur lors du chargement de la page
     onAuthStateChanged(auth, (user) => {
@@ -135,6 +170,7 @@
         loginDiv.style.display = 'none';
         commandesDiv.style.display = 'flex';
         afficherCommandes();
+        recupererCompteur();
       } else {
         loginDiv.style.display = 'flex';
         commandesDiv.style.display = 'none';
