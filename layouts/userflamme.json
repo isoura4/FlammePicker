@@ -2301,7 +2301,7 @@
                       "parameters": [
                         "\"commandes\"",
                         "icoPizza.VariableString(nombreCommande)",
-                        "\"nom\"",
+                        "\"nom_user\"",
                         "GlobalVariableString(identifiant)",
                         "",
                         "yes"
@@ -2383,6 +2383,7 @@
       "colorG": 255,
       "colorR": 255,
       "creationTime": 0,
+      "folded": true,
       "name": "Text Flammes",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",

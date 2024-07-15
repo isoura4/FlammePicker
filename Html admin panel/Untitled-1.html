@@ -106,7 +106,7 @@
           commandeDiv.id = doc.id;
 
           let commandeHTML = `
-            <p><strong>Nom:</strong> ${data._nom}</p>
+            <p><strong>Nom:</strong> ${data.nom_user}</p>
           `;
 
           const champs = ['beurre_escargo', 'champignons', 'chevre', 'chevre_Miel', 'gratine', 'normal'];
@@ -161,7 +161,12 @@
 
     // Fonction pour mettre à jour le compteur dans Firestore
     async function updateCompteurInFirestore() {
-      await updateDoc(compteurDocRef, { valeur: compteur });
+      try {
+        await updateDoc(compteurDocRef, { valeur: compteur });
+        console.log('Compteur mis à jour dans Firestore:', compteur);
+      } catch (error) {
+        console.error('Erreur lors de la mise à jour du compteur:', error);
+      }
     }
 
     // Authentification de l'utilisateur lors du chargement de la page

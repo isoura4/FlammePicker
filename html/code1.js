@@ -32,7 +32,7 @@ gdjs.AdminLoginCode.GDPasswordObjects2= [];
 gdjs.AdminLoginCode.GDPasswordObjects3= [];
 
 
-gdjs.AdminLoginCode.asyncCallback10271500 = function (runtimeScene, asyncObjectsList) {
+gdjs.AdminLoginCode.asyncCallback10272284 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.AdminLoginCode.localVariables);
 gdjs.AdminLoginCode.localVariables.length = 0;
 }
@@ -45,14 +45,14 @@ gdjs.AdminLoginCode.eventsList0 = function(runtimeScene) {
 {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
 asyncObjectsList.backupLocalVariablesContainers(gdjs.AdminLoginCode.localVariables);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(1), (runtimeScene) => (gdjs.AdminLoginCode.asyncCallback10271500(runtimeScene, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(1), (runtimeScene) => (gdjs.AdminLoginCode.asyncCallback10272284(runtimeScene, asyncObjectsList)));
 }
 }
 
 }
 
 
-};gdjs.AdminLoginCode.asyncCallback10272060 = function (runtimeScene, asyncObjectsList) {
+};gdjs.AdminLoginCode.asyncCallback10272844 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.AdminLoginCode.localVariables);
 {gdjs.evtTools.p2p.useDefaultBrokerServer();
 }gdjs.AdminLoginCode.localVariables.length = 0;
@@ -66,7 +66,7 @@ gdjs.AdminLoginCode.eventsList1 = function(runtimeScene) {
 {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
 asyncObjectsList.backupLocalVariablesContainers(gdjs.AdminLoginCode.localVariables);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(1), (runtimeScene) => (gdjs.AdminLoginCode.asyncCallback10272060(runtimeScene, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(1), (runtimeScene) => (gdjs.AdminLoginCode.asyncCallback10272844(runtimeScene, asyncObjectsList)));
 }
 }
 
@@ -157,7 +157,7 @@ gdjs.AdminLoginCode.eventsList2(runtimeScene);} //End of subevents
 }
 
 
-};gdjs.AdminLoginCode.asyncCallback10274060 = function (runtimeScene, asyncObjectsList) {
+};gdjs.AdminLoginCode.asyncCallback10274844 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.AdminLoginCode.localVariables);
 gdjs.AdminLoginCode.localVariables.length = 0;
 }
@@ -170,7 +170,7 @@ gdjs.AdminLoginCode.eventsList4 = function(runtimeScene) {
 {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
 asyncObjectsList.backupLocalVariablesContainers(gdjs.AdminLoginCode.localVariables);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(1), (runtimeScene) => (gdjs.AdminLoginCode.asyncCallback10274060(runtimeScene, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(1), (runtimeScene) => (gdjs.AdminLoginCode.asyncCallback10274844(runtimeScene, asyncObjectsList)));
 }
 }
 
