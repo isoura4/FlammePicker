@@ -3,9 +3,12 @@
 <head>
   <meta charset="UTF-8">
   <title>Commandes en temps réel</title>
+  <!-- Inclure les styles et scripts Material Design -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/material-components-web/13.0.0/material-components-web.min.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/material-components-web/13.0.0/material-components-web.min.js"></script>
   <style>
     body {
-      font-family: Arial, sans-serif;
+      font-family: 'Roboto', sans-serif;
       background-color: #f9f9f9;
       margin: 0;
       padding: 20px;
@@ -29,15 +32,15 @@
     .commande p {
       margin: 5px 0;
     }
-    .commande button {
-      background-color: #28a745;
+    .mdc-button {
+      background-color: #6200ee;
       color: white;
       border: none;
       padding: 5px 10px;
       cursor: pointer;
     }
-    .commande button:hover {
-      background-color: #218838;
+    .mdc-button:hover {
+      background-color: #3700b3;
     }
     #login {
       display: flex;
@@ -118,7 +121,7 @@
             gratine: 'Gratiné',
             normal: 'Normal',
             munster: 'Münster',
-            saumon:'Saumon'
+            saumon: 'Saumon'
           };
 
           champs.forEach(champ => {
@@ -127,7 +130,7 @@
             }
           });
 
-          commandeHTML += `<button onclick="validerCommande('${doc.id}')">Valider</button>`;
+          commandeHTML += `<button class="mdc-button" onclick="validerCommande('${doc.id}')">Valider</button>`;
           commandeDiv.innerHTML = commandeHTML;
           commandesDiv.appendChild(commandeDiv);
         });
@@ -208,9 +211,9 @@
 <body>
   <h1>Liste des commandes</h1>
   <div id="login">
-    <input type="email" id="email" placeholder="Email">
-    <input type="password" id="password" placeholder="Mot de passe">
-    <button onclick="window.login(document.getElementById('email').value, document.getElementById('password').value)">Connexion</button>
+    <input type="email" id="email" class="mdc-text-field__input" placeholder="Email">
+    <input type="password" id="password" class="mdc-text-field__input" placeholder="Mot de passe">
+    <button class="mdc-button mdc-button--raised" onclick="window.login(document.getElementById('email').value, document.getElementById('password').value)">Connexion</button>
   </div>
   <div id="commandes"></div>
   <div id="compteur">Nombre total de commandes validées : 0</div>
