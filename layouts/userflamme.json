@@ -11,14 +11,14 @@
   "uiSettings": {
     "grid": true,
     "gridType": "rectangular",
-    "gridWidth": 30,
-    "gridHeight": 30,
+    "gridWidth": 32,
+    "gridHeight": 32,
     "gridOffsetX": 0,
     "gridOffsetY": 0,
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": true,
-    "zoomFactor": 0.4633111824513993,
+    "zoomFactor": 1.0269425874981106,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -160,23 +160,6 @@
     },
     {
       "angle": 0,
-      "customSize": true,
-      "depth": 48,
-      "height": 64,
-      "keepRatio": true,
-      "layer": "",
-      "name": "addFlamme",
-      "persistentUuid": "72aaa3f0-5fc6-4cdc-80c5-511ab168e19e",
-      "width": 256,
-      "x": 64,
-      "y": 864,
-      "zOrder": 8,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
       "customSize": false,
       "height": 0,
       "keepRatio": true,
@@ -216,8 +199,8 @@
       "layer": "",
       "name": "addFlChampi",
       "persistentUuid": "48bf4152-a584-4ed7-9e4e-55e694c75a15",
-      "width": 256,
-      "x": 416,
+      "width": 64,
+      "x": 576,
       "y": 864,
       "zOrder": 11,
       "numberProperties": [],
@@ -281,8 +264,8 @@
       "layer": "",
       "name": "addFlGratine",
       "persistentUuid": "716323d0-1699-4c24-93a5-3536058ccf49",
-      "width": 256,
-      "x": 64,
+      "width": 64,
+      "x": 224,
       "y": 1344,
       "zOrder": 15,
       "numberProperties": [],
@@ -298,8 +281,8 @@
       "layer": "",
       "name": "addFlChevre",
       "persistentUuid": "93a9117a-5bd7-4e35-a11d-fdfad6a81bfa",
-      "width": 256,
-      "x": 416,
+      "width": 64,
+      "x": 576,
       "y": 1344,
       "zOrder": 16,
       "numberProperties": [],
@@ -445,8 +428,8 @@
       "layer": "",
       "name": "addFlBE",
       "persistentUuid": "f138ab0b-364c-423a-ae05-ae3774c4333a",
-      "width": 256,
-      "x": 64,
+      "width": 64,
+      "x": 224,
       "y": 1824,
       "zOrder": 26,
       "numberProperties": [],
@@ -462,8 +445,8 @@
       "layer": "",
       "name": "addFlChMiel",
       "persistentUuid": "7bea61f7-71c7-4afe-9bee-411063f3c74c",
-      "width": 256,
-      "x": 416,
+      "width": 64,
+      "x": 576,
       "y": 1824,
       "zOrder": 27,
       "numberProperties": [],
@@ -511,8 +494,8 @@
       "layer": "",
       "name": "addMunster",
       "persistentUuid": "b4ac182a-0916-445f-a6d2-3452cd79cc58",
-      "width": 256,
-      "x": 64,
+      "width": 64,
+      "x": 224,
       "y": 2304,
       "zOrder": 30,
       "numberProperties": [],
@@ -528,8 +511,8 @@
       "layer": "",
       "name": "addSaumon",
       "persistentUuid": "3025dd1e-bd11-4b33-911c-e84da7491d2a",
-      "width": 256,
-      "x": 416,
+      "width": 64,
+      "x": 576,
       "y": 2304,
       "zOrder": 31,
       "numberProperties": [],
@@ -564,6 +547,159 @@
       "x": 480,
       "y": 2250,
       "zOrder": 33,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 48,
+      "height": 64,
+      "keepRatio": true,
+      "layer": "",
+      "name": "addFlamme",
+      "persistentUuid": "5c0dc40f-0fc7-4fa8-b887-f69301333b2d",
+      "width": 64,
+      "x": 224,
+      "y": 864,
+      "zOrder": 34,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 48,
+      "height": 64,
+      "keepRatio": true,
+      "layer": "",
+      "name": "removeFlamme",
+      "persistentUuid": "05df6131-61ba-4034-a290-632b233eb176",
+      "width": 64,
+      "x": 96,
+      "y": 864,
+      "zOrder": 35,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 48,
+      "height": 64,
+      "keepRatio": true,
+      "layer": "",
+      "name": "removeFlChampi",
+      "persistentUuid": "53038cef-3a88-4659-8e79-d393f923b9b7",
+      "width": 64,
+      "x": 448,
+      "y": 864,
+      "zOrder": 36,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 48,
+      "height": 64,
+      "keepRatio": true,
+      "layer": "",
+      "name": "removeFlGratine",
+      "persistentUuid": "60f8a046-930a-4da0-80fb-76466a1200d1",
+      "width": 64,
+      "x": 96,
+      "y": 1344,
+      "zOrder": 37,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 48,
+      "height": 64,
+      "keepRatio": true,
+      "layer": "",
+      "name": "removeFlChevre",
+      "persistentUuid": "0c1473e4-a35c-4443-a920-0a6527e6cf38",
+      "width": 64,
+      "x": 448,
+      "y": 1344,
+      "zOrder": 38,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 48,
+      "height": 64,
+      "keepRatio": true,
+      "layer": "",
+      "name": "removeFlBE",
+      "persistentUuid": "b0e0a077-2bd0-41eb-9ec7-78d5d31d85a3",
+      "width": 64,
+      "x": 96,
+      "y": 1824,
+      "zOrder": 39,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 48,
+      "height": 64,
+      "keepRatio": true,
+      "layer": "",
+      "name": "removeFlChMiel",
+      "persistentUuid": "72fe5630-0c14-44ef-821a-f8ec5379f5ab",
+      "width": 64,
+      "x": 448,
+      "y": 1824,
+      "zOrder": 40,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 48,
+      "height": 64,
+      "keepRatio": true,
+      "layer": "",
+      "name": "removeMunster",
+      "persistentUuid": "e2a24c4b-7fe1-4781-a332-1a29fa62ce03",
+      "width": 64,
+      "x": 96,
+      "y": 2304,
+      "zOrder": 41,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 48,
+      "height": 64,
+      "keepRatio": true,
+      "layer": "",
+      "name": "removeSaumon",
+      "persistentUuid": "52f8aa46-d1a3-4d30-9ca7-96e626614772",
+      "width": 64,
+      "x": 448,
+      "y": 2304,
+      "zOrder": 42,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -873,30 +1009,30 @@
       "childrenContent": {
         "Hovered": {
           "bottomMargin": 0,
-          "height": 96,
+          "height": 197,
           "leftMargin": 0,
           "rightMargin": 0,
-          "texture": "assets\\btn.png",
+          "texture": "assets\\add.png",
           "tiled": false,
           "topMargin": 0,
-          "width": 688
+          "width": 200
         },
         "Idle": {
           "bottomMargin": 0,
-          "height": 96,
+          "height": 200,
           "leftMargin": 0,
           "rightMargin": 0,
-          "texture": "assets\\btn.png",
+          "texture": "assets\\add.png",
           "tiled": false,
           "topMargin": 0,
-          "width": 686
+          "width": 200
         },
         "Label": {
           "bold": true,
           "italic": false,
           "smoothed": true,
           "underlined": false,
-          "string": "Add",
+          "string": "",
           "font": "",
           "textAlignment": "center",
           "characterSize": 20,
@@ -919,7 +1055,7 @@
             "shadowOpacity": 127,
             "smoothed": true,
             "underlined": false,
-            "text": "Add",
+            "text": "",
             "font": "",
             "textAlignment": "center",
             "characterSize": 20,
@@ -928,13 +1064,13 @@
         },
         "Pressed": {
           "bottomMargin": 0,
-          "height": 96,
+          "height": 200,
           "leftMargin": 0,
           "rightMargin": 0,
-          "texture": "assets\\btn.png",
+          "texture": "assets\\add.png",
           "tiled": false,
           "topMargin": 0,
-          "width": 686
+          "width": 200
         }
       }
     },
@@ -1046,30 +1182,30 @@
       "childrenContent": {
         "Hovered": {
           "bottomMargin": 0,
-          "height": 96,
+          "height": 200,
           "leftMargin": 0,
           "rightMargin": 0,
-          "texture": "assets\\btn.png",
+          "texture": "assets\\add.png",
           "tiled": false,
           "topMargin": 0,
-          "width": 688
+          "width": 200
         },
         "Idle": {
           "bottomMargin": 0,
-          "height": 96,
+          "height": 200,
           "leftMargin": 0,
           "rightMargin": 0,
-          "texture": "assets\\btn.png",
+          "texture": "assets\\add.png",
           "tiled": false,
           "topMargin": 0,
-          "width": 686
+          "width": 200
         },
         "Label": {
           "bold": true,
           "italic": false,
           "smoothed": true,
           "underlined": false,
-          "string": "Add",
+          "string": "",
           "font": "",
           "textAlignment": "center",
           "characterSize": 20,
@@ -1092,7 +1228,7 @@
             "shadowOpacity": 127,
             "smoothed": true,
             "underlined": false,
-            "text": "Add",
+            "text": "",
             "font": "",
             "textAlignment": "center",
             "characterSize": 20,
@@ -1101,13 +1237,13 @@
         },
         "Pressed": {
           "bottomMargin": 0,
-          "height": 96,
+          "height": 200,
           "leftMargin": 0,
           "rightMargin": 0,
-          "texture": "assets\\btn.png",
+          "texture": "assets\\add.png",
           "tiled": false,
           "topMargin": 0,
-          "width": 686
+          "width": 200
         }
       }
     },
@@ -1246,30 +1382,30 @@
       "childrenContent": {
         "Hovered": {
           "bottomMargin": 0,
-          "height": 96,
+          "height": 200,
           "leftMargin": 0,
           "rightMargin": 0,
-          "texture": "assets\\btn.png",
+          "texture": "assets\\add.png",
           "tiled": false,
           "topMargin": 0,
-          "width": 688
+          "width": 200
         },
         "Idle": {
           "bottomMargin": 0,
-          "height": 96,
+          "height": 200,
           "leftMargin": 0,
           "rightMargin": 0,
-          "texture": "assets\\btn.png",
+          "texture": "assets\\add.png",
           "tiled": false,
           "topMargin": 0,
-          "width": 686
+          "width": 200
         },
         "Label": {
           "bold": true,
           "italic": false,
           "smoothed": true,
           "underlined": false,
-          "string": "Add",
+          "string": "",
           "font": "",
           "textAlignment": "center",
           "characterSize": 20,
@@ -1292,7 +1428,7 @@
             "shadowOpacity": 127,
             "smoothed": true,
             "underlined": false,
-            "text": "Add",
+            "text": "",
             "font": "",
             "textAlignment": "center",
             "characterSize": 20,
@@ -1301,13 +1437,13 @@
         },
         "Pressed": {
           "bottomMargin": 0,
-          "height": 96,
+          "height": 200,
           "leftMargin": 0,
           "rightMargin": 0,
-          "texture": "assets\\btn.png",
+          "texture": "assets\\add.png",
           "tiled": false,
           "topMargin": 0,
-          "width": 686
+          "width": 200
         }
       }
     },
@@ -1333,30 +1469,30 @@
       "childrenContent": {
         "Hovered": {
           "bottomMargin": 0,
-          "height": 96,
+          "height": 200,
           "leftMargin": 0,
           "rightMargin": 0,
-          "texture": "assets\\btn.png",
+          "texture": "assets\\add.png",
           "tiled": false,
           "topMargin": 0,
-          "width": 688
+          "width": 200
         },
         "Idle": {
           "bottomMargin": 0,
-          "height": 96,
+          "height": 200,
           "leftMargin": 0,
           "rightMargin": 0,
-          "texture": "assets\\btn.png",
+          "texture": "assets\\add.png",
           "tiled": false,
           "topMargin": 0,
-          "width": 686
+          "width": 200
         },
         "Label": {
           "bold": true,
           "italic": false,
           "smoothed": true,
           "underlined": false,
-          "string": "Add",
+          "string": "",
           "font": "",
           "textAlignment": "center",
           "characterSize": 20,
@@ -1379,7 +1515,7 @@
             "shadowOpacity": 127,
             "smoothed": true,
             "underlined": false,
-            "text": "Add",
+            "text": "",
             "font": "",
             "textAlignment": "center",
             "characterSize": 20,
@@ -1388,13 +1524,13 @@
         },
         "Pressed": {
           "bottomMargin": 0,
-          "height": 96,
+          "height": 200,
           "leftMargin": 0,
           "rightMargin": 0,
-          "texture": "assets\\btn.png",
+          "texture": "assets\\add.png",
           "tiled": false,
           "topMargin": 0,
-          "width": 686
+          "width": 200
         }
       }
     },
@@ -1797,30 +1933,30 @@
       "childrenContent": {
         "Hovered": {
           "bottomMargin": 0,
-          "height": 96,
+          "height": 200,
           "leftMargin": 0,
           "rightMargin": 0,
-          "texture": "assets\\btn.png",
+          "texture": "assets\\add.png",
           "tiled": false,
           "topMargin": 0,
-          "width": 688
+          "width": 200
         },
         "Idle": {
           "bottomMargin": 0,
-          "height": 96,
+          "height": 200,
           "leftMargin": 0,
           "rightMargin": 0,
-          "texture": "assets\\btn.png",
+          "texture": "assets\\add.png",
           "tiled": false,
           "topMargin": 0,
-          "width": 686
+          "width": 200
         },
         "Label": {
           "bold": true,
           "italic": false,
           "smoothed": true,
           "underlined": false,
-          "string": "Add",
+          "string": "",
           "font": "",
           "textAlignment": "center",
           "characterSize": 20,
@@ -1843,7 +1979,7 @@
             "shadowOpacity": 127,
             "smoothed": true,
             "underlined": false,
-            "text": "Add",
+            "text": "",
             "font": "",
             "textAlignment": "center",
             "characterSize": 20,
@@ -1852,13 +1988,13 @@
         },
         "Pressed": {
           "bottomMargin": 0,
-          "height": 96,
+          "height": 200,
           "leftMargin": 0,
           "rightMargin": 0,
-          "texture": "assets\\btn.png",
+          "texture": "assets\\add.png",
           "tiled": false,
           "topMargin": 0,
-          "width": 686
+          "width": 200
         }
       }
     },
@@ -1884,30 +2020,30 @@
       "childrenContent": {
         "Hovered": {
           "bottomMargin": 0,
-          "height": 96,
+          "height": 209,
           "leftMargin": 0,
           "rightMargin": 0,
-          "texture": "assets\\btn.png",
+          "texture": "assets\\add.png",
           "tiled": false,
           "topMargin": 0,
-          "width": 688
+          "width": 200
         },
         "Idle": {
           "bottomMargin": 0,
-          "height": 96,
+          "height": 200,
           "leftMargin": 0,
           "rightMargin": 0,
-          "texture": "assets\\btn.png",
+          "texture": "assets\\add.png",
           "tiled": false,
           "topMargin": 0,
-          "width": 686
+          "width": 200
         },
         "Label": {
           "bold": true,
           "italic": false,
           "smoothed": true,
           "underlined": false,
-          "string": "Add",
+          "string": "",
           "font": "",
           "textAlignment": "center",
           "characterSize": 20,
@@ -1930,7 +2066,7 @@
             "shadowOpacity": 127,
             "smoothed": true,
             "underlined": false,
-            "text": "Add",
+            "text": "",
             "font": "",
             "textAlignment": "center",
             "characterSize": 20,
@@ -1939,13 +2075,13 @@
         },
         "Pressed": {
           "bottomMargin": 0,
-          "height": 96,
+          "height": 200,
           "leftMargin": 0,
           "rightMargin": 0,
-          "texture": "assets\\btn.png",
+          "texture": "assets\\add.png",
           "tiled": false,
           "topMargin": 0,
-          "width": 686
+          "width": 200
         }
       }
     },
@@ -2025,30 +2161,30 @@
       "childrenContent": {
         "Hovered": {
           "bottomMargin": 0,
-          "height": 96,
+          "height": 200,
           "leftMargin": 0,
           "rightMargin": 0,
-          "texture": "assets\\btn.png",
+          "texture": "assets\\add.png",
           "tiled": false,
           "topMargin": 0,
-          "width": 688
+          "width": 200
         },
         "Idle": {
           "bottomMargin": 0,
-          "height": 96,
+          "height": 200,
           "leftMargin": 0,
           "rightMargin": 0,
-          "texture": "assets\\btn.png",
+          "texture": "assets\\add.png",
           "tiled": false,
           "topMargin": 0,
-          "width": 686
+          "width": 200
         },
         "Label": {
           "bold": true,
           "italic": false,
           "smoothed": true,
           "underlined": false,
-          "string": "Add",
+          "string": "",
           "font": "",
           "textAlignment": "center",
           "characterSize": 20,
@@ -2071,7 +2207,7 @@
             "shadowOpacity": 127,
             "smoothed": true,
             "underlined": false,
-            "text": "Add",
+            "text": "",
             "font": "",
             "textAlignment": "center",
             "characterSize": 20,
@@ -2080,13 +2216,13 @@
         },
         "Pressed": {
           "bottomMargin": 0,
-          "height": 96,
+          "height": 200,
           "leftMargin": 0,
           "rightMargin": 0,
-          "texture": "assets\\btn.png",
+          "texture": "assets\\add.png",
           "tiled": false,
           "topMargin": 0,
-          "width": 686
+          "width": 200
         }
       }
     },
@@ -2112,30 +2248,30 @@
       "childrenContent": {
         "Hovered": {
           "bottomMargin": 0,
-          "height": 96,
+          "height": 200,
           "leftMargin": 0,
           "rightMargin": 0,
-          "texture": "assets\\btn.png",
+          "texture": "assets\\add.png",
           "tiled": false,
           "topMargin": 0,
-          "width": 688
+          "width": 200
         },
         "Idle": {
           "bottomMargin": 0,
-          "height": 96,
+          "height": 200,
           "leftMargin": 0,
           "rightMargin": 0,
-          "texture": "assets\\btn.png",
+          "texture": "assets\\add.png",
           "tiled": false,
           "topMargin": 0,
-          "width": 686
+          "width": 200
         },
         "Label": {
           "bold": true,
           "italic": false,
           "smoothed": true,
           "underlined": false,
-          "string": "Add",
+          "string": "",
           "font": "",
           "textAlignment": "center",
           "characterSize": 20,
@@ -2158,7 +2294,7 @@
             "shadowOpacity": 127,
             "smoothed": true,
             "underlined": false,
-            "text": "Add",
+            "text": "",
             "font": "",
             "textAlignment": "center",
             "characterSize": 20,
@@ -2167,13 +2303,13 @@
         },
         "Pressed": {
           "bottomMargin": 0,
-          "height": 96,
+          "height": 200,
           "leftMargin": 0,
           "rightMargin": 0,
-          "texture": "assets\\btn.png",
+          "texture": "assets\\add.png",
           "tiled": false,
           "topMargin": 0,
-          "width": 686
+          "width": 200
         }
       }
     },
@@ -2294,6 +2430,702 @@
         "characterSize": 40,
         "color": "0;0;0"
       }
+    },
+    {
+      "assetStoreId": "",
+      "name": "removeFlamme",
+      "type": "PanelSpriteButton::PanelSpriteButton",
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Anchor",
+          "type": "AnchorBehavior::AnchorBehavior",
+          "leftEdgeAnchor": 3,
+          "rightEdgeAnchor": 3,
+          "bottomEdgeAnchor": 0,
+          "relativeToOriginalWindowSize": true,
+          "topEdgeAnchor": 0,
+          "useLegacyBottomAndRightAnchors": false
+        }
+      ],
+      "content": {},
+      "childrenContent": {
+        "Hovered": {
+          "bottomMargin": 0,
+          "height": 197,
+          "leftMargin": 0,
+          "rightMargin": 0,
+          "texture": "assets\\remove.png",
+          "tiled": false,
+          "topMargin": 0,
+          "width": 200
+        },
+        "Idle": {
+          "bottomMargin": 0,
+          "height": 200,
+          "leftMargin": 0,
+          "rightMargin": 0,
+          "texture": "assets\\remove.png",
+          "tiled": false,
+          "topMargin": 0,
+          "width": 200
+        },
+        "Label": {
+          "bold": true,
+          "italic": false,
+          "smoothed": true,
+          "underlined": false,
+          "string": "",
+          "font": "",
+          "textAlignment": "center",
+          "characterSize": 20,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          },
+          "content": {
+            "bold": true,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "",
+            "font": "",
+            "textAlignment": "center",
+            "characterSize": 20,
+            "color": "0;0;0"
+          }
+        },
+        "Pressed": {
+          "bottomMargin": 0,
+          "height": 200,
+          "leftMargin": 0,
+          "rightMargin": 0,
+          "texture": "assets\\remove.png",
+          "tiled": false,
+          "topMargin": 0,
+          "width": 200
+        }
+      }
+    },
+    {
+      "assetStoreId": "",
+      "name": "removeFlChampi",
+      "type": "PanelSpriteButton::PanelSpriteButton",
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Anchor",
+          "type": "AnchorBehavior::AnchorBehavior",
+          "leftEdgeAnchor": 3,
+          "rightEdgeAnchor": 3,
+          "bottomEdgeAnchor": 0,
+          "relativeToOriginalWindowSize": true,
+          "topEdgeAnchor": 0,
+          "useLegacyBottomAndRightAnchors": false
+        }
+      ],
+      "content": {},
+      "childrenContent": {
+        "Hovered": {
+          "bottomMargin": 0,
+          "height": 197,
+          "leftMargin": 0,
+          "rightMargin": 0,
+          "texture": "assets\\remove.png",
+          "tiled": false,
+          "topMargin": 0,
+          "width": 200
+        },
+        "Idle": {
+          "bottomMargin": 0,
+          "height": 200,
+          "leftMargin": 0,
+          "rightMargin": 0,
+          "texture": "assets\\remove.png",
+          "tiled": false,
+          "topMargin": 0,
+          "width": 200
+        },
+        "Label": {
+          "bold": true,
+          "italic": false,
+          "smoothed": true,
+          "underlined": false,
+          "string": "",
+          "font": "",
+          "textAlignment": "center",
+          "characterSize": 20,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          },
+          "content": {
+            "bold": true,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "",
+            "font": "",
+            "textAlignment": "center",
+            "characterSize": 20,
+            "color": "0;0;0"
+          }
+        },
+        "Pressed": {
+          "bottomMargin": 0,
+          "height": 200,
+          "leftMargin": 0,
+          "rightMargin": 0,
+          "texture": "assets\\remove.png",
+          "tiled": false,
+          "topMargin": 0,
+          "width": 200
+        }
+      }
+    },
+    {
+      "assetStoreId": "",
+      "name": "removeFlGratine",
+      "type": "PanelSpriteButton::PanelSpriteButton",
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Anchor",
+          "type": "AnchorBehavior::AnchorBehavior",
+          "leftEdgeAnchor": 3,
+          "rightEdgeAnchor": 3,
+          "bottomEdgeAnchor": 0,
+          "relativeToOriginalWindowSize": true,
+          "topEdgeAnchor": 0,
+          "useLegacyBottomAndRightAnchors": false
+        }
+      ],
+      "content": {},
+      "childrenContent": {
+        "Hovered": {
+          "bottomMargin": 0,
+          "height": 197,
+          "leftMargin": 0,
+          "rightMargin": 0,
+          "texture": "assets\\remove.png",
+          "tiled": false,
+          "topMargin": 0,
+          "width": 200
+        },
+        "Idle": {
+          "bottomMargin": 0,
+          "height": 200,
+          "leftMargin": 0,
+          "rightMargin": 0,
+          "texture": "assets\\remove.png",
+          "tiled": false,
+          "topMargin": 0,
+          "width": 200
+        },
+        "Label": {
+          "bold": true,
+          "italic": false,
+          "smoothed": true,
+          "underlined": false,
+          "string": "",
+          "font": "",
+          "textAlignment": "center",
+          "characterSize": 20,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          },
+          "content": {
+            "bold": true,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "",
+            "font": "",
+            "textAlignment": "center",
+            "characterSize": 20,
+            "color": "0;0;0"
+          }
+        },
+        "Pressed": {
+          "bottomMargin": 0,
+          "height": 200,
+          "leftMargin": 0,
+          "rightMargin": 0,
+          "texture": "assets\\remove.png",
+          "tiled": false,
+          "topMargin": 0,
+          "width": 200
+        }
+      }
+    },
+    {
+      "assetStoreId": "",
+      "name": "removeFlChevre",
+      "type": "PanelSpriteButton::PanelSpriteButton",
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Anchor",
+          "type": "AnchorBehavior::AnchorBehavior",
+          "leftEdgeAnchor": 3,
+          "rightEdgeAnchor": 3,
+          "bottomEdgeAnchor": 0,
+          "relativeToOriginalWindowSize": true,
+          "topEdgeAnchor": 0,
+          "useLegacyBottomAndRightAnchors": false
+        }
+      ],
+      "content": {},
+      "childrenContent": {
+        "Hovered": {
+          "bottomMargin": 0,
+          "height": 197,
+          "leftMargin": 0,
+          "rightMargin": 0,
+          "texture": "assets\\remove.png",
+          "tiled": false,
+          "topMargin": 0,
+          "width": 200
+        },
+        "Idle": {
+          "bottomMargin": 0,
+          "height": 200,
+          "leftMargin": 0,
+          "rightMargin": 0,
+          "texture": "assets\\remove.png",
+          "tiled": false,
+          "topMargin": 0,
+          "width": 200
+        },
+        "Label": {
+          "bold": true,
+          "italic": false,
+          "smoothed": true,
+          "underlined": false,
+          "string": "",
+          "font": "",
+          "textAlignment": "center",
+          "characterSize": 20,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          },
+          "content": {
+            "bold": true,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "",
+            "font": "",
+            "textAlignment": "center",
+            "characterSize": 20,
+            "color": "0;0;0"
+          }
+        },
+        "Pressed": {
+          "bottomMargin": 0,
+          "height": 200,
+          "leftMargin": 0,
+          "rightMargin": 0,
+          "texture": "assets\\remove.png",
+          "tiled": false,
+          "topMargin": 0,
+          "width": 200
+        }
+      }
+    },
+    {
+      "assetStoreId": "",
+      "name": "removeFlBE",
+      "type": "PanelSpriteButton::PanelSpriteButton",
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Anchor",
+          "type": "AnchorBehavior::AnchorBehavior",
+          "leftEdgeAnchor": 3,
+          "rightEdgeAnchor": 3,
+          "bottomEdgeAnchor": 0,
+          "relativeToOriginalWindowSize": true,
+          "topEdgeAnchor": 0,
+          "useLegacyBottomAndRightAnchors": false
+        }
+      ],
+      "content": {},
+      "childrenContent": {
+        "Hovered": {
+          "bottomMargin": 0,
+          "height": 197,
+          "leftMargin": 0,
+          "rightMargin": 0,
+          "texture": "assets\\remove.png",
+          "tiled": false,
+          "topMargin": 0,
+          "width": 200
+        },
+        "Idle": {
+          "bottomMargin": 0,
+          "height": 200,
+          "leftMargin": 0,
+          "rightMargin": 0,
+          "texture": "assets\\remove.png",
+          "tiled": false,
+          "topMargin": 0,
+          "width": 200
+        },
+        "Label": {
+          "bold": true,
+          "italic": false,
+          "smoothed": true,
+          "underlined": false,
+          "string": "",
+          "font": "",
+          "textAlignment": "center",
+          "characterSize": 20,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          },
+          "content": {
+            "bold": true,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "",
+            "font": "",
+            "textAlignment": "center",
+            "characterSize": 20,
+            "color": "0;0;0"
+          }
+        },
+        "Pressed": {
+          "bottomMargin": 0,
+          "height": 200,
+          "leftMargin": 0,
+          "rightMargin": 0,
+          "texture": "assets\\remove.png",
+          "tiled": false,
+          "topMargin": 0,
+          "width": 200
+        }
+      }
+    },
+    {
+      "assetStoreId": "",
+      "name": "removeFlChMiel",
+      "type": "PanelSpriteButton::PanelSpriteButton",
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Anchor",
+          "type": "AnchorBehavior::AnchorBehavior",
+          "leftEdgeAnchor": 3,
+          "rightEdgeAnchor": 3,
+          "bottomEdgeAnchor": 0,
+          "relativeToOriginalWindowSize": true,
+          "topEdgeAnchor": 0,
+          "useLegacyBottomAndRightAnchors": false
+        }
+      ],
+      "content": {},
+      "childrenContent": {
+        "Hovered": {
+          "bottomMargin": 0,
+          "height": 197,
+          "leftMargin": 0,
+          "rightMargin": 0,
+          "texture": "assets\\remove.png",
+          "tiled": false,
+          "topMargin": 0,
+          "width": 200
+        },
+        "Idle": {
+          "bottomMargin": 0,
+          "height": 200,
+          "leftMargin": 0,
+          "rightMargin": 0,
+          "texture": "assets\\remove.png",
+          "tiled": false,
+          "topMargin": 0,
+          "width": 200
+        },
+        "Label": {
+          "bold": true,
+          "italic": false,
+          "smoothed": true,
+          "underlined": false,
+          "string": "",
+          "font": "",
+          "textAlignment": "center",
+          "characterSize": 20,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          },
+          "content": {
+            "bold": true,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "",
+            "font": "",
+            "textAlignment": "center",
+            "characterSize": 20,
+            "color": "0;0;0"
+          }
+        },
+        "Pressed": {
+          "bottomMargin": 0,
+          "height": 200,
+          "leftMargin": 0,
+          "rightMargin": 0,
+          "texture": "assets\\remove.png",
+          "tiled": false,
+          "topMargin": 0,
+          "width": 200
+        }
+      }
+    },
+    {
+      "assetStoreId": "",
+      "name": "removeMunster",
+      "type": "PanelSpriteButton::PanelSpriteButton",
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Anchor",
+          "type": "AnchorBehavior::AnchorBehavior",
+          "leftEdgeAnchor": 3,
+          "rightEdgeAnchor": 3,
+          "bottomEdgeAnchor": 0,
+          "relativeToOriginalWindowSize": true,
+          "topEdgeAnchor": 0,
+          "useLegacyBottomAndRightAnchors": false
+        }
+      ],
+      "content": {},
+      "childrenContent": {
+        "Hovered": {
+          "bottomMargin": 0,
+          "height": 197,
+          "leftMargin": 0,
+          "rightMargin": 0,
+          "texture": "assets\\remove.png",
+          "tiled": false,
+          "topMargin": 0,
+          "width": 200
+        },
+        "Idle": {
+          "bottomMargin": 0,
+          "height": 200,
+          "leftMargin": 0,
+          "rightMargin": 0,
+          "texture": "assets\\remove.png",
+          "tiled": false,
+          "topMargin": 0,
+          "width": 200
+        },
+        "Label": {
+          "bold": true,
+          "italic": false,
+          "smoothed": true,
+          "underlined": false,
+          "string": "",
+          "font": "",
+          "textAlignment": "center",
+          "characterSize": 20,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          },
+          "content": {
+            "bold": true,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "",
+            "font": "",
+            "textAlignment": "center",
+            "characterSize": 20,
+            "color": "0;0;0"
+          }
+        },
+        "Pressed": {
+          "bottomMargin": 0,
+          "height": 200,
+          "leftMargin": 0,
+          "rightMargin": 0,
+          "texture": "assets\\remove.png",
+          "tiled": false,
+          "topMargin": 0,
+          "width": 200
+        }
+      }
+    },
+    {
+      "assetStoreId": "",
+      "name": "removeSaumon",
+      "type": "PanelSpriteButton::PanelSpriteButton",
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Anchor",
+          "type": "AnchorBehavior::AnchorBehavior",
+          "leftEdgeAnchor": 3,
+          "rightEdgeAnchor": 3,
+          "bottomEdgeAnchor": 0,
+          "relativeToOriginalWindowSize": true,
+          "topEdgeAnchor": 0,
+          "useLegacyBottomAndRightAnchors": false
+        }
+      ],
+      "content": {},
+      "childrenContent": {
+        "Hovered": {
+          "bottomMargin": 0,
+          "height": 197,
+          "leftMargin": 0,
+          "rightMargin": 0,
+          "texture": "assets\\remove.png",
+          "tiled": false,
+          "topMargin": 0,
+          "width": 200
+        },
+        "Idle": {
+          "bottomMargin": 0,
+          "height": 200,
+          "leftMargin": 0,
+          "rightMargin": 0,
+          "texture": "assets\\remove.png",
+          "tiled": false,
+          "topMargin": 0,
+          "width": 200
+        },
+        "Label": {
+          "bold": true,
+          "italic": false,
+          "smoothed": true,
+          "underlined": false,
+          "string": "",
+          "font": "",
+          "textAlignment": "center",
+          "characterSize": 20,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          },
+          "content": {
+            "bold": true,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "",
+            "font": "",
+            "textAlignment": "center",
+            "characterSize": 20,
+            "color": "0;0;0"
+          }
+        },
+        "Pressed": {
+          "bottomMargin": 0,
+          "height": 200,
+          "leftMargin": 0,
+          "rightMargin": 0,
+          "texture": "assets\\remove.png",
+          "tiled": false,
+          "topMargin": 0,
+          "width": 200
+        }
+      }
     }
   ],
   "objectsFolderStructure": {
@@ -2345,25 +3177,49 @@
         "objectName": "addFlamme"
       },
       {
+        "objectName": "removeFlamme"
+      },
+      {
         "objectName": "addFlChampi"
+      },
+      {
+        "objectName": "removeFlChampi"
       },
       {
         "objectName": "addFlGratine"
       },
       {
+        "objectName": "removeFlGratine"
+      },
+      {
         "objectName": "addFlChevre"
+      },
+      {
+        "objectName": "removeFlChevre"
       },
       {
         "objectName": "addFlBE"
       },
       {
+        "objectName": "removeFlBE"
+      },
+      {
         "objectName": "addFlChMiel"
+      },
+      {
+        "objectName": "removeFlChMiel"
       },
       {
         "objectName": "addMunster"
       },
       {
+        "objectName": "removeMunster"
+      },
+      {
         "objectName": "addSaumon"
+      },
+      {
+        "objectName": "removeSaumon"
       },
       {
         "objectName": "countFlammes"
@@ -2887,7 +3743,492 @@
       "colorG": 255,
       "colorR": 255,
       "creationTime": 0,
-      "name": "Text Flammes",
+      "name": "Text Flammes remove",
+      "source": "",
+      "type": "BuiltinCommonInstructions::Group",
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "PanelSpriteButton::PanelSpriteButton::IsClicked"
+              },
+              "parameters": [
+                "removeFlamme",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "VarObjet"
+              },
+              "parameters": [
+                "countFlammes",
+                "countFlammes",
+                "!=",
+                "0"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ModVarObjet"
+              },
+              "parameters": [
+                "countFlammes",
+                "countFlammes",
+                "-",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "countFlammes",
+                "Text",
+                "=",
+                "ToString(countFlammes.Variable(countFlammes))"
+              ]
+            },
+            {
+              "type": {
+                "value": "ModVarScene"
+              },
+              "parameters": [
+                "countFlammes",
+                "=",
+                "countFlammes.Variable(countFlammes)"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "PanelSpriteButton::PanelSpriteButton::IsClicked"
+              },
+              "parameters": [
+                "removeFlChampi",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "VarObjet"
+              },
+              "parameters": [
+                "countFlChampi",
+                "countFlChampi",
+                "!=",
+                "0"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ModVarObjet"
+              },
+              "parameters": [
+                "countFlChampi",
+                "countFlChampi",
+                "-",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "countFlChampi",
+                "Text",
+                "=",
+                "ToString(countFlChampi.Variable(countFlChampi))"
+              ]
+            },
+            {
+              "type": {
+                "value": "ModVarScene"
+              },
+              "parameters": [
+                "countFlChampi",
+                "=",
+                "countFlChampi.Variable(countFlChampi)"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "PanelSpriteButton::PanelSpriteButton::IsClicked"
+              },
+              "parameters": [
+                "removeFlGratine",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "VarObjet"
+              },
+              "parameters": [
+                "countFlGratine",
+                "countFlGratine",
+                "!=",
+                "0"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ModVarObjet"
+              },
+              "parameters": [
+                "countFlGratine",
+                "countFlGratine",
+                "-",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "countFlGratine",
+                "Text",
+                "=",
+                "ToString(countFlGratine.Variable(countFlGratine))"
+              ]
+            },
+            {
+              "type": {
+                "value": "ModVarScene"
+              },
+              "parameters": [
+                "countFlGratine",
+                "=",
+                "countFlGratine.Variable(countFlGratine)"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "PanelSpriteButton::PanelSpriteButton::IsClicked"
+              },
+              "parameters": [
+                "removeFlChevre",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "VarObjet"
+              },
+              "parameters": [
+                "countFlChevre",
+                "countFlChevre",
+                "!=",
+                "0"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ModVarObjet"
+              },
+              "parameters": [
+                "countFlChevre",
+                "countFlChevre",
+                "-",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "countFlChevre",
+                "Text",
+                "=",
+                "ToString(countFlChevre.Variable(countFlChevre))"
+              ]
+            },
+            {
+              "type": {
+                "value": "ModVarScene"
+              },
+              "parameters": [
+                "countFlChevre",
+                "=",
+                "countFlChevre.Variable(countFlChevre)"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "PanelSpriteButton::PanelSpriteButton::IsClicked"
+              },
+              "parameters": [
+                "removeFlChMiel",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "VarObjet"
+              },
+              "parameters": [
+                "countFlChMiel",
+                "countFlChMiel",
+                "!=",
+                "0"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ModVarObjet"
+              },
+              "parameters": [
+                "countFlChMiel",
+                "countFlChMiel",
+                "-",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "countFlChMiel",
+                "Text",
+                "=",
+                "ToString(countFlChMiel.Variable(countFlChMiel))"
+              ]
+            },
+            {
+              "type": {
+                "value": "ModVarScene"
+              },
+              "parameters": [
+                "countFlChMiel",
+                "=",
+                "countFlChMiel.Variable(countFlChMiel)"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "PanelSpriteButton::PanelSpriteButton::IsClicked"
+              },
+              "parameters": [
+                "removeFlBE",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "VarObjet"
+              },
+              "parameters": [
+                "countFlBE",
+                "countFlBE",
+                "!=",
+                "0"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ModVarObjet"
+              },
+              "parameters": [
+                "countFlBE",
+                "countFlBE",
+                "-",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "countFlBE",
+                "Text",
+                "=",
+                "ToString(countFlBE.Variable(countFlBE))"
+              ]
+            },
+            {
+              "type": {
+                "value": "ModVarScene"
+              },
+              "parameters": [
+                "countFlBE",
+                "=",
+                "countFlBE.Variable(countFlBE)"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "PanelSpriteButton::PanelSpriteButton::IsClicked"
+              },
+              "parameters": [
+                "removeMunster",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "VarObjet"
+              },
+              "parameters": [
+                "countMunster",
+                "countMunster",
+                "!=",
+                "0"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ModVarObjet"
+              },
+              "parameters": [
+                "countMunster",
+                "countMunster",
+                "-",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "countMunster",
+                "Text",
+                "=",
+                "ToString(countMunster.Variable(countMunster))"
+              ]
+            },
+            {
+              "type": {
+                "value": "ModVarScene"
+              },
+              "parameters": [
+                "countMunster",
+                "=",
+                "countMunster.Variable(countMunster)"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "PanelSpriteButton::PanelSpriteButton::IsClicked"
+              },
+              "parameters": [
+                "removeSaumon",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "VarObjet"
+              },
+              "parameters": [
+                "countSaumon",
+                "countSaumon",
+                "!=",
+                "0"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ModVarObjet"
+              },
+              "parameters": [
+                "countSaumon",
+                "countSaumon",
+                "-",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "countSaumon",
+                "Text",
+                "=",
+                "ToString(countSaumon.Variable(countSaumon))"
+              ]
+            },
+            {
+              "type": {
+                "value": "ModVarScene"
+              },
+              "parameters": [
+                "countSaumon",
+                "=",
+                "countSaumon.Variable(countSaumon)"
+              ]
+            }
+          ]
+        }
+      ],
+      "parameters": []
+    },
+    {
+      "colorB": 255,
+      "colorG": 255,
+      "colorR": 255,
+      "creationTime": 0,
+      "folded": true,
+      "name": "Text Flammes add",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
       "events": [

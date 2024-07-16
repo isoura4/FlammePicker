@@ -410,6 +410,24 @@
         "name": "assets\\FlammeSaumon.png",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/add.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\add.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/remove.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\remove.png",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []

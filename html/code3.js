@@ -341,6 +341,94 @@ gdjs.UserFlammeCode.GDcountSaumonObjects8= [];
 gdjs.UserFlammeCode.GDcountSaumonObjects9= [];
 gdjs.UserFlammeCode.GDcountSaumonObjects10= [];
 gdjs.UserFlammeCode.GDcountSaumonObjects11= [];
+gdjs.UserFlammeCode.GDremoveFlammeObjects1= [];
+gdjs.UserFlammeCode.GDremoveFlammeObjects2= [];
+gdjs.UserFlammeCode.GDremoveFlammeObjects3= [];
+gdjs.UserFlammeCode.GDremoveFlammeObjects4= [];
+gdjs.UserFlammeCode.GDremoveFlammeObjects5= [];
+gdjs.UserFlammeCode.GDremoveFlammeObjects6= [];
+gdjs.UserFlammeCode.GDremoveFlammeObjects7= [];
+gdjs.UserFlammeCode.GDremoveFlammeObjects8= [];
+gdjs.UserFlammeCode.GDremoveFlammeObjects9= [];
+gdjs.UserFlammeCode.GDremoveFlammeObjects10= [];
+gdjs.UserFlammeCode.GDremoveFlammeObjects11= [];
+gdjs.UserFlammeCode.GDremoveFlChampiObjects1= [];
+gdjs.UserFlammeCode.GDremoveFlChampiObjects2= [];
+gdjs.UserFlammeCode.GDremoveFlChampiObjects3= [];
+gdjs.UserFlammeCode.GDremoveFlChampiObjects4= [];
+gdjs.UserFlammeCode.GDremoveFlChampiObjects5= [];
+gdjs.UserFlammeCode.GDremoveFlChampiObjects6= [];
+gdjs.UserFlammeCode.GDremoveFlChampiObjects7= [];
+gdjs.UserFlammeCode.GDremoveFlChampiObjects8= [];
+gdjs.UserFlammeCode.GDremoveFlChampiObjects9= [];
+gdjs.UserFlammeCode.GDremoveFlChampiObjects10= [];
+gdjs.UserFlammeCode.GDremoveFlChampiObjects11= [];
+gdjs.UserFlammeCode.GDremoveFlGratineObjects1= [];
+gdjs.UserFlammeCode.GDremoveFlGratineObjects2= [];
+gdjs.UserFlammeCode.GDremoveFlGratineObjects3= [];
+gdjs.UserFlammeCode.GDremoveFlGratineObjects4= [];
+gdjs.UserFlammeCode.GDremoveFlGratineObjects5= [];
+gdjs.UserFlammeCode.GDremoveFlGratineObjects6= [];
+gdjs.UserFlammeCode.GDremoveFlGratineObjects7= [];
+gdjs.UserFlammeCode.GDremoveFlGratineObjects8= [];
+gdjs.UserFlammeCode.GDremoveFlGratineObjects9= [];
+gdjs.UserFlammeCode.GDremoveFlGratineObjects10= [];
+gdjs.UserFlammeCode.GDremoveFlGratineObjects11= [];
+gdjs.UserFlammeCode.GDremoveFlChevreObjects1= [];
+gdjs.UserFlammeCode.GDremoveFlChevreObjects2= [];
+gdjs.UserFlammeCode.GDremoveFlChevreObjects3= [];
+gdjs.UserFlammeCode.GDremoveFlChevreObjects4= [];
+gdjs.UserFlammeCode.GDremoveFlChevreObjects5= [];
+gdjs.UserFlammeCode.GDremoveFlChevreObjects6= [];
+gdjs.UserFlammeCode.GDremoveFlChevreObjects7= [];
+gdjs.UserFlammeCode.GDremoveFlChevreObjects8= [];
+gdjs.UserFlammeCode.GDremoveFlChevreObjects9= [];
+gdjs.UserFlammeCode.GDremoveFlChevreObjects10= [];
+gdjs.UserFlammeCode.GDremoveFlChevreObjects11= [];
+gdjs.UserFlammeCode.GDremoveFlBEObjects1= [];
+gdjs.UserFlammeCode.GDremoveFlBEObjects2= [];
+gdjs.UserFlammeCode.GDremoveFlBEObjects3= [];
+gdjs.UserFlammeCode.GDremoveFlBEObjects4= [];
+gdjs.UserFlammeCode.GDremoveFlBEObjects5= [];
+gdjs.UserFlammeCode.GDremoveFlBEObjects6= [];
+gdjs.UserFlammeCode.GDremoveFlBEObjects7= [];
+gdjs.UserFlammeCode.GDremoveFlBEObjects8= [];
+gdjs.UserFlammeCode.GDremoveFlBEObjects9= [];
+gdjs.UserFlammeCode.GDremoveFlBEObjects10= [];
+gdjs.UserFlammeCode.GDremoveFlBEObjects11= [];
+gdjs.UserFlammeCode.GDremoveFlChMielObjects1= [];
+gdjs.UserFlammeCode.GDremoveFlChMielObjects2= [];
+gdjs.UserFlammeCode.GDremoveFlChMielObjects3= [];
+gdjs.UserFlammeCode.GDremoveFlChMielObjects4= [];
+gdjs.UserFlammeCode.GDremoveFlChMielObjects5= [];
+gdjs.UserFlammeCode.GDremoveFlChMielObjects6= [];
+gdjs.UserFlammeCode.GDremoveFlChMielObjects7= [];
+gdjs.UserFlammeCode.GDremoveFlChMielObjects8= [];
+gdjs.UserFlammeCode.GDremoveFlChMielObjects9= [];
+gdjs.UserFlammeCode.GDremoveFlChMielObjects10= [];
+gdjs.UserFlammeCode.GDremoveFlChMielObjects11= [];
+gdjs.UserFlammeCode.GDremoveMunsterObjects1= [];
+gdjs.UserFlammeCode.GDremoveMunsterObjects2= [];
+gdjs.UserFlammeCode.GDremoveMunsterObjects3= [];
+gdjs.UserFlammeCode.GDremoveMunsterObjects4= [];
+gdjs.UserFlammeCode.GDremoveMunsterObjects5= [];
+gdjs.UserFlammeCode.GDremoveMunsterObjects6= [];
+gdjs.UserFlammeCode.GDremoveMunsterObjects7= [];
+gdjs.UserFlammeCode.GDremoveMunsterObjects8= [];
+gdjs.UserFlammeCode.GDremoveMunsterObjects9= [];
+gdjs.UserFlammeCode.GDremoveMunsterObjects10= [];
+gdjs.UserFlammeCode.GDremoveMunsterObjects11= [];
+gdjs.UserFlammeCode.GDremoveSaumonObjects1= [];
+gdjs.UserFlammeCode.GDremoveSaumonObjects2= [];
+gdjs.UserFlammeCode.GDremoveSaumonObjects3= [];
+gdjs.UserFlammeCode.GDremoveSaumonObjects4= [];
+gdjs.UserFlammeCode.GDremoveSaumonObjects5= [];
+gdjs.UserFlammeCode.GDremoveSaumonObjects6= [];
+gdjs.UserFlammeCode.GDremoveSaumonObjects7= [];
+gdjs.UserFlammeCode.GDremoveSaumonObjects8= [];
+gdjs.UserFlammeCode.GDremoveSaumonObjects9= [];
+gdjs.UserFlammeCode.GDremoveSaumonObjects10= [];
+gdjs.UserFlammeCode.GDremoveSaumonObjects11= [];
 
 
 gdjs.UserFlammeCode.eventsList0 = function(runtimeScene) {
@@ -795,6 +883,328 @@ gdjs.UserFlammeCode.eventsList14(runtimeScene);} //End of subevents
 
 {
 
+gdjs.copyArray(runtimeScene.getObjects("countFlammes"), gdjs.UserFlammeCode.GDcountFlammesObjects2);
+gdjs.copyArray(runtimeScene.getObjects("removeFlamme"), gdjs.UserFlammeCode.GDremoveFlammeObjects2);
+
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+for (var i = 0, k = 0, l = gdjs.UserFlammeCode.GDremoveFlammeObjects2.length;i<l;++i) {
+    if ( gdjs.UserFlammeCode.GDremoveFlammeObjects2[i].IsClicked((typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined)) ) {
+        isConditionTrue_0 = true;
+        gdjs.UserFlammeCode.GDremoveFlammeObjects2[k] = gdjs.UserFlammeCode.GDremoveFlammeObjects2[i];
+        ++k;
+    }
+}
+gdjs.UserFlammeCode.GDremoveFlammeObjects2.length = k;
+if (isConditionTrue_0) {
+isConditionTrue_0 = false;
+for (var i = 0, k = 0, l = gdjs.UserFlammeCode.GDcountFlammesObjects2.length;i<l;++i) {
+    if ( gdjs.UserFlammeCode.GDcountFlammesObjects2[i].getVariableNumber(gdjs.UserFlammeCode.GDcountFlammesObjects2[i].getVariables().getFromIndex(0)) != 0 ) {
+        isConditionTrue_0 = true;
+        gdjs.UserFlammeCode.GDcountFlammesObjects2[k] = gdjs.UserFlammeCode.GDcountFlammesObjects2[i];
+        ++k;
+    }
+}
+gdjs.UserFlammeCode.GDcountFlammesObjects2.length = k;
+}
+if (isConditionTrue_0) {
+/* Reuse gdjs.UserFlammeCode.GDcountFlammesObjects2 */
+{for(var i = 0, len = gdjs.UserFlammeCode.GDcountFlammesObjects2.length ;i < len;++i) {
+    gdjs.UserFlammeCode.GDcountFlammesObjects2[i].returnVariable(gdjs.UserFlammeCode.GDcountFlammesObjects2[i].getVariables().getFromIndex(0)).sub(1);
+}
+}{for(var i = 0, len = gdjs.UserFlammeCode.GDcountFlammesObjects2.length ;i < len;++i) {
+    gdjs.UserFlammeCode.GDcountFlammesObjects2[i].getBehavior("Text").setText(gdjs.evtTools.common.toString((gdjs.RuntimeObject.getVariableNumber(gdjs.UserFlammeCode.GDcountFlammesObjects2[i].getVariables().getFromIndex(0)))));
+}
+}{runtimeScene.getScene().getVariables().getFromIndex(0).setNumber((gdjs.RuntimeObject.getVariableNumber(((gdjs.UserFlammeCode.GDcountFlammesObjects2.length === 0 ) ? gdjs.VariablesContainer.badVariablesContainer : gdjs.UserFlammeCode.GDcountFlammesObjects2[0].getVariables()).getFromIndex(0))));
+}}
+
+}
+
+
+{
+
+gdjs.copyArray(runtimeScene.getObjects("countFlChampi"), gdjs.UserFlammeCode.GDcountFlChampiObjects2);
+gdjs.copyArray(runtimeScene.getObjects("removeFlChampi"), gdjs.UserFlammeCode.GDremoveFlChampiObjects2);
+
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+for (var i = 0, k = 0, l = gdjs.UserFlammeCode.GDremoveFlChampiObjects2.length;i<l;++i) {
+    if ( gdjs.UserFlammeCode.GDremoveFlChampiObjects2[i].IsClicked((typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined)) ) {
+        isConditionTrue_0 = true;
+        gdjs.UserFlammeCode.GDremoveFlChampiObjects2[k] = gdjs.UserFlammeCode.GDremoveFlChampiObjects2[i];
+        ++k;
+    }
+}
+gdjs.UserFlammeCode.GDremoveFlChampiObjects2.length = k;
+if (isConditionTrue_0) {
+isConditionTrue_0 = false;
+for (var i = 0, k = 0, l = gdjs.UserFlammeCode.GDcountFlChampiObjects2.length;i<l;++i) {
+    if ( gdjs.UserFlammeCode.GDcountFlChampiObjects2[i].getVariableNumber(gdjs.UserFlammeCode.GDcountFlChampiObjects2[i].getVariables().getFromIndex(0)) != 0 ) {
+        isConditionTrue_0 = true;
+        gdjs.UserFlammeCode.GDcountFlChampiObjects2[k] = gdjs.UserFlammeCode.GDcountFlChampiObjects2[i];
+        ++k;
+    }
+}
+gdjs.UserFlammeCode.GDcountFlChampiObjects2.length = k;
+}
+if (isConditionTrue_0) {
+/* Reuse gdjs.UserFlammeCode.GDcountFlChampiObjects2 */
+{for(var i = 0, len = gdjs.UserFlammeCode.GDcountFlChampiObjects2.length ;i < len;++i) {
+    gdjs.UserFlammeCode.GDcountFlChampiObjects2[i].returnVariable(gdjs.UserFlammeCode.GDcountFlChampiObjects2[i].getVariables().getFromIndex(0)).sub(1);
+}
+}{for(var i = 0, len = gdjs.UserFlammeCode.GDcountFlChampiObjects2.length ;i < len;++i) {
+    gdjs.UserFlammeCode.GDcountFlChampiObjects2[i].getBehavior("Text").setText(gdjs.evtTools.common.toString((gdjs.RuntimeObject.getVariableNumber(gdjs.UserFlammeCode.GDcountFlChampiObjects2[i].getVariables().getFromIndex(0)))));
+}
+}{runtimeScene.getScene().getVariables().getFromIndex(1).setNumber((gdjs.RuntimeObject.getVariableNumber(((gdjs.UserFlammeCode.GDcountFlChampiObjects2.length === 0 ) ? gdjs.VariablesContainer.badVariablesContainer : gdjs.UserFlammeCode.GDcountFlChampiObjects2[0].getVariables()).getFromIndex(0))));
+}}
+
+}
+
+
+{
+
+gdjs.copyArray(runtimeScene.getObjects("countFlGratine"), gdjs.UserFlammeCode.GDcountFlGratineObjects2);
+gdjs.copyArray(runtimeScene.getObjects("removeFlGratine"), gdjs.UserFlammeCode.GDremoveFlGratineObjects2);
+
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+for (var i = 0, k = 0, l = gdjs.UserFlammeCode.GDremoveFlGratineObjects2.length;i<l;++i) {
+    if ( gdjs.UserFlammeCode.GDremoveFlGratineObjects2[i].IsClicked((typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined)) ) {
+        isConditionTrue_0 = true;
+        gdjs.UserFlammeCode.GDremoveFlGratineObjects2[k] = gdjs.UserFlammeCode.GDremoveFlGratineObjects2[i];
+        ++k;
+    }
+}
+gdjs.UserFlammeCode.GDremoveFlGratineObjects2.length = k;
+if (isConditionTrue_0) {
+isConditionTrue_0 = false;
+for (var i = 0, k = 0, l = gdjs.UserFlammeCode.GDcountFlGratineObjects2.length;i<l;++i) {
+    if ( gdjs.UserFlammeCode.GDcountFlGratineObjects2[i].getVariableNumber(gdjs.UserFlammeCode.GDcountFlGratineObjects2[i].getVariables().getFromIndex(0)) != 0 ) {
+        isConditionTrue_0 = true;
+        gdjs.UserFlammeCode.GDcountFlGratineObjects2[k] = gdjs.UserFlammeCode.GDcountFlGratineObjects2[i];
+        ++k;
+    }
+}
+gdjs.UserFlammeCode.GDcountFlGratineObjects2.length = k;
+}
+if (isConditionTrue_0) {
+/* Reuse gdjs.UserFlammeCode.GDcountFlGratineObjects2 */
+{for(var i = 0, len = gdjs.UserFlammeCode.GDcountFlGratineObjects2.length ;i < len;++i) {
+    gdjs.UserFlammeCode.GDcountFlGratineObjects2[i].returnVariable(gdjs.UserFlammeCode.GDcountFlGratineObjects2[i].getVariables().getFromIndex(0)).sub(1);
+}
+}{for(var i = 0, len = gdjs.UserFlammeCode.GDcountFlGratineObjects2.length ;i < len;++i) {
+    gdjs.UserFlammeCode.GDcountFlGratineObjects2[i].getBehavior("Text").setText(gdjs.evtTools.common.toString((gdjs.RuntimeObject.getVariableNumber(gdjs.UserFlammeCode.GDcountFlGratineObjects2[i].getVariables().getFromIndex(0)))));
+}
+}{runtimeScene.getScene().getVariables().getFromIndex(2).setNumber((gdjs.RuntimeObject.getVariableNumber(((gdjs.UserFlammeCode.GDcountFlGratineObjects2.length === 0 ) ? gdjs.VariablesContainer.badVariablesContainer : gdjs.UserFlammeCode.GDcountFlGratineObjects2[0].getVariables()).getFromIndex(0))));
+}}
+
+}
+
+
+{
+
+gdjs.copyArray(runtimeScene.getObjects("countFlChevre"), gdjs.UserFlammeCode.GDcountFlChevreObjects2);
+gdjs.copyArray(runtimeScene.getObjects("removeFlChevre"), gdjs.UserFlammeCode.GDremoveFlChevreObjects2);
+
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+for (var i = 0, k = 0, l = gdjs.UserFlammeCode.GDremoveFlChevreObjects2.length;i<l;++i) {
+    if ( gdjs.UserFlammeCode.GDremoveFlChevreObjects2[i].IsClicked((typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined)) ) {
+        isConditionTrue_0 = true;
+        gdjs.UserFlammeCode.GDremoveFlChevreObjects2[k] = gdjs.UserFlammeCode.GDremoveFlChevreObjects2[i];
+        ++k;
+    }
+}
+gdjs.UserFlammeCode.GDremoveFlChevreObjects2.length = k;
+if (isConditionTrue_0) {
+isConditionTrue_0 = false;
+for (var i = 0, k = 0, l = gdjs.UserFlammeCode.GDcountFlChevreObjects2.length;i<l;++i) {
+    if ( gdjs.UserFlammeCode.GDcountFlChevreObjects2[i].getVariableNumber(gdjs.UserFlammeCode.GDcountFlChevreObjects2[i].getVariables().getFromIndex(0)) != 0 ) {
+        isConditionTrue_0 = true;
+        gdjs.UserFlammeCode.GDcountFlChevreObjects2[k] = gdjs.UserFlammeCode.GDcountFlChevreObjects2[i];
+        ++k;
+    }
+}
+gdjs.UserFlammeCode.GDcountFlChevreObjects2.length = k;
+}
+if (isConditionTrue_0) {
+/* Reuse gdjs.UserFlammeCode.GDcountFlChevreObjects2 */
+{for(var i = 0, len = gdjs.UserFlammeCode.GDcountFlChevreObjects2.length ;i < len;++i) {
+    gdjs.UserFlammeCode.GDcountFlChevreObjects2[i].returnVariable(gdjs.UserFlammeCode.GDcountFlChevreObjects2[i].getVariables().getFromIndex(0)).sub(1);
+}
+}{for(var i = 0, len = gdjs.UserFlammeCode.GDcountFlChevreObjects2.length ;i < len;++i) {
+    gdjs.UserFlammeCode.GDcountFlChevreObjects2[i].getBehavior("Text").setText(gdjs.evtTools.common.toString((gdjs.RuntimeObject.getVariableNumber(gdjs.UserFlammeCode.GDcountFlChevreObjects2[i].getVariables().getFromIndex(0)))));
+}
+}{runtimeScene.getScene().getVariables().getFromIndex(3).setNumber((gdjs.RuntimeObject.getVariableNumber(((gdjs.UserFlammeCode.GDcountFlChevreObjects2.length === 0 ) ? gdjs.VariablesContainer.badVariablesContainer : gdjs.UserFlammeCode.GDcountFlChevreObjects2[0].getVariables()).getFromIndex(0))));
+}}
+
+}
+
+
+{
+
+gdjs.copyArray(runtimeScene.getObjects("countFlChMiel"), gdjs.UserFlammeCode.GDcountFlChMielObjects2);
+gdjs.copyArray(runtimeScene.getObjects("removeFlChMiel"), gdjs.UserFlammeCode.GDremoveFlChMielObjects2);
+
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+for (var i = 0, k = 0, l = gdjs.UserFlammeCode.GDremoveFlChMielObjects2.length;i<l;++i) {
+    if ( gdjs.UserFlammeCode.GDremoveFlChMielObjects2[i].IsClicked((typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined)) ) {
+        isConditionTrue_0 = true;
+        gdjs.UserFlammeCode.GDremoveFlChMielObjects2[k] = gdjs.UserFlammeCode.GDremoveFlChMielObjects2[i];
+        ++k;
+    }
+}
+gdjs.UserFlammeCode.GDremoveFlChMielObjects2.length = k;
+if (isConditionTrue_0) {
+isConditionTrue_0 = false;
+for (var i = 0, k = 0, l = gdjs.UserFlammeCode.GDcountFlChMielObjects2.length;i<l;++i) {
+    if ( gdjs.UserFlammeCode.GDcountFlChMielObjects2[i].getVariableNumber(gdjs.UserFlammeCode.GDcountFlChMielObjects2[i].getVariables().getFromIndex(0)) != 0 ) {
+        isConditionTrue_0 = true;
+        gdjs.UserFlammeCode.GDcountFlChMielObjects2[k] = gdjs.UserFlammeCode.GDcountFlChMielObjects2[i];
+        ++k;
+    }
+}
+gdjs.UserFlammeCode.GDcountFlChMielObjects2.length = k;
+}
+if (isConditionTrue_0) {
+/* Reuse gdjs.UserFlammeCode.GDcountFlChMielObjects2 */
+{for(var i = 0, len = gdjs.UserFlammeCode.GDcountFlChMielObjects2.length ;i < len;++i) {
+    gdjs.UserFlammeCode.GDcountFlChMielObjects2[i].returnVariable(gdjs.UserFlammeCode.GDcountFlChMielObjects2[i].getVariables().getFromIndex(0)).sub(1);
+}
+}{for(var i = 0, len = gdjs.UserFlammeCode.GDcountFlChMielObjects2.length ;i < len;++i) {
+    gdjs.UserFlammeCode.GDcountFlChMielObjects2[i].getBehavior("Text").setText(gdjs.evtTools.common.toString((gdjs.RuntimeObject.getVariableNumber(gdjs.UserFlammeCode.GDcountFlChMielObjects2[i].getVariables().getFromIndex(0)))));
+}
+}{runtimeScene.getScene().getVariables().getFromIndex(4).setNumber((gdjs.RuntimeObject.getVariableNumber(((gdjs.UserFlammeCode.GDcountFlChMielObjects2.length === 0 ) ? gdjs.VariablesContainer.badVariablesContainer : gdjs.UserFlammeCode.GDcountFlChMielObjects2[0].getVariables()).getFromIndex(0))));
+}}
+
+}
+
+
+{
+
+gdjs.copyArray(runtimeScene.getObjects("countFlBE"), gdjs.UserFlammeCode.GDcountFlBEObjects2);
+gdjs.copyArray(runtimeScene.getObjects("removeFlBE"), gdjs.UserFlammeCode.GDremoveFlBEObjects2);
+
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+for (var i = 0, k = 0, l = gdjs.UserFlammeCode.GDremoveFlBEObjects2.length;i<l;++i) {
+    if ( gdjs.UserFlammeCode.GDremoveFlBEObjects2[i].IsClicked((typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined)) ) {
+        isConditionTrue_0 = true;
+        gdjs.UserFlammeCode.GDremoveFlBEObjects2[k] = gdjs.UserFlammeCode.GDremoveFlBEObjects2[i];
+        ++k;
+    }
+}
+gdjs.UserFlammeCode.GDremoveFlBEObjects2.length = k;
+if (isConditionTrue_0) {
+isConditionTrue_0 = false;
+for (var i = 0, k = 0, l = gdjs.UserFlammeCode.GDcountFlBEObjects2.length;i<l;++i) {
+    if ( gdjs.UserFlammeCode.GDcountFlBEObjects2[i].getVariableNumber(gdjs.UserFlammeCode.GDcountFlBEObjects2[i].getVariables().getFromIndex(0)) != 0 ) {
+        isConditionTrue_0 = true;
+        gdjs.UserFlammeCode.GDcountFlBEObjects2[k] = gdjs.UserFlammeCode.GDcountFlBEObjects2[i];
+        ++k;
+    }
+}
+gdjs.UserFlammeCode.GDcountFlBEObjects2.length = k;
+}
+if (isConditionTrue_0) {
+/* Reuse gdjs.UserFlammeCode.GDcountFlBEObjects2 */
+{for(var i = 0, len = gdjs.UserFlammeCode.GDcountFlBEObjects2.length ;i < len;++i) {
+    gdjs.UserFlammeCode.GDcountFlBEObjects2[i].returnVariable(gdjs.UserFlammeCode.GDcountFlBEObjects2[i].getVariables().getFromIndex(0)).sub(1);
+}
+}{for(var i = 0, len = gdjs.UserFlammeCode.GDcountFlBEObjects2.length ;i < len;++i) {
+    gdjs.UserFlammeCode.GDcountFlBEObjects2[i].getBehavior("Text").setText(gdjs.evtTools.common.toString((gdjs.RuntimeObject.getVariableNumber(gdjs.UserFlammeCode.GDcountFlBEObjects2[i].getVariables().getFromIndex(0)))));
+}
+}{runtimeScene.getScene().getVariables().getFromIndex(5).setNumber((gdjs.RuntimeObject.getVariableNumber(((gdjs.UserFlammeCode.GDcountFlBEObjects2.length === 0 ) ? gdjs.VariablesContainer.badVariablesContainer : gdjs.UserFlammeCode.GDcountFlBEObjects2[0].getVariables()).getFromIndex(0))));
+}}
+
+}
+
+
+{
+
+gdjs.copyArray(runtimeScene.getObjects("countMunster"), gdjs.UserFlammeCode.GDcountMunsterObjects2);
+gdjs.copyArray(runtimeScene.getObjects("removeMunster"), gdjs.UserFlammeCode.GDremoveMunsterObjects2);
+
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+for (var i = 0, k = 0, l = gdjs.UserFlammeCode.GDremoveMunsterObjects2.length;i<l;++i) {
+    if ( gdjs.UserFlammeCode.GDremoveMunsterObjects2[i].IsClicked((typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined)) ) {
+        isConditionTrue_0 = true;
+        gdjs.UserFlammeCode.GDremoveMunsterObjects2[k] = gdjs.UserFlammeCode.GDremoveMunsterObjects2[i];
+        ++k;
+    }
+}
+gdjs.UserFlammeCode.GDremoveMunsterObjects2.length = k;
+if (isConditionTrue_0) {
+isConditionTrue_0 = false;
+for (var i = 0, k = 0, l = gdjs.UserFlammeCode.GDcountMunsterObjects2.length;i<l;++i) {
+    if ( gdjs.UserFlammeCode.GDcountMunsterObjects2[i].getVariableNumber(gdjs.UserFlammeCode.GDcountMunsterObjects2[i].getVariables().getFromIndex(0)) != 0 ) {
+        isConditionTrue_0 = true;
+        gdjs.UserFlammeCode.GDcountMunsterObjects2[k] = gdjs.UserFlammeCode.GDcountMunsterObjects2[i];
+        ++k;
+    }
+}
+gdjs.UserFlammeCode.GDcountMunsterObjects2.length = k;
+}
+if (isConditionTrue_0) {
+/* Reuse gdjs.UserFlammeCode.GDcountMunsterObjects2 */
+{for(var i = 0, len = gdjs.UserFlammeCode.GDcountMunsterObjects2.length ;i < len;++i) {
+    gdjs.UserFlammeCode.GDcountMunsterObjects2[i].returnVariable(gdjs.UserFlammeCode.GDcountMunsterObjects2[i].getVariables().getFromIndex(0)).sub(1);
+}
+}{for(var i = 0, len = gdjs.UserFlammeCode.GDcountMunsterObjects2.length ;i < len;++i) {
+    gdjs.UserFlammeCode.GDcountMunsterObjects2[i].getBehavior("Text").setText(gdjs.evtTools.common.toString((gdjs.RuntimeObject.getVariableNumber(gdjs.UserFlammeCode.GDcountMunsterObjects2[i].getVariables().getFromIndex(0)))));
+}
+}{runtimeScene.getScene().getVariables().get("countMunster").setNumber((gdjs.RuntimeObject.getVariableNumber(((gdjs.UserFlammeCode.GDcountMunsterObjects2.length === 0 ) ? gdjs.VariablesContainer.badVariablesContainer : gdjs.UserFlammeCode.GDcountMunsterObjects2[0].getVariables()).getFromIndex(0))));
+}}
+
+}
+
+
+{
+
+gdjs.copyArray(runtimeScene.getObjects("countSaumon"), gdjs.UserFlammeCode.GDcountSaumonObjects1);
+gdjs.copyArray(runtimeScene.getObjects("removeSaumon"), gdjs.UserFlammeCode.GDremoveSaumonObjects1);
+
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+for (var i = 0, k = 0, l = gdjs.UserFlammeCode.GDremoveSaumonObjects1.length;i<l;++i) {
+    if ( gdjs.UserFlammeCode.GDremoveSaumonObjects1[i].IsClicked((typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined)) ) {
+        isConditionTrue_0 = true;
+        gdjs.UserFlammeCode.GDremoveSaumonObjects1[k] = gdjs.UserFlammeCode.GDremoveSaumonObjects1[i];
+        ++k;
+    }
+}
+gdjs.UserFlammeCode.GDremoveSaumonObjects1.length = k;
+if (isConditionTrue_0) {
+isConditionTrue_0 = false;
+for (var i = 0, k = 0, l = gdjs.UserFlammeCode.GDcountSaumonObjects1.length;i<l;++i) {
+    if ( gdjs.UserFlammeCode.GDcountSaumonObjects1[i].getVariableNumber(gdjs.UserFlammeCode.GDcountSaumonObjects1[i].getVariables().getFromIndex(0)) != 0 ) {
+        isConditionTrue_0 = true;
+        gdjs.UserFlammeCode.GDcountSaumonObjects1[k] = gdjs.UserFlammeCode.GDcountSaumonObjects1[i];
+        ++k;
+    }
+}
+gdjs.UserFlammeCode.GDcountSaumonObjects1.length = k;
+}
+if (isConditionTrue_0) {
+/* Reuse gdjs.UserFlammeCode.GDcountSaumonObjects1 */
+{for(var i = 0, len = gdjs.UserFlammeCode.GDcountSaumonObjects1.length ;i < len;++i) {
+    gdjs.UserFlammeCode.GDcountSaumonObjects1[i].returnVariable(gdjs.UserFlammeCode.GDcountSaumonObjects1[i].getVariables().getFromIndex(0)).sub(1);
+}
+}{for(var i = 0, len = gdjs.UserFlammeCode.GDcountSaumonObjects1.length ;i < len;++i) {
+    gdjs.UserFlammeCode.GDcountSaumonObjects1[i].getBehavior("Text").setText(gdjs.evtTools.common.toString((gdjs.RuntimeObject.getVariableNumber(gdjs.UserFlammeCode.GDcountSaumonObjects1[i].getVariables().getFromIndex(0)))));
+}
+}{runtimeScene.getScene().getVariables().get("countSaumon").setNumber((gdjs.RuntimeObject.getVariableNumber(((gdjs.UserFlammeCode.GDcountSaumonObjects1.length === 0 ) ? gdjs.VariablesContainer.badVariablesContainer : gdjs.UserFlammeCode.GDcountSaumonObjects1[0].getVariables()).getFromIndex(0))));
+}}
+
+}
+
+
+};gdjs.UserFlammeCode.eventsList17 = function(runtimeScene) {
+
+{
+
 gdjs.copyArray(runtimeScene.getObjects("addFlamme"), gdjs.UserFlammeCode.GDaddFlammeObjects2);
 gdjs.copyArray(runtimeScene.getObjects("countFlammes"), gdjs.UserFlammeCode.GDcountFlammesObjects2);
 
@@ -1113,7 +1523,7 @@ if (isConditionTrue_0) {
 }
 
 
-};gdjs.UserFlammeCode.eventsList17 = function(runtimeScene) {
+};gdjs.UserFlammeCode.eventsList18 = function(runtimeScene) {
 
 {
 
@@ -1131,7 +1541,7 @@ gdjs.copyArray(runtimeScene.getObjects("icoPizza"), gdjs.UserFlammeCode.GDicoPiz
 }
 
 
-};gdjs.UserFlammeCode.eventsList18 = function(runtimeScene) {
+};gdjs.UserFlammeCode.eventsList19 = function(runtimeScene) {
 
 {
 
@@ -1165,6 +1575,13 @@ gdjs.UserFlammeCode.eventsList16(runtimeScene);
 
 
 gdjs.UserFlammeCode.eventsList17(runtimeScene);
+}
+
+
+{
+
+
+gdjs.UserFlammeCode.eventsList18(runtimeScene);
 }
 
 
@@ -1514,8 +1931,96 @@ gdjs.UserFlammeCode.GDcountSaumonObjects8.length = 0;
 gdjs.UserFlammeCode.GDcountSaumonObjects9.length = 0;
 gdjs.UserFlammeCode.GDcountSaumonObjects10.length = 0;
 gdjs.UserFlammeCode.GDcountSaumonObjects11.length = 0;
+gdjs.UserFlammeCode.GDremoveFlammeObjects1.length = 0;
+gdjs.UserFlammeCode.GDremoveFlammeObjects2.length = 0;
+gdjs.UserFlammeCode.GDremoveFlammeObjects3.length = 0;
+gdjs.UserFlammeCode.GDremoveFlammeObjects4.length = 0;
+gdjs.UserFlammeCode.GDremoveFlammeObjects5.length = 0;
+gdjs.UserFlammeCode.GDremoveFlammeObjects6.length = 0;
+gdjs.UserFlammeCode.GDremoveFlammeObjects7.length = 0;
+gdjs.UserFlammeCode.GDremoveFlammeObjects8.length = 0;
+gdjs.UserFlammeCode.GDremoveFlammeObjects9.length = 0;
+gdjs.UserFlammeCode.GDremoveFlammeObjects10.length = 0;
+gdjs.UserFlammeCode.GDremoveFlammeObjects11.length = 0;
+gdjs.UserFlammeCode.GDremoveFlChampiObjects1.length = 0;
+gdjs.UserFlammeCode.GDremoveFlChampiObjects2.length = 0;
+gdjs.UserFlammeCode.GDremoveFlChampiObjects3.length = 0;
+gdjs.UserFlammeCode.GDremoveFlChampiObjects4.length = 0;
+gdjs.UserFlammeCode.GDremoveFlChampiObjects5.length = 0;
+gdjs.UserFlammeCode.GDremoveFlChampiObjects6.length = 0;
+gdjs.UserFlammeCode.GDremoveFlChampiObjects7.length = 0;
+gdjs.UserFlammeCode.GDremoveFlChampiObjects8.length = 0;
+gdjs.UserFlammeCode.GDremoveFlChampiObjects9.length = 0;
+gdjs.UserFlammeCode.GDremoveFlChampiObjects10.length = 0;
+gdjs.UserFlammeCode.GDremoveFlChampiObjects11.length = 0;
+gdjs.UserFlammeCode.GDremoveFlGratineObjects1.length = 0;
+gdjs.UserFlammeCode.GDremoveFlGratineObjects2.length = 0;
+gdjs.UserFlammeCode.GDremoveFlGratineObjects3.length = 0;
+gdjs.UserFlammeCode.GDremoveFlGratineObjects4.length = 0;
+gdjs.UserFlammeCode.GDremoveFlGratineObjects5.length = 0;
+gdjs.UserFlammeCode.GDremoveFlGratineObjects6.length = 0;
+gdjs.UserFlammeCode.GDremoveFlGratineObjects7.length = 0;
+gdjs.UserFlammeCode.GDremoveFlGratineObjects8.length = 0;
+gdjs.UserFlammeCode.GDremoveFlGratineObjects9.length = 0;
+gdjs.UserFlammeCode.GDremoveFlGratineObjects10.length = 0;
+gdjs.UserFlammeCode.GDremoveFlGratineObjects11.length = 0;
+gdjs.UserFlammeCode.GDremoveFlChevreObjects1.length = 0;
+gdjs.UserFlammeCode.GDremoveFlChevreObjects2.length = 0;
+gdjs.UserFlammeCode.GDremoveFlChevreObjects3.length = 0;
+gdjs.UserFlammeCode.GDremoveFlChevreObjects4.length = 0;
+gdjs.UserFlammeCode.GDremoveFlChevreObjects5.length = 0;
+gdjs.UserFlammeCode.GDremoveFlChevreObjects6.length = 0;
+gdjs.UserFlammeCode.GDremoveFlChevreObjects7.length = 0;
+gdjs.UserFlammeCode.GDremoveFlChevreObjects8.length = 0;
+gdjs.UserFlammeCode.GDremoveFlChevreObjects9.length = 0;
+gdjs.UserFlammeCode.GDremoveFlChevreObjects10.length = 0;
+gdjs.UserFlammeCode.GDremoveFlChevreObjects11.length = 0;
+gdjs.UserFlammeCode.GDremoveFlBEObjects1.length = 0;
+gdjs.UserFlammeCode.GDremoveFlBEObjects2.length = 0;
+gdjs.UserFlammeCode.GDremoveFlBEObjects3.length = 0;
+gdjs.UserFlammeCode.GDremoveFlBEObjects4.length = 0;
+gdjs.UserFlammeCode.GDremoveFlBEObjects5.length = 0;
+gdjs.UserFlammeCode.GDremoveFlBEObjects6.length = 0;
+gdjs.UserFlammeCode.GDremoveFlBEObjects7.length = 0;
+gdjs.UserFlammeCode.GDremoveFlBEObjects8.length = 0;
+gdjs.UserFlammeCode.GDremoveFlBEObjects9.length = 0;
+gdjs.UserFlammeCode.GDremoveFlBEObjects10.length = 0;
+gdjs.UserFlammeCode.GDremoveFlBEObjects11.length = 0;
+gdjs.UserFlammeCode.GDremoveFlChMielObjects1.length = 0;
+gdjs.UserFlammeCode.GDremoveFlChMielObjects2.length = 0;
+gdjs.UserFlammeCode.GDremoveFlChMielObjects3.length = 0;
+gdjs.UserFlammeCode.GDremoveFlChMielObjects4.length = 0;
+gdjs.UserFlammeCode.GDremoveFlChMielObjects5.length = 0;
+gdjs.UserFlammeCode.GDremoveFlChMielObjects6.length = 0;
+gdjs.UserFlammeCode.GDremoveFlChMielObjects7.length = 0;
+gdjs.UserFlammeCode.GDremoveFlChMielObjects8.length = 0;
+gdjs.UserFlammeCode.GDremoveFlChMielObjects9.length = 0;
+gdjs.UserFlammeCode.GDremoveFlChMielObjects10.length = 0;
+gdjs.UserFlammeCode.GDremoveFlChMielObjects11.length = 0;
+gdjs.UserFlammeCode.GDremoveMunsterObjects1.length = 0;
+gdjs.UserFlammeCode.GDremoveMunsterObjects2.length = 0;
+gdjs.UserFlammeCode.GDremoveMunsterObjects3.length = 0;
+gdjs.UserFlammeCode.GDremoveMunsterObjects4.length = 0;
+gdjs.UserFlammeCode.GDremoveMunsterObjects5.length = 0;
+gdjs.UserFlammeCode.GDremoveMunsterObjects6.length = 0;
+gdjs.UserFlammeCode.GDremoveMunsterObjects7.length = 0;
+gdjs.UserFlammeCode.GDremoveMunsterObjects8.length = 0;
+gdjs.UserFlammeCode.GDremoveMunsterObjects9.length = 0;
+gdjs.UserFlammeCode.GDremoveMunsterObjects10.length = 0;
+gdjs.UserFlammeCode.GDremoveMunsterObjects11.length = 0;
+gdjs.UserFlammeCode.GDremoveSaumonObjects1.length = 0;
+gdjs.UserFlammeCode.GDremoveSaumonObjects2.length = 0;
+gdjs.UserFlammeCode.GDremoveSaumonObjects3.length = 0;
+gdjs.UserFlammeCode.GDremoveSaumonObjects4.length = 0;
+gdjs.UserFlammeCode.GDremoveSaumonObjects5.length = 0;
+gdjs.UserFlammeCode.GDremoveSaumonObjects6.length = 0;
+gdjs.UserFlammeCode.GDremoveSaumonObjects7.length = 0;
+gdjs.UserFlammeCode.GDremoveSaumonObjects8.length = 0;
+gdjs.UserFlammeCode.GDremoveSaumonObjects9.length = 0;
+gdjs.UserFlammeCode.GDremoveSaumonObjects10.length = 0;
+gdjs.UserFlammeCode.GDremoveSaumonObjects11.length = 0;
 
-gdjs.UserFlammeCode.eventsList18(runtimeScene);
+gdjs.UserFlammeCode.eventsList19(runtimeScene);
 
 return;
 
