@@ -487,7 +487,7 @@ if (isConditionTrue_0) {
 }
 
 
-};gdjs.UserFlammeCode.asyncCallback10440204 = function (runtimeScene, asyncObjectsList) {
+};gdjs.UserFlammeCode.asyncCallback10639844 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.UserFlammeCode.localVariables);
 gdjs.copyArray(asyncObjectsList.getObjects("icoPizza"), gdjs.UserFlammeCode.GDicoPizzaObjects11);
 
@@ -506,14 +506,14 @@ const parentAsyncObjectsList = asyncObjectsList;
 const asyncObjectsList = gdjs.LongLivedObjectsList.from(parentAsyncObjectsList);
 asyncObjectsList.backupLocalVariablesContainers(gdjs.UserFlammeCode.localVariables);
 /* Don't save icoPizza as it will be provided by the parent asyncObjectsList. */
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.5), (runtimeScene) => (gdjs.UserFlammeCode.asyncCallback10440204(runtimeScene, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.5), (runtimeScene) => (gdjs.UserFlammeCode.asyncCallback10639844(runtimeScene, asyncObjectsList)));
 }
 }
 
 }
 
 
-};gdjs.UserFlammeCode.asyncCallback10437892 = function (runtimeScene, asyncObjectsList) {
+};gdjs.UserFlammeCode.asyncCallback10637532 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.UserFlammeCode.localVariables);
 {firebase.auth().signOut();
 }
@@ -532,7 +532,7 @@ const parentAsyncObjectsList = asyncObjectsList;
 const asyncObjectsList = gdjs.LongLivedObjectsList.from(parentAsyncObjectsList);
 asyncObjectsList.backupLocalVariablesContainers(gdjs.UserFlammeCode.localVariables);
 for (const obj of gdjs.UserFlammeCode.GDicoPizzaObjects9) asyncObjectsList.addObject("icoPizza", obj);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.1), (runtimeScene) => (gdjs.UserFlammeCode.asyncCallback10437892(runtimeScene, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.1), (runtimeScene) => (gdjs.UserFlammeCode.asyncCallback10637532(runtimeScene, asyncObjectsList)));
 }
 }
 
@@ -561,7 +561,7 @@ gdjs.UserFlammeCode.eventsList3(runtimeScene, asyncObjectsList);} //End of subev
 }
 
 
-};gdjs.UserFlammeCode.asyncCallback10438420 = function (runtimeScene, asyncObjectsList) {
+};gdjs.UserFlammeCode.asyncCallback10638060 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.UserFlammeCode.localVariables);
 gdjs.copyArray(asyncObjectsList.getObjects("icoPizza"), gdjs.UserFlammeCode.GDicoPizzaObjects9);
 
@@ -582,14 +582,14 @@ const parentAsyncObjectsList = asyncObjectsList;
 const asyncObjectsList = gdjs.LongLivedObjectsList.from(parentAsyncObjectsList);
 asyncObjectsList.backupLocalVariablesContainers(gdjs.UserFlammeCode.localVariables);
 for (const obj of gdjs.UserFlammeCode.GDicoPizzaObjects8) asyncObjectsList.addObject("icoPizza", obj);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.1), (runtimeScene) => (gdjs.UserFlammeCode.asyncCallback10438420(runtimeScene, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.1), (runtimeScene) => (gdjs.UserFlammeCode.asyncCallback10638060(runtimeScene, asyncObjectsList)));
 }
 }
 
 }
 
 
-};gdjs.UserFlammeCode.asyncCallback10437292 = function (runtimeScene, asyncObjectsList) {
+};gdjs.UserFlammeCode.asyncCallback10636932 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.UserFlammeCode.localVariables);
 gdjs.copyArray(asyncObjectsList.getObjects("icoPizza"), gdjs.UserFlammeCode.GDicoPizzaObjects8);
 
@@ -610,14 +610,14 @@ const parentAsyncObjectsList = asyncObjectsList;
 const asyncObjectsList = gdjs.LongLivedObjectsList.from(parentAsyncObjectsList);
 asyncObjectsList.backupLocalVariablesContainers(gdjs.UserFlammeCode.localVariables);
 for (const obj of gdjs.UserFlammeCode.GDicoPizzaObjects7) asyncObjectsList.addObject("icoPizza", obj);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.1), (runtimeScene) => (gdjs.UserFlammeCode.asyncCallback10437292(runtimeScene, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.1), (runtimeScene) => (gdjs.UserFlammeCode.asyncCallback10636932(runtimeScene, asyncObjectsList)));
 }
 }
 
 }
 
 
-};gdjs.UserFlammeCode.asyncCallback10436812 = function (runtimeScene, asyncObjectsList) {
+};gdjs.UserFlammeCode.asyncCallback10636452 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.UserFlammeCode.localVariables);
 gdjs.copyArray(asyncObjectsList.getObjects("icoPizza"), gdjs.UserFlammeCode.GDicoPizzaObjects7);
 
@@ -638,14 +638,14 @@ const parentAsyncObjectsList = asyncObjectsList;
 const asyncObjectsList = gdjs.LongLivedObjectsList.from(parentAsyncObjectsList);
 asyncObjectsList.backupLocalVariablesContainers(gdjs.UserFlammeCode.localVariables);
 for (const obj of gdjs.UserFlammeCode.GDicoPizzaObjects6) asyncObjectsList.addObject("icoPizza", obj);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.1), (runtimeScene) => (gdjs.UserFlammeCode.asyncCallback10436812(runtimeScene, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.1), (runtimeScene) => (gdjs.UserFlammeCode.asyncCallback10636452(runtimeScene, asyncObjectsList)));
 }
 }
 
 }
 
 
-};gdjs.UserFlammeCode.asyncCallback10435252 = function (runtimeScene, asyncObjectsList) {
+};gdjs.UserFlammeCode.asyncCallback10634892 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.UserFlammeCode.localVariables);
 gdjs.copyArray(asyncObjectsList.getObjects("icoPizza"), gdjs.UserFlammeCode.GDicoPizzaObjects6);
 
@@ -666,14 +666,14 @@ const parentAsyncObjectsList = asyncObjectsList;
 const asyncObjectsList = gdjs.LongLivedObjectsList.from(parentAsyncObjectsList);
 asyncObjectsList.backupLocalVariablesContainers(gdjs.UserFlammeCode.localVariables);
 for (const obj of gdjs.UserFlammeCode.GDicoPizzaObjects5) asyncObjectsList.addObject("icoPizza", obj);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.1), (runtimeScene) => (gdjs.UserFlammeCode.asyncCallback10435252(runtimeScene, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.1), (runtimeScene) => (gdjs.UserFlammeCode.asyncCallback10634892(runtimeScene, asyncObjectsList)));
 }
 }
 
 }
 
 
-};gdjs.UserFlammeCode.asyncCallback10436324 = function (runtimeScene, asyncObjectsList) {
+};gdjs.UserFlammeCode.asyncCallback10635964 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.UserFlammeCode.localVariables);
 gdjs.copyArray(asyncObjectsList.getObjects("icoPizza"), gdjs.UserFlammeCode.GDicoPizzaObjects5);
 
@@ -694,14 +694,14 @@ const parentAsyncObjectsList = asyncObjectsList;
 const asyncObjectsList = gdjs.LongLivedObjectsList.from(parentAsyncObjectsList);
 asyncObjectsList.backupLocalVariablesContainers(gdjs.UserFlammeCode.localVariables);
 for (const obj of gdjs.UserFlammeCode.GDicoPizzaObjects4) asyncObjectsList.addObject("icoPizza", obj);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.1), (runtimeScene) => (gdjs.UserFlammeCode.asyncCallback10436324(runtimeScene, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.1), (runtimeScene) => (gdjs.UserFlammeCode.asyncCallback10635964(runtimeScene, asyncObjectsList)));
 }
 }
 
 }
 
 
-};gdjs.UserFlammeCode.asyncCallback10435828 = function (runtimeScene, asyncObjectsList) {
+};gdjs.UserFlammeCode.asyncCallback10635468 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.UserFlammeCode.localVariables);
 gdjs.copyArray(asyncObjectsList.getObjects("icoPizza"), gdjs.UserFlammeCode.GDicoPizzaObjects4);
 
@@ -722,14 +722,14 @@ const parentAsyncObjectsList = asyncObjectsList;
 const asyncObjectsList = gdjs.LongLivedObjectsList.from(parentAsyncObjectsList);
 asyncObjectsList.backupLocalVariablesContainers(gdjs.UserFlammeCode.localVariables);
 for (const obj of gdjs.UserFlammeCode.GDicoPizzaObjects3) asyncObjectsList.addObject("icoPizza", obj);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.1), (runtimeScene) => (gdjs.UserFlammeCode.asyncCallback10435828(runtimeScene, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.1), (runtimeScene) => (gdjs.UserFlammeCode.asyncCallback10635468(runtimeScene, asyncObjectsList)));
 }
 }
 
 }
 
 
-};gdjs.UserFlammeCode.asyncCallback10435156 = function (runtimeScene, asyncObjectsList) {
+};gdjs.UserFlammeCode.asyncCallback10634796 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.UserFlammeCode.localVariables);
 gdjs.copyArray(asyncObjectsList.getObjects("icoPizza"), gdjs.UserFlammeCode.GDicoPizzaObjects3);
 
@@ -750,14 +750,14 @@ const parentAsyncObjectsList = asyncObjectsList;
 const asyncObjectsList = gdjs.LongLivedObjectsList.from(parentAsyncObjectsList);
 asyncObjectsList.backupLocalVariablesContainers(gdjs.UserFlammeCode.localVariables);
 for (const obj of gdjs.UserFlammeCode.GDicoPizzaObjects2) asyncObjectsList.addObject("icoPizza", obj);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.1), (runtimeScene) => (gdjs.UserFlammeCode.asyncCallback10435156(runtimeScene, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.1), (runtimeScene) => (gdjs.UserFlammeCode.asyncCallback10634796(runtimeScene, asyncObjectsList)));
 }
 }
 
 }
 
 
-};gdjs.UserFlammeCode.asyncCallback10434924 = function (runtimeScene, asyncObjectsList) {
+};gdjs.UserFlammeCode.asyncCallback10634564 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.UserFlammeCode.localVariables);
 gdjs.copyArray(asyncObjectsList.getObjects("icoPizza"), gdjs.UserFlammeCode.GDicoPizzaObjects2);
 
@@ -777,7 +777,7 @@ gdjs.UserFlammeCode.eventsList12 = function(runtimeScene) {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
 asyncObjectsList.backupLocalVariablesContainers(gdjs.UserFlammeCode.localVariables);
 for (const obj of gdjs.UserFlammeCode.GDicoPizzaObjects1) asyncObjectsList.addObject("icoPizza", obj);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.1), (runtimeScene) => (gdjs.UserFlammeCode.asyncCallback10434924(runtimeScene, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.1), (runtimeScene) => (gdjs.UserFlammeCode.asyncCallback10634564(runtimeScene, asyncObjectsList)));
 }
 }
 
