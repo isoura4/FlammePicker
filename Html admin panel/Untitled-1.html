@@ -33,14 +33,14 @@
       margin: 5px 0;
     }
     .mdc-button {
-      background-color: #00ee6b;
+      background-color: #6200ee;
       color: white;
       border: none;
       padding: 5px 10px;
       cursor: pointer;
     }
     .mdc-button:hover {
-      background-color: #b30000;
+      background-color: #3700b3;
     }
     #login {
       display: flex;
@@ -48,8 +48,9 @@
       align-items: center;
       margin-top: 50px;
     }
-    #login input, #login button {
-      margin: 5px;
+    .mdc-text-field {
+      margin: 10px;
+      width: 300px;
     }
     #compteur {
       text-align: center;
@@ -130,7 +131,7 @@
             }
           });
 
-          commandeHTML += `<button class="mdc-button" onclick="validerCommande('${doc.id}')">Valider</button>`;
+          commandeHTML += `<button class="mdc-button mdc-button--raised" onclick="validerCommande('${doc.id}')">Valider</button>`;
           commandeDiv.innerHTML = commandeHTML;
           commandesDiv.appendChild(commandeDiv);
         });
@@ -211,8 +212,26 @@
 <body>
   <h1>Liste des commandes</h1>
   <div id="login">
-    <input type="email" id="email" class="mdc-text-field__input" placeholder="Email">
-    <input type="password" id="password" class="mdc-text-field__input" placeholder="Mot de passe">
+    <div class="mdc-text-field mdc-text-field--outlined">
+      <input type="email" id="email" class="mdc-text-field__input" placeholder="Email">
+      <span class="mdc-notched-outline">
+        <span class="mdc-notched-outline__leading"></span>
+        <span class="mdc-notched-outline__notch">
+          <label for="email" class="mdc-floating-label">Email</label>
+        </span>
+        <span class="mdc-notched-outline__trailing"></span>
+      </span>
+    </div>
+    <div class="mdc-text-field mdc-text-field--outlined">
+      <input type="password" id="password" class="mdc-text-field__input" placeholder="Mot de passe">
+      <span class="mdc-notched-outline">
+        <span class="mdc-notched-outline__leading"></span>
+        <span class="mdc-notched-outline__notch">
+          <label for="password" class="mdc-floating-label">Mot de passe</label>
+        </span>
+        <span class="mdc-notched-outline__trailing"></span>
+      </span>
+    </div>
     <button class="mdc-button mdc-button--raised" onclick="window.login(document.getElementById('email').value, document.getElementById('password').value)">Connexion</button>
   </div>
   <div id="commandes"></div>
