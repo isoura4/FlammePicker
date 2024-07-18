@@ -141,27 +141,28 @@
     // Fonction de validation de commande
     window.validerCommande = async function(id) {
       console.log("Commande ID:", id);
-      try {
-        await deleteDoc(doc(db, "commandes", id));
-        console.log("Commande supprimée:", id);
-      } catch (error) {
-        console.error("Erreur lors de la suppression de la commande:", error);
-        return; // Arrêter l'exécution si la suppression échoue
-      }
 
+      // Trouver l'élément commandeDiv avant de supprimer le document Firestore
       const commandeDiv = document.getElementById(id);
       if (commandeDiv) {
+        // Supprimer l'élément DOM de la commande
         commandeDiv.remove();
         compteur++;
         console.log("Compteur après validation: ", compteur);
         compteurDiv.textContent = `Nombre total de commandes validées : ${compteur}`;
         console.log("Commande validée et supprimée!");
         console.log("Appel de updateCompteurInFirestore");
+
+        // Mettre à jour le compteur dans Firestore
         await updateCompteurInFirestore();
+
+        // Supprimer le document Firestore de la commande
+        await deleteDoc(doc(db, "commandes", id));
+        console.log("Commande supprimée: ", id);
       } else {
         console.error("Erreur: commandeDiv n'a pas été trouvé pour l'ID:", id);
       }
-    };
+    };  
 
     // Fonction pour récupérer le compteur depuis Firestore
     async function recupererCompteur() {
@@ -181,6 +182,7 @@
 
     // Fonction pour mettre à jour le compteur dans Firestore
     async function updateCompteurInFirestore() {
+      console.log("Je fonctionne");
       try {
         console.log('Tentative de mise à jour du compteur:', compteur);
         await updateDoc(compteurDocRef, { valeur: compteur });
