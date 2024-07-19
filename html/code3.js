@@ -1585,6 +1585,34 @@ gdjs.UserFlammeCode.eventsList18(runtimeScene);
 }
 
 
+{
+
+
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+isConditionTrue_0 = gdjs.evtTools.runtimeScene.sceneJustBegins(runtimeScene);
+if (isConditionTrue_0) {
+gdjs.copyArray(runtimeScene.getObjects("CarteSaumon"), gdjs.UserFlammeCode.GDCarteSaumonObjects1);
+gdjs.copyArray(runtimeScene.getObjects("addSaumon"), gdjs.UserFlammeCode.GDaddSaumonObjects1);
+gdjs.copyArray(runtimeScene.getObjects("countSaumon"), gdjs.UserFlammeCode.GDcountSaumonObjects1);
+gdjs.copyArray(runtimeScene.getObjects("removeSaumon"), gdjs.UserFlammeCode.GDremoveSaumonObjects1);
+{for(var i = 0, len = gdjs.UserFlammeCode.GDaddSaumonObjects1.length ;i < len;++i) {
+    gdjs.UserFlammeCode.GDaddSaumonObjects1[i].hide();
+}
+}{for(var i = 0, len = gdjs.UserFlammeCode.GDremoveSaumonObjects1.length ;i < len;++i) {
+    gdjs.UserFlammeCode.GDremoveSaumonObjects1[i].hide();
+}
+}{for(var i = 0, len = gdjs.UserFlammeCode.GDcountSaumonObjects1.length ;i < len;++i) {
+    gdjs.UserFlammeCode.GDcountSaumonObjects1[i].hide();
+}
+}{for(var i = 0, len = gdjs.UserFlammeCode.GDCarteSaumonObjects1.length ;i < len;++i) {
+    gdjs.UserFlammeCode.GDCarteSaumonObjects1[i].hide();
+}
+}}
+
+}
+
+
 };
 
 gdjs.UserFlammeCode.func = function(runtimeScene) {

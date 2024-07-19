@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": true,
-    "zoomFactor": 1.0269425874981106,
+    "zoomFactor": 0.5468750000000023,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -3456,6 +3456,7 @@
               "comment": "Envoi Pi/Fl firebase"
             },
             {
+              "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -3743,6 +3744,7 @@
       "colorG": 255,
       "colorR": 255,
       "creationTime": 0,
+      "folded": true,
       "name": "Text Flammes remove",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -4745,6 +4747,53 @@
         }
       ],
       "parameters": []
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "DepartScene"
+          },
+          "parameters": [
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "addSaumon"
+          ]
+        },
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "removeSaumon"
+          ]
+        },
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "countSaumon"
+          ]
+        },
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "CarteSaumon"
+          ]
+        }
+      ]
     }
   ],
   "layers": [
